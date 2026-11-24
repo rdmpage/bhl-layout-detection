@@ -132,25 +132,13 @@
    "label": "text",
    "source_label": "text",
    "bbox": [
-    202.1,
-    3393.5,
-    2068.0,
-    3695.0
-   ],
-   "confidence": 0.566,
-   "id": 10
-  },
-  {
-   "label": "text",
-   "source_label": "text",
-   "bbox": [
     207.5,
     1274.9,
     1473.5,
     1345.4
    ],
    "confidence": 0.5479,
-   "id": 11
+   "id": 10
   }
  ],
  "pairs": [
@@ -160,6 +148,19 @@
    "caption": 9,
    "position": "below",
    "gap": 51.4
+  }
+ ],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    202.1,
+    3393.5,
+    2068.0,
+    3695.0
+   ],
+   "confidence": 0.566
   }
  ]
 }

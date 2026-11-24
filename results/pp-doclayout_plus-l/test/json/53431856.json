@@ -130,18 +130,6 @@
    "id": 9
   },
   {
-   "label": "title",
-   "source_label": "doc_title",
-   "bbox": [
-    461.5,
-    2533.2,
-    1950.5,
-    2668.8
-   ],
-   "confidence": 0.5727,
-   "id": 10
-  },
-  {
    "label": "text",
    "source_label": "paragraph_title",
    "bbox": [
@@ -151,7 +139,7 @@
     2864.2
    ],
    "confidence": 0.5467,
-   "id": 11
+   "id": 10
   }
  ],
  "pairs": [
@@ -161,6 +149,19 @@
    "caption": 4,
    "position": "below",
    "gap": 52.1
+  }
+ ],
+ "duplicates": [
+  {
+   "label": "title",
+   "source_label": "doc_title",
+   "bbox": [
+    461.5,
+    2533.2,
+    1950.5,
+    2668.8
+   ],
+   "confidence": 0.5727
   }
  ]
 }

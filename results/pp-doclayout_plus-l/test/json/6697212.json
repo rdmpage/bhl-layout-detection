@@ -131,26 +131,27 @@
    "label": "text",
    "source_label": "text",
    "bbox": [
-    150.0,
-    1456.9,
-    2014.8,
-    1789.0
-   ],
-   "confidence": 0.5147,
-   "id": 10
-  },
-  {
-   "label": "text",
-   "source_label": "text",
-   "bbox": [
     651.7,
     2748.7,
     1530.7,
     2817.4
    ],
    "confidence": 0.5071,
-   "id": 11
+   "id": 10
   }
  ],
- "pairs": []
+ "pairs": [],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    150.0,
+    1456.9,
+    2014.8,
+    1789.0
+   ],
+   "confidence": 0.5147
+  }
+ ]
 }

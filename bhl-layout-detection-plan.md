@@ -50,7 +50,7 @@ Map every method's labels onto:
 - `caption` (figure and table titles and legends)
 - `table`
 - `text` (including section headings, footnotes, marginal notes)
-- `title` (the title on a title page)
+- `title` (the title of a work or article: title pages, covers, and article titles on ordinary pages)
 - `header` (running head)
 - `footer`
 - `page_number`

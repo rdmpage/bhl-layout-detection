@@ -66,18 +66,6 @@
    ],
    "confidence": 0.6151,
    "id": 4
-  },
-  {
-   "label": "header",
-   "source_label": "header",
-   "bbox": [
-    1956.9,
-    278.8,
-    2114.3,
-    329.6
-   ],
-   "confidence": 0.6133,
-   "id": 5
   }
  ],
  "pairs": [
@@ -87,6 +75,19 @@
    "caption": 3,
    "position": "left",
    "gap": 17.4
+  }
+ ],
+ "duplicates": [
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    1956.9,
+    278.8,
+    2114.3,
+    329.6
+   ],
+   "confidence": 0.6133
   }
  ]
 }

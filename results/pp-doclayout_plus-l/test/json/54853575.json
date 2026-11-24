@@ -224,6 +224,21 @@
    "id": 17
   },
   {
+   "label": "title",
+   "source_label": "doc_title",
+   "bbox": [
+    288.0,
+    200.5,
+    1463.1,
+    237.9
+   ],
+   "confidence": 0.5337,
+   "id": 18
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
+  {
    "label": "text",
    "source_label": "text",
    "bbox": [
@@ -232,8 +247,7 @@
     1369.6,
     1131.1
    ],
-   "confidence": 0.5439,
-   "id": 18
+   "confidence": 0.5439
   },
   {
    "label": "text",
@@ -244,20 +258,7 @@
     1466.4,
     969.5
    ],
-   "confidence": 0.5352,
-   "id": 19
-  },
-  {
-   "label": "title",
-   "source_label": "doc_title",
-   "bbox": [
-    288.0,
-    200.5,
-    1463.1,
-    237.9
-   ],
-   "confidence": 0.5337,
-   "id": 20
+   "confidence": 0.5352
   },
   {
    "label": "header",
@@ -268,9 +269,7 @@
     1463.1,
     237.9
    ],
-   "confidence": 0.5193,
-   "id": 21
+   "confidence": 0.5193
   }
- ],
- "pairs": []
+ ]
 }

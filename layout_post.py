@@ -1,6 +1,7 @@
 """Post-processing for layout detector output in the common JSON format.
 
 - relabel: map the detector's own labels (`source_label`) onto the shared label set
+- drop_duplicates: where two boxes cover the same region, keep the more confident
 - pair_captions: link each caption box to the figure or table it describes
 - draw_overlay / write_index: images and a review page
 
@@ -61,13 +62,49 @@ MAX_VGAP = 0.08    # caption above/below its object
 MAX_HGAP = 0.05    # caption beside its object
 MIN_OVERLAP = 0.3  # shared extent, as a fraction of the narrower box
 
+# Two boxes with at least this IoU are one region labelled twice (e.g. a heading
+# as both doc_title and paragraph_title); the less confident one is dropped.
+DUP_IOU = 0.8
+
 
 def relabel(doc):
+    # boxes dropped as duplicates on an earlier run are put back and judged again
+    doc["boxes"] = sorted(doc["boxes"] + doc.pop("duplicates", []), key=lambda b: -b["confidence"])
     for i, b in enumerate(doc["boxes"]):
         b["id"] = i
         b["label"] = LABEL_MAP.get(b["source_label"], "text")
         if b["label"] == "figure" and b.get("ink_pct", 100) < MIN_INK_PCT:
             b["label"] = "empty"
+    return doc
+
+
+def _iou(a, b):
+    w = min(a[2], b[2]) - max(a[0], b[0])
+    h = min(a[3], b[3]) - max(a[1], b[1])
+    if w <= 0 or h <= 0:
+        return 0.0
+    inter = w * h
+    return inter / ((a[2] - a[0]) * (a[3] - a[1]) + (b[2] - b[0]) * (b[3] - b[1]) - inter)
+
+
+def drop_duplicates(doc):
+    """Move the less confident of any two boxes with IoU >= DUP_IOU to
+    doc["duplicates"] (kept, so relabel can restore them), and renumber.
+    "empty" boxes are left alone."""
+    keep, dups = [], []
+    for b in sorted(doc["boxes"], key=lambda b: -b["confidence"]):
+        if b["label"] != "empty" and any(
+                k["label"] != "empty" and _iou(b["bbox"], k["bbox"]) >= DUP_IOU for k in keep):
+            dups.append(b)
+        else:
+            keep.append(b)
+    for i, b in enumerate(keep):
+        b["id"] = i
+    for b in dups:
+        b.pop("id", None)
+    doc["boxes"] = keep
+    if dups:
+        doc["duplicates"] = dups
     return doc
 
 
@@ -214,7 +251,7 @@ def process_dir(result_dir):
     (result_dir / "overlays").mkdir(exist_ok=True)
     docs = []
     for f in sorted((result_dir / "json").glob("*.json")):
-        doc = pair_captions(relabel(json.loads(f.read_text())))
+        doc = pair_captions(drop_duplicates(relabel(json.loads(f.read_text()))))
         f.write_text(json.dumps(doc, indent=1))
         draw_overlay(doc, images[doc["page_id"]], result_dir / "overlays" / f"{doc['page_id']}.jpg")
         docs.append(doc)

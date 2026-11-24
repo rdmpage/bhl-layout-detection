@@ -91,18 +91,6 @@
    ],
    "confidence": 0.553,
    "id": 6
-  },
-  {
-   "label": "text",
-   "source_label": "text",
-   "bbox": [
-    255.9,
-    2489.9,
-    1775.8,
-    2653.4
-   ],
-   "confidence": 0.5117,
-   "id": 7
   }
  ],
  "pairs": [
@@ -112,6 +100,19 @@
    "caption": 6,
    "position": "below",
    "gap": 23.4
+  }
+ ],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    255.9,
+    2489.9,
+    1775.8,
+    2653.4
+   ],
+   "confidence": 0.5117
   }
  ]
 }

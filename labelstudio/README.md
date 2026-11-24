@@ -40,10 +40,10 @@ then copy it to `export/` (replace `completed_by` with the user id, so no email 
 
 ## Labelling rules
 
-- One box per plate, or one per numbered figure?
+- One box per numbered figure (or per plate), not per panel. A figure made of several panels or charts (e.g. "adults" and "juveniles" bar charts under one Figure 2) gets one box around all of them, including panel labels.
 - Figure numbers and lettering inside a plate are part of the figure, not captions.
 - A map is a figure; a graph is a figure; a table drawn as a grid is a table.
-- Section headings are `text`.
+- Section headings are `text`. Titles of works and articles are `title`, wherever they appear: title pages, covers, and the head of an article on an ordinary page.
 - Covers: label as if printed in black and white. Colour, tone or texture is background, not a figure. Journal name → `title`, other words → `text`; a real picture on the cover (photo, drawing) → `figure`. Plain cloth, marbled and leather covers get no boxes.
 - Logos, crests, publisher's devices and printed seals get no box: they are decoration, not figures we want to extract.
 - `stamp` is for library and ownership stamps only.

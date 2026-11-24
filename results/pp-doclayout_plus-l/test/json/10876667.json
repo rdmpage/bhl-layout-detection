@@ -33,18 +33,6 @@
   },
   {
    "label": "text",
-   "source_label": "text",
-   "bbox": [
-    182.3,
-    288.9,
-    1723.6,
-    3131.2
-   ],
-   "confidence": 0.5232,
-   "id": 2
-  },
-  {
-   "label": "text",
    "source_label": "reference_content",
    "bbox": [
     200.6,
@@ -53,8 +41,21 @@
     627.6
    ],
    "confidence": 0.5015,
-   "id": 3
+   "id": 2
   }
  ],
- "pairs": []
+ "pairs": [],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    182.3,
+    288.9,
+    1723.6,
+    3131.2
+   ],
+   "confidence": 0.5232
+  }
+ ]
 }

@@ -16,22 +16,12 @@
     2354.1
    ],
    "id": 0
-  },
-  {
-   "label": "figure",
-   "bbox": [
-    817.0,
-    1958.2,
-    1446.1,
-    2354.1
-   ],
-   "id": 1
   }
  ],
  "pairs": [],
  "source": {
   "label_studio_task": 3,
   "annotation": 33,
-  "updated_at": "2026-11-24T16:04:11.042423Z"
+  "updated_at": "2026-11-24T21:13:07.282468Z"
  }
 }

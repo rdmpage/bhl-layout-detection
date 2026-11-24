@@ -162,7 +162,10 @@
    ],
    "confidence": 0.5611,
    "id": 12
-  },
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
   {
    "label": "header",
    "source_label": "header",
@@ -172,8 +175,7 @@
     1353.1,
     190.9
    ],
-   "confidence": 0.5452,
-   "id": 13
+   "confidence": 0.5452
   },
   {
    "label": "text",
@@ -184,9 +186,7 @@
     1266.6,
     1993.3
    ],
-   "confidence": 0.5002,
-   "id": 14
+   "confidence": 0.5002
   }
- ],
- "pairs": []
+ ]
 }

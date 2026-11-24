@@ -177,18 +177,6 @@
   },
   {
    "label": "text",
-   "source_label": "abstract",
-   "bbox": [
-    161.7,
-    1951.7,
-    1723.1,
-    2604.4
-   ],
-   "confidence": 0.6122,
-   "id": 14
-  },
-  {
-   "label": "text",
    "source_label": "text",
    "bbox": [
     689.4,
@@ -197,7 +185,7 @@
     1382.9
    ],
    "confidence": 0.5555,
-   "id": 15
+   "id": 14
   },
   {
    "label": "text",
@@ -209,7 +197,21 @@
     995.9
    ],
    "confidence": 0.5414,
-   "id": 16
+   "id": 15
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "abstract",
+   "bbox": [
+    161.7,
+    1951.7,
+    1723.1,
+    2604.4
+   ],
+   "confidence": 0.6122
   },
   {
    "label": "text",
@@ -220,9 +222,7 @@
     1239.9,
     995.9
    ],
-   "confidence": 0.5033,
-   "id": 17
+   "confidence": 0.5033
   }
- ],
- "pairs": []
+ ]
 }

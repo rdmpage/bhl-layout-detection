@@ -102,7 +102,10 @@
    ],
    "confidence": 0.5247,
    "id": 7
-  },
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
   {
    "label": "text",
    "source_label": "paragraph_title",
@@ -112,9 +115,7 @@
     1724.1,
     1948.8
    ],
-   "confidence": 0.506,
-   "id": 8
+   "confidence": 0.506
   }
- ],
- "pairs": []
+ ]
 }

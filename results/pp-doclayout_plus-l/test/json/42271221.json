@@ -190,18 +190,6 @@
    "id": 14
   },
   {
-   "label": "header",
-   "source_label": "header",
-   "bbox": [
-    275.6,
-    235.1,
-    504.6,
-    399.0
-   ],
-   "confidence": 0.6117,
-   "id": 15
-  },
-  {
    "label": "title",
    "source_label": "doc_title",
    "bbox": [
@@ -211,7 +199,7 @@
     333.0
    ],
    "confidence": 0.5871,
-   "id": 16
+   "id": 15
   },
   {
    "label": "table",
@@ -223,7 +211,7 @@
     2229.2
    ],
    "confidence": 0.5441,
-   "id": 17
+   "id": 16
   },
   {
    "label": "caption",
@@ -235,20 +223,7 @@
     743.7
    ],
    "confidence": 0.5425,
-   "id": 18
-  },
-  {
-   "label": "figure",
-   "source_label": "image",
-   "bbox": [
-    2254.3,
-    236.3,
-    2489.8,
-    403.6
-   ],
-   "confidence": 0.5026,
-   "ink_pct": 28.63,
-   "id": 19
+   "id": 17
   }
  ],
  "pairs": [
@@ -269,9 +244,34 @@
   {
    "object": 13,
    "object_label": "table",
-   "caption": 18,
+   "caption": 17,
    "position": "above",
    "gap": 77.5
+  }
+ ],
+ "duplicates": [
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    275.6,
+    235.1,
+    504.6,
+    399.0
+   ],
+   "confidence": 0.6117
+  },
+  {
+   "label": "figure",
+   "source_label": "image",
+   "bbox": [
+    2254.3,
+    236.3,
+    2489.8,
+    403.6
+   ],
+   "confidence": 0.5026,
+   "ink_pct": 28.63
   }
  ]
 }

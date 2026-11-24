@@ -42,7 +42,10 @@
    ],
    "confidence": 0.7537,
    "id": 2
-  },
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
   {
    "label": "caption",
    "source_label": "figure_title",
@@ -52,17 +55,7 @@
     1821.0,
     412.0
    ],
-   "confidence": 0.5001,
-   "id": 3
-  }
- ],
- "pairs": [
-  {
-   "object": 0,
-   "object_label": "table",
-   "caption": 3,
-   "position": "above",
-   "gap": 40.8
+   "confidence": 0.5001
   }
  ]
 }

@@ -168,25 +168,35 @@
    "label": "text",
    "source_label": "reference_content",
    "bbox": [
-    137.2,
-    849.7,
-    1721.5,
-    1048.9
-   ],
-   "confidence": 0.5451,
-   "id": 13
-  },
-  {
-   "label": "text",
-   "source_label": "reference_content",
-   "bbox": [
     137.5,
     1063.6,
     1721.5,
     1333.5
    ],
    "confidence": 0.5337,
-   "id": 14
+   "id": 13
+  }
+ ],
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 12,
+   "position": "inside",
+   "gap": 0.0
+  }
+ ],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "reference_content",
+   "bbox": [
+    137.2,
+    849.7,
+    1721.5,
+    1048.9
+   ],
+   "confidence": 0.5451
   },
   {
    "label": "text",
@@ -197,17 +207,7 @@
     1721.5,
     1333.5
    ],
-   "confidence": 0.5031,
-   "id": 15
-  }
- ],
- "pairs": [
-  {
-   "object": 0,
-   "object_label": "figure",
-   "caption": 12,
-   "position": "inside",
-   "gap": 0.0
+   "confidence": 0.5031
   }
  ]
 }

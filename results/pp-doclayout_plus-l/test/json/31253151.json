@@ -335,25 +335,13 @@
    "label": "text",
    "source_label": "reference_content",
    "bbox": [
-    287.6,
-    2169.4,
-    875.1,
-    2219.2
-   ],
-   "confidence": 0.752,
-   "id": 27
-  },
-  {
-   "label": "text",
-   "source_label": "reference_content",
-   "bbox": [
     1090.0,
     2081.1,
     1684.2,
     2130.5
    ],
    "confidence": 0.7479,
-   "id": 28
+   "id": 27
   },
   {
    "label": "text",
@@ -365,7 +353,7 @@
     1658.8
    ],
    "confidence": 0.7474,
-   "id": 29
+   "id": 28
   },
   {
    "label": "title",
@@ -377,7 +365,7 @@
     700.4
    ],
    "confidence": 0.7403,
-   "id": 30
+   "id": 29
   },
   {
    "label": "text",
@@ -389,7 +377,7 @@
     1767.3
    ],
    "confidence": 0.7366,
-   "id": 31
+   "id": 30
   },
   {
    "label": "text",
@@ -401,7 +389,7 @@
     2186.2
    ],
    "confidence": 0.7348,
-   "id": 32
+   "id": 31
   },
   {
    "label": "text",
@@ -413,7 +401,7 @@
     1546.8
    ],
    "confidence": 0.7331,
-   "id": 33
+   "id": 32
   },
   {
    "label": "text",
@@ -425,7 +413,7 @@
     2939.3
    ],
    "confidence": 0.7329,
-   "id": 34
+   "id": 33
   },
   {
    "label": "text",
@@ -437,7 +425,7 @@
     1998.4
    ],
    "confidence": 0.7292,
-   "id": 35
+   "id": 34
   },
   {
    "label": "text",
@@ -449,7 +437,7 @@
     1167.6
    ],
    "confidence": 0.728,
-   "id": 36
+   "id": 35
   },
   {
    "label": "text",
@@ -461,7 +449,7 @@
     2602.4
    ],
    "confidence": 0.7249,
-   "id": 37
+   "id": 36
   },
   {
    "label": "text",
@@ -473,7 +461,7 @@
     2076.3
    ],
    "confidence": 0.7198,
-   "id": 38
+   "id": 37
   },
   {
    "label": "text",
@@ -485,7 +473,7 @@
     2240.9
    ],
    "confidence": 0.717,
-   "id": 39
+   "id": 38
   },
   {
    "label": "text",
@@ -497,7 +485,7 @@
     2022.0
    ],
    "confidence": 0.7167,
-   "id": 40
+   "id": 39
   },
   {
    "label": "text",
@@ -509,7 +497,7 @@
     1438.4
    ],
    "confidence": 0.7155,
-   "id": 41
+   "id": 40
   },
   {
    "label": "text",
@@ -521,7 +509,7 @@
     1603.5
    ],
    "confidence": 0.7146,
-   "id": 42
+   "id": 41
   },
   {
    "label": "text",
@@ -533,7 +521,7 @@
     1547.3
    ],
    "confidence": 0.7131,
-   "id": 43
+   "id": 42
   },
   {
    "label": "text",
@@ -545,7 +533,7 @@
     1713.1
    ],
    "confidence": 0.7124,
-   "id": 44
+   "id": 43
   },
   {
    "label": "text",
@@ -557,7 +545,7 @@
     1329.9
    ],
    "confidence": 0.6896,
-   "id": 45
+   "id": 44
   },
   {
    "label": "text",
@@ -569,7 +557,7 @@
     2645.8
    ],
    "confidence": 0.6882,
-   "id": 46
+   "id": 45
   },
   {
    "label": "text",
@@ -581,7 +569,7 @@
     1493.0
    ],
    "confidence": 0.6834,
-   "id": 47
+   "id": 46
   },
   {
    "label": "text",
@@ -593,7 +581,7 @@
     1275.8
    ],
    "confidence": 0.6774,
-   "id": 48
+   "id": 47
   },
   {
    "label": "text",
@@ -605,7 +593,7 @@
     1882.3
    ],
    "confidence": 0.6721,
-   "id": 49
+   "id": 48
   },
   {
    "label": "text",
@@ -617,7 +605,7 @@
     1707.3
    ],
    "confidence": 0.6662,
-   "id": 50
+   "id": 49
   },
   {
    "label": "text",
@@ -629,7 +617,7 @@
     2870.9
    ],
    "confidence": 0.6588,
-   "id": 51
+   "id": 50
   },
   {
    "label": "text",
@@ -641,7 +629,7 @@
     2659.0
    ],
    "confidence": 0.6045,
-   "id": 52
+   "id": 51
   },
   {
    "label": "text",
@@ -653,7 +641,7 @@
     2351.8
    ],
    "confidence": 0.5897,
-   "id": 53
+   "id": 52
   },
   {
    "label": "text",
@@ -665,7 +653,7 @@
     1877.3
    ],
    "confidence": 0.5805,
-   "id": 54
+   "id": 53
   },
   {
    "label": "text",
@@ -677,7 +665,7 @@
     1876.6
    ],
    "confidence": 0.5755,
-   "id": 55
+   "id": 54
   },
   {
    "label": "text",
@@ -689,7 +677,7 @@
     1108.9
    ],
    "confidence": 0.5573,
-   "id": 56
+   "id": 55
   },
   {
    "label": "text",
@@ -701,7 +689,7 @@
     2940.4
    ],
    "confidence": 0.5261,
-   "id": 57
+   "id": 56
   },
   {
    "label": "text",
@@ -713,7 +701,21 @@
     2715.5
    ],
    "confidence": 0.5155,
-   "id": 58
+   "id": 57
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "reference_content",
+   "bbox": [
+    287.6,
+    2169.4,
+    875.1,
+    2219.2
+   ],
+   "confidence": 0.752
   },
   {
    "label": "text",
@@ -724,9 +726,7 @@
     1829.4,
     1216.5
    ],
-   "confidence": 0.5139,
-   "id": 59
+   "confidence": 0.5139
   }
- ],
- "pairs": []
+ ]
 }

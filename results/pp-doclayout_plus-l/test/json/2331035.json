@@ -18,7 +18,10 @@
    ],
    "confidence": 0.6357,
    "id": 0
-  },
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
   {
    "label": "figure",
    "source_label": "image",
@@ -29,9 +32,7 @@
     2354.1
    ],
    "confidence": 0.5083,
-   "ink_pct": 22.11,
-   "id": 1
+   "ink_pct": 22.11
   }
- ],
- "pairs": []
+ ]
 }

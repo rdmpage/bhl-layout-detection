@@ -11,6 +11,10 @@ written with an empty box list: that is a real label (blank leaf, plain cover).
 
 Relations become caption pairs. The caption end is found from the box labels,
 so the direction a relation was drawn in does not matter.
+
+Pages with two boxes in (almost) the same place are listed at the end: in
+Label Studio the top box hides the other, so a duplicate from the model is
+easy to miss. Delete one of each stack and export again.
 """
 import argparse
 import collections
@@ -20,8 +24,10 @@ from pathlib import Path
 from PIL import Image
 
 from layout_post import LABELS, LAYOUT, ROOT
+from score import iou
 
 Image.MAX_IMAGE_PIXELS = None
+STACKED_IOU = 0.9
 
 
 def image_size(page_id, split):
@@ -57,6 +63,9 @@ def convert(task):
             "id": len(boxes),
         })
 
+    stacked = [(a["label"], b["label"]) for i, a in enumerate(boxes) for b in boxes[i + 1:]
+               if iou(a["bbox"], b["bbox"]) >= STACKED_IOU]
+
     pairs, skipped = [], 0
     for r in ann["result"]:
         if r["type"] != "relation":
@@ -82,7 +91,7 @@ def convert(task):
         "source": {"label_studio_task": task["id"], "annotation": ann["id"],
                    "updated_at": ann["updated_at"]},
     }
-    return doc, skipped
+    return doc, skipped, stacked
 
 
 def main():
@@ -92,11 +101,14 @@ def main():
 
     tasks = json.loads(Path(args.export).read_text())
     counts, n_pairs, n_skipped, no_ann, splits = collections.Counter(), 0, 0, [], set()
+    stacks = []
     for t in tasks:
         if not t.get("annotations"):
             no_ann.append(t["data"]["page_id"])
             continue
-        doc, skipped = convert(t)
+        doc, skipped, stacked = convert(t)
+        if stacked:
+            stacks.append((t["id"], doc["page_id"], stacked))
         split = t["data"]["split"]
         splits.add(split)
         out = ROOT / "results" / "gold" / split / "json"
@@ -111,6 +123,12 @@ def main():
     print(f"caption pairs: {n_pairs}" + (f" ({n_skipped} relations skipped)" if n_skipped else ""))
     if no_ann:
         print(f"no annotation, skipped: {no_ann}")
+    if stacks:
+        print(f"\n{sum(len(s) for _, _, s in stacks)} stacked boxes (IoU >= {STACKED_IOU}) on {len(stacks)} pages; "
+              "delete one of each in Label Studio:")
+        print("  task  page_id   labels")
+        for tid, pid, st in sorted(stacks):
+            print(f"  {tid:>4}  {pid:<9} " + ", ".join(f"{a}+{b}" for a, b in st))
 
 
 if __name__ == "__main__":

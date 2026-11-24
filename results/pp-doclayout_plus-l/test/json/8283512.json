@@ -1052,18 +1052,6 @@
    "id": 86
   },
   {
-   "label": "header",
-   "source_label": "header",
-   "bbox": [
-    149.2,
-    146.9,
-    584.1,
-    207.0
-   ],
-   "confidence": 0.5213,
-   "id": 87
-  },
-  {
    "label": "text",
    "source_label": "reference_content",
    "bbox": [
@@ -1073,7 +1061,7 @@
     2233.1
    ],
    "confidence": 0.52,
-   "id": 88
+   "id": 87
   },
   {
    "label": "text",
@@ -1085,7 +1073,7 @@
     3167.2
    ],
    "confidence": 0.5179,
-   "id": 89
+   "id": 88
   },
   {
    "label": "text",
@@ -1097,7 +1085,7 @@
     2273.7
    ],
    "confidence": 0.5163,
-   "id": 90
+   "id": 89
   },
   {
    "label": "text",
@@ -1109,7 +1097,7 @@
     3053.4
    ],
    "confidence": 0.5147,
-   "id": 91
+   "id": 90
   },
   {
    "label": "text",
@@ -1121,19 +1109,7 @@
     2053.8
    ],
    "confidence": 0.51,
-   "id": 92
-  },
-  {
-   "label": "header",
-   "source_label": "header",
-   "bbox": [
-    1888.8,
-    136.8,
-    2225.7,
-    199.6
-   ],
-   "confidence": 0.5082,
-   "id": 93
+   "id": 91
   },
   {
    "label": "text",
@@ -1145,7 +1121,7 @@
     1232.9
    ],
    "confidence": 0.5065,
-   "id": 94
+   "id": 92
   },
   {
    "label": "text",
@@ -1157,8 +1133,32 @@
     2827.3
    ],
    "confidence": 0.504,
-   "id": 95
+   "id": 93
   }
  ],
- "pairs": []
+ "pairs": [],
+ "duplicates": [
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    149.2,
+    146.9,
+    584.1,
+    207.0
+   ],
+   "confidence": 0.5213
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    1888.8,
+    136.8,
+    2225.7,
+    199.6
+   ],
+   "confidence": 0.5082
+  }
+ ]
 }

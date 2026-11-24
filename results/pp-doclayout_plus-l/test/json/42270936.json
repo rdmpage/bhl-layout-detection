@@ -178,19 +178,6 @@
    "id": 13
   },
   {
-   "label": "figure",
-   "source_label": "chart",
-   "bbox": [
-    258.6,
-    1909.5,
-    1436.4,
-    2994.5
-   ],
-   "confidence": 0.5735,
-   "ink_pct": 11.24,
-   "id": 14
-  },
-  {
    "label": "text",
    "source_label": "text",
    "bbox": [
@@ -200,8 +187,22 @@
     466.5
    ],
    "confidence": 0.517,
-   "id": 15
+   "id": 14
   }
  ],
- "pairs": []
+ "pairs": [],
+ "duplicates": [
+  {
+   "label": "figure",
+   "source_label": "chart",
+   "bbox": [
+    258.6,
+    1909.5,
+    1436.4,
+    2994.5
+   ],
+   "confidence": 0.5735,
+   "ink_pct": 11.24
+  }
+ ]
 }

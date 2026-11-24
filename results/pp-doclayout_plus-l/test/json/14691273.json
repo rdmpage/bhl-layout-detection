@@ -261,18 +261,6 @@
   },
   {
    "label": "text",
-   "source_label": "text",
-   "bbox": [
-    224.0,
-    389.9,
-    924.6,
-    2917.4
-   ],
-   "confidence": 0.5332,
-   "id": 21
-  },
-  {
-   "label": "text",
    "source_label": "reference_content",
    "bbox": [
     231.1,
@@ -281,7 +269,7 @@
     711.3
    ],
    "confidence": 0.5307,
-   "id": 22
+   "id": 21
   },
   {
    "label": "text",
@@ -293,7 +281,7 @@
     1304.5
    ],
    "confidence": 0.5275,
-   "id": 23
+   "id": 22
   },
   {
    "label": "text",
@@ -305,7 +293,7 @@
     1245.9
    ],
    "confidence": 0.5269,
-   "id": 24
+   "id": 23
   },
   {
    "label": "text",
@@ -317,7 +305,7 @@
     2640.8
    ],
    "confidence": 0.5161,
-   "id": 25
+   "id": 24
   },
   {
    "label": "text",
@@ -329,7 +317,7 @@
     820.3
    ],
    "confidence": 0.5083,
-   "id": 26
+   "id": 25
   },
   {
    "label": "text",
@@ -341,8 +329,21 @@
     1570.9
    ],
    "confidence": 0.5082,
-   "id": 27
+   "id": 26
   }
  ],
- "pairs": []
+ "pairs": [],
+ "duplicates": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    224.0,
+    389.9,
+    924.6,
+    2917.4
+   ],
+   "confidence": 0.5332
+  }
+ ]
 }
