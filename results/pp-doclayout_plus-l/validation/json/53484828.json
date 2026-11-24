@@ -1,0 +1,170 @@
+{
+ "page_id": 53484828,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2475,
+  "height": 3960
+ },
+ "stratum": "chart",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    52.2,
+    1123.6,
+    1125.6,
+    1939.5
+   ],
+   "confidence": 0.9855,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1210.8,
+    1344.8,
+    2274.0,
+    1791.5
+   ],
+   "confidence": 0.9785,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1212.2,
+    1802.5,
+    2278.6,
+    2241.0
+   ],
+   "confidence": 0.9764,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    59.2,
+    1953.1,
+    1128.3,
+    2246.0
+   ],
+   "confidence": 0.97,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1209.1,
+    1118.8,
+    2271.1,
+    1333.4
+   ],
+   "confidence": 0.9619,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    0.3,
+    386.4,
+    2354.7,
+    784.3
+   ],
+   "confidence": 0.9394,
+   "id": 5,
+   "label": "title"
+  },
+  {
+   "source_label": "table",
+   "bbox": [
+    0.0,
+    2335.4,
+    2391.8,
+    3407.7
+   ],
+   "confidence": 0.8575,
+   "id": 6,
+   "label": "table"
+  },
+  {
+   "source_label": "table",
+   "bbox": [
+    0.0,
+    2335.8,
+    2391.5,
+    3721.1
+   ],
+   "confidence": 0.7366,
+   "id": 7,
+   "label": "table"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    371.6,
+    881.1,
+    1936.0,
+    1016.9
+   ],
+   "confidence": 0.7273,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1487.1,
+    3488.0,
+    2344.6,
+    3623.8
+   ],
+   "confidence": 0.5695,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    89.8,
+    3453.3,
+    885.6,
+    3709.7
+   ],
+   "confidence": 0.5453,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    1013.3,
+    3318.7,
+    1386.6,
+    3711.7
+   ],
+   "confidence": 0.5418,
+   "ink_pct": 28.22,
+   "id": 11,
+   "label": "figure"
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    89.8,
+    3453.3,
+    885.6,
+    3709.7
+   ],
+   "confidence": 0.5347,
+   "label": "caption"
+  }
+ ]
+}

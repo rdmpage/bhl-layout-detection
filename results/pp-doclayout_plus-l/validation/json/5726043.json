@@ -1,0 +1,48 @@
+{
+ "page_id": 5726043,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2128,
+  "height": 3412
+ },
+ "stratum": "two_column",
+ "boxes": [
+  {
+   "source_label": "header",
+   "bbox": [
+    838.3,
+    212.2,
+    1361.4,
+    255.3
+   ],
+   "confidence": 0.8456,
+   "id": 0,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    219.8,
+    336.9,
+    1934.2,
+    3151.7
+   ],
+   "confidence": 0.7428,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    237.3,
+    221.0,
+    311.9,
+    254.9
+   ],
+   "confidence": 0.7304,
+   "id": 2,
+   "label": "page_number"
+  }
+ ],
+ "pairs": []
+}

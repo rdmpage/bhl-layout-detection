@@ -1,0 +1,25 @@
+{
+ "page_id": 63551181,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2563,
+  "height": 4113
+ },
+ "stratum": "title",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    593.1,
+    0.0,
+    2562.0,
+    4112.1
+   ],
+   "confidence": 0.8907,
+   "ink_pct": 1.97,
+   "id": 0,
+   "label": "figure"
+  }
+ ],
+ "pairs": []
+}

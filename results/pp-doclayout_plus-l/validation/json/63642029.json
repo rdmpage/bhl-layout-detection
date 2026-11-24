@@ -1,0 +1,316 @@
+{
+ "page_id": 63642029,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2933,
+  "height": 4121
+ },
+ "stratum": "map",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    1480.3,
+    1279.7,
+    2734.2,
+    1917.3
+   ],
+   "confidence": 0.9863,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    193.5,
+    2963.4,
+    1440.4,
+    3537.6
+   ],
+   "confidence": 0.9853,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    174.9,
+    1449.8,
+    1431.6,
+    1904.3
+   ],
+   "confidence": 0.9838,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1487.7,
+    3040.0,
+    2744.7,
+    3501.1
+   ],
+   "confidence": 0.9836,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    724.3,
+    2446.9,
+    1439.6,
+    2956.5
+   ],
+   "confidence": 0.9797,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1484.0,
+    1928.7,
+    2737.8,
+    2274.3
+   ],
+   "confidence": 0.9791,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    2012.7,
+    750.6,
+    2731.4,
+    1271.1
+   ],
+   "confidence": 0.9789,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    184.0,
+    1917.8,
+    1433.7,
+    2198.2
+   ],
+   "confidence": 0.9774,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    2020.4,
+    2520.4,
+    2742.7,
+    3033.8
+   ],
+   "confidence": 0.9763,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    165.5,
+    392.2,
+    1424.6,
+    615.9
+   ],
+   "confidence": 0.9748,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    714.4,
+    927.0,
+    1429.5,
+    1439.6
+   ],
+   "confidence": 0.9708,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    1486.1,
+    754.3,
+    1959.2,
+    1246.9
+   ],
+   "confidence": 0.9582,
+   "ink_pct": 12.51,
+   "id": 11,
+   "label": "figure"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    180.8,
+    929.1,
+    659.3,
+    1415.6
+   ],
+   "confidence": 0.9563,
+   "ink_pct": 11.09,
+   "id": 12,
+   "label": "figure"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    198.2,
+    2446.9,
+    666.6,
+    2929.2
+   ],
+   "confidence": 0.9559,
+   "ink_pct": 11.76,
+   "id": 13,
+   "label": "figure"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    1495.3,
+    2517.2,
+    1969.5,
+    3008.3
+   ],
+   "confidence": 0.9543,
+   "ink_pct": 10.66,
+   "id": 14,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    169.2,
+    629.0,
+    1424.8,
+    734.3
+   ],
+   "confidence": 0.952,
+   "id": 15,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1474.2,
+    393.7,
+    2725.9,
+    504.7
+   ],
+   "confidence": 0.9452,
+   "id": 16,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1491.3,
+    3510.4,
+    2743.2,
+    3619.1
+   ],
+   "confidence": 0.9411,
+   "id": 17,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    199.0,
+    3544.8,
+    1444.6,
+    3656.3
+   ],
+   "confidence": 0.9363,
+   "id": 18,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    940.2,
+    141.7,
+    1965.5,
+    189.4
+   ],
+   "confidence": 0.9044,
+   "id": 19,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    191.8,
+    2266.2,
+    1435.5,
+    2430.8
+   ],
+   "confidence": 0.8926,
+   "id": 20,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1480.1,
+    569.6,
+    2729.5,
+    738.5
+   ],
+   "confidence": 0.8725,
+   "id": 21,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    172.5,
+    145.1,
+    226.8,
+    187.6
+   ],
+   "confidence": 0.832,
+   "id": 22,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1491.1,
+    2338.1,
+    2737.1,
+    2501.3
+   ],
+   "confidence": 0.7694,
+   "id": 23,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    172.7,
+    803.3,
+    1426.4,
+    913.2
+   ],
+   "confidence": 0.7403,
+   "id": 24,
+   "label": "text"
+  }
+ ],
+ "pairs": []
+}

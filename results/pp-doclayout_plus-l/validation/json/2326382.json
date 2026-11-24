@@ -1,0 +1,192 @@
+{
+ "page_id": 2326382,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2262,
+  "height": 3874
+ },
+ "stratum": "title",
+ "boxes": [
+  {
+   "source_label": "seal",
+   "bbox": [
+    1363.7,
+    2414.1,
+    1842.4,
+    2783.4
+   ],
+   "confidence": 0.9508,
+   "id": 0,
+   "label": "stamp"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    128.5,
+    589.2,
+    2041.5,
+    708.3
+   ],
+   "confidence": 0.8895,
+   "id": 1,
+   "label": "title"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    143.4,
+    1276.6,
+    2033.7,
+    1393.1
+   ],
+   "confidence": 0.8658,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    816.5,
+    1615.2,
+    1376.4,
+    1659.7
+   ],
+   "confidence": 0.8611,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    941.8,
+    865.6,
+    1228.3,
+    904.9
+   ],
+   "confidence": 0.8003,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    363.4,
+    1047.8,
+    1828.4,
+    1118.1
+   ],
+   "confidence": 0.7957,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    684.2,
+    193.0,
+    1460.2,
+    280.3
+   ],
+   "confidence": 0.7829,
+   "id": 6,
+   "label": "title"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    167.3,
+    3192.7,
+    2078.0,
+    3416.4
+   ],
+   "confidence": 0.7488,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    315.5,
+    3093.8,
+    1913.9,
+    3147.2
+   ],
+   "confidence": 0.6728,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1023.4,
+    418.1,
+    1143.3,
+    465.8
+   ],
+   "confidence": 0.6614,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    881.5,
+    2975.1,
+    1354.0,
+    3036.9
+   ],
+   "confidence": 0.6534,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    171.5,
+    1935.1,
+    2040.9,
+    2112.8
+   ],
+   "confidence": 0.595,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    492.0,
+    2227.8,
+    1716.8,
+    2294.4
+   ],
+   "confidence": 0.5573,
+   "id": 12,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    138.2,
+    1726.2,
+    2058.7,
+    1906.3
+   ],
+   "confidence": 0.5418,
+   "id": 13,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1043.0,
+    3456.0,
+    1207.8,
+    3512.4
+   ],
+   "confidence": 0.5234,
+   "id": 14,
+   "label": "text"
+  }
+ ],
+ "pairs": []
+}

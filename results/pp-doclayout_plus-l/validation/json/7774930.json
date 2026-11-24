@@ -1,0 +1,145 @@
+{
+ "page_id": 7774930,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2068,
+  "height": 3566
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    36.2,
+    2144.6,
+    1756.4,
+    3026.3
+   ],
+   "confidence": 0.9858,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    48.4,
+    1661.3,
+    1765.1,
+    1967.3
+   ],
+   "confidence": 0.9749,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    54.3,
+    1080.9,
+    1770.5,
+    1393.3
+   ],
+   "confidence": 0.9738,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    55.8,
+    1401.6,
+    1767.1,
+    1650.2
+   ],
+   "confidence": 0.9702,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    59.7,
+    753.6,
+    1779.1,
+    1069.5
+   ],
+   "confidence": 0.9674,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    64.7,
+    544.7,
+    1788.1,
+    715.6
+   ],
+   "confidence": 0.9548,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    35.5,
+    3062.4,
+    1744.2,
+    3188.9
+   ],
+   "confidence": 0.9303,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    124.4,
+    2032.0,
+    1051.8,
+    2093.7
+   ],
+   "confidence": 0.8862,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    139.4,
+    433.8,
+    892.0,
+    487.9
+   ],
+   "confidence": 0.8735,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    819.4,
+    305.3,
+    1067.6,
+    350.4
+   ],
+   "confidence": 0.5008,
+   "id": 9,
+   "label": "page_number"
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
+  {
+   "source_label": "header",
+   "bbox": [
+    819.4,
+    305.3,
+    1067.6,
+    350.4
+   ],
+   "confidence": 0.5003,
+   "label": "header"
+  }
+ ]
+}

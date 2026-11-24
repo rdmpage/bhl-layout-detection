@@ -1,0 +1,153 @@
+{
+ "page_id": 16085287,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1839,
+  "height": 3094
+ },
+ "stratum": "text_figure",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    76.9,
+    2255.6,
+    1557.5,
+    2769.0
+   ],
+   "confidence": 0.982,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    79.2,
+    135.6,
+    1559.3,
+    707.1
+   ],
+   "confidence": 0.9818,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    929.5,
+    1077.8,
+    1571.5,
+    1723.8
+   ],
+   "confidence": 0.9563,
+   "ink_pct": 11.6,
+   "id": 2,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    134.5,
+    1951.8,
+    1556.3,
+    2237.5
+   ],
+   "confidence": 0.9249,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1500.5,
+    33.2,
+    1554.4,
+    75.2
+   ],
+   "confidence": 0.8592,
+   "id": 4,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    91.0,
+    927.9,
+    874.3,
+    1948.6
+   ],
+   "confidence": 0.8374,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    142.5,
+    767.7,
+    880.6,
+    822.8
+   ],
+   "confidence": 0.767,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    883.8,
+    1777.4,
+    1556.6,
+    1921.9
+   ],
+   "confidence": 0.7296,
+   "id": 7,
+   "label": "caption"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    142.1,
+    711.0,
+    1223.1,
+    760.7
+   ],
+   "confidence": 0.7276,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    417.2,
+    30.5,
+    1220.4,
+    85.0
+   ],
+   "confidence": 0.6991,
+   "id": 9,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    485.3,
+    858.6,
+    1157.1,
+    916.6
+   ],
+   "confidence": 0.6435,
+   "id": 10,
+   "label": "text"
+  }
+ ],
+ "pairs": [
+  {
+   "object": 2,
+   "object_label": "figure",
+   "caption": 7,
+   "position": "below",
+   "gap": 53.6
+  }
+ ]
+}

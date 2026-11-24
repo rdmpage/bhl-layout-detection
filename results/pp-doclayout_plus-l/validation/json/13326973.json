@@ -1,0 +1,154 @@
+{
+ "page_id": 13326973,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2101,
+  "height": 3512
+ },
+ "stratum": "text_figure",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    136.8,
+    961.3,
+    1869.2,
+    2303.2
+   ],
+   "confidence": 0.9828,
+   "ink_pct": 18.81,
+   "id": 0,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    143.0,
+    443.7,
+    1858.6,
+    671.0
+   ],
+   "confidence": 0.9752,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    141.7,
+    679.5,
+    1861.1,
+    908.5
+   ],
+   "confidence": 0.9716,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    150.2,
+    2453.7,
+    1866.0,
+    2805.6
+   ],
+   "confidence": 0.9706,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    152.9,
+    2812.8,
+    1865.7,
+    3163.3
+   ],
+   "confidence": 0.9664,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    144.1,
+    323.6,
+    1856.7,
+    435.2
+   ],
+   "confidence": 0.952,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    369.2,
+    211.1,
+    1639.1,
+    258.9
+   ],
+   "confidence": 0.9085,
+   "id": 6,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    616.3,
+    2334.4,
+    1378.3,
+    2384.5
+   ],
+   "confidence": 0.9004,
+   "id": 7,
+   "label": "caption"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1799.1,
+    208.7,
+    1855.2,
+    252.0
+   ],
+   "confidence": 0.8537,
+   "id": 8,
+   "label": "page_number"
+  },
+  {
+   "source_label": "footer",
+   "bbox": [
+    1697.3,
+    3196.9,
+    1829.7,
+    3232.3
+   ],
+   "confidence": 0.5829,
+   "id": 9,
+   "label": "footer"
+  }
+ ],
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 7,
+   "position": "below",
+   "gap": 31.2
+  }
+ ],
+ "duplicates": [
+  {
+   "source_label": "text",
+   "bbox": [
+    1697.3,
+    3196.9,
+    1829.7,
+    3232.3
+   ],
+   "confidence": 0.5455,
+   "label": "text"
+  }
+ ]
+}

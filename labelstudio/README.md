@@ -7,6 +7,7 @@ Made by `make_labelstudio.py` from detector output in the common JSON format.
 | `config.xml` | Labelling interface: boxes labelled figure, caption, table, text, title, header, footer, page_number, stamp; a `caption_of` relation from a caption to its figure or table |
 | `pp-doclayout_plus-l_test_tasks.json` | 324 test pages; images load from BHL's S3 bucket |
 | `pp-doclayout_plus-l_test_local_tasks.json` | The same, with images served from `layout/images` |
+| `pp-doclayout_plus-l_validation_tasks.json`, `..._local_tasks.json` | The 273 validation pages, the same way (separate project, "BHL layout validation") |
 
 Each task carries the PP-DocLayout boxes as pre-annotations (Label Studio "predictions"), and caption pairs as relations. Boxes the ink filter marked `empty` are left out. Task data includes `page_id`, `stratum`, `era` and `bhl_url`, so you can filter and sort by them in the data manager.
 
@@ -37,6 +38,10 @@ docker exec <container> label-studio export 2 JSON --export-path /label-studio/d
 ```
 
 then copy it to `export/` (replace `completed_by` with the user id, so no email address goes into git) and run `labelstudio_to_gold.py`. If a page was submitted twice, the converter uses the newer annotation.
+
+## Validation: partial correction
+
+Validation is for tuning post-processing (cover/logo filter, merging figure panels, ink threshold, caption pairing), which only depends on figures and captions. So on validation pages correct only `figure`, `caption`, `table`, `title` and `stamp` boxes and the `caption_of` relations, and leave `text`, `header`, `footer` and `page_number` as the model drew them unless badly wrong. Validation scores for those classes are not meaningful.
 
 ## Labelling rules
 

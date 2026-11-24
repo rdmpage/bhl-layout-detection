@@ -1,0 +1,152 @@
+{
+ "page_id": 56853511,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2700,
+  "height": 4601
+ },
+ "stratum": "two_column",
+ "boxes": [
+  {
+   "source_label": "table",
+   "bbox": [
+    284.6,
+    564.4,
+    2544.5,
+    4102.0
+   ],
+   "confidence": 0.9433,
+   "id": 0,
+   "label": "table"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    293.1,
+    427.7,
+    414.4,
+    488.7
+   ],
+   "confidence": 0.6828,
+   "id": 1,
+   "label": "page_number"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    525.0,
+    422.2,
+    2273.4,
+    497.6
+   ],
+   "confidence": 0.6428,
+   "id": 2,
+   "label": "caption"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    302.7,
+    3780.0,
+    434.5,
+    3838.7
+   ],
+   "confidence": 0.6377,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    303.0,
+    2427.9,
+    424.1,
+    2487.5
+   ],
+   "confidence": 0.5987,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    299.4,
+    1837.5,
+    453.7,
+    1897.7
+   ],
+   "confidence": 0.558,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    531.7,
+    2544.8,
+    628.5,
+    2607.9
+   ],
+   "confidence": 0.548,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    304.2,
+    2855.1,
+    482.3,
+    2916.3
+   ],
+   "confidence": 0.5331,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    298.5,
+    1957.0,
+    445.7,
+    2015.1
+   ],
+   "confidence": 0.5188,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    434.3,
+    2308.6,
+    592.8,
+    2371.1
+   ],
+   "confidence": 0.5144,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    303.1,
+    2544.5,
+    473.4,
+    2603.7
+   ],
+   "confidence": 0.5034,
+   "id": 10,
+   "label": "text"
+  }
+ ],
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "table",
+   "caption": 2,
+   "position": "above",
+   "gap": 66.8
+  }
+ ]
+}

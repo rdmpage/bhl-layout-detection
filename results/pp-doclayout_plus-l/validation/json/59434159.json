@@ -1,0 +1,153 @@
+{
+ "page_id": 59434159,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1821,
+  "height": 2892
+ },
+ "stratum": "text_figure",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    162.0,
+    2195.5,
+    1545.7,
+    2485.3
+   ],
+   "confidence": 0.9792,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    222.8,
+    755.6,
+    1472.6,
+    1812.8
+   ],
+   "confidence": 0.9754,
+   "ink_pct": 4.88,
+   "id": 1,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    167.4,
+    524.9,
+    1543.7,
+    613.0
+   ],
+   "confidence": 0.9579,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    166.9,
+    624.6,
+    1544.6,
+    715.7
+   ],
+   "confidence": 0.956,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    162.2,
+    2000.1,
+    1544.9,
+    2089.2
+   ],
+   "confidence": 0.9544,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    166.1,
+    2098.2,
+    1545.8,
+    2186.8
+   ],
+   "confidence": 0.9524,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1497.4,
+    254.3,
+    1545.3,
+    280.3
+   ],
+   "confidence": 0.8575,
+   "id": 6,
+   "label": "page_number"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    750.3,
+    249.7,
+    971.5,
+    279.4
+   ],
+   "confidence": 0.8502,
+   "id": 7,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    164.0,
+    1851.5,
+    1542.2,
+    1923.8
+   ],
+   "confidence": 0.803,
+   "id": 8,
+   "label": "caption"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    751.8,
+    439.8,
+    967.2,
+    483.8
+   ],
+   "confidence": 0.5997,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    612.1,
+    373.1,
+    1116.4,
+    414.9
+   ],
+   "confidence": 0.5301,
+   "id": 10,
+   "label": "text"
+  }
+ ],
+ "pairs": [
+  {
+   "object": 1,
+   "object_label": "figure",
+   "caption": 8,
+   "position": "below",
+   "gap": 38.7
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "page_id": 500937,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2250,
+  "height": 3690
+ },
+ "stratum": "title",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    518.8,
+    2933.6,
+    1654.6,
+    3063.2
+   ],
+   "confidence": 0.8842,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    389.9,
+    3151.4,
+    1776.5,
+    3337.8
+   ],
+   "confidence": 0.8779,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    169.6,
+    2560.5,
+    1994.9,
+    2859.1
+   ],
+   "confidence": 0.8412,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1787.6,
+    2410.2,
+    1978.0,
+    2468.5
+   ],
+   "confidence": 0.7876,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    190.5,
+    2420.2,
+    531.6,
+    2480.8
+   ],
+   "confidence": 0.7801,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    645.9,
+    764.6,
+    1519.3,
+    957.4
+   ],
+   "confidence": 0.7737,
+   "id": 5,
+   "label": "title"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    824.8,
+    2409.2,
+    1333.6,
+    2490.0
+   ],
+   "confidence": 0.7341,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    892.3,
+    1156.9,
+    1275.7,
+    1278.4
+   ],
+   "confidence": 0.6893,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    240.8,
+    1372.2,
+    1943.1,
+    1506.5
+   ],
+   "confidence": 0.675,
+   "id": 8,
+   "label": "title"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    564.1,
+    1858.6,
+    1614.8,
+    2314.4
+   ],
+   "confidence": 0.6321,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    502.9,
+    3470.3,
+    1661.2,
+    3540.1
+   ],
+   "confidence": 0.6125,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    419.1,
+    359.8,
+    1745.9,
+    549.9
+   ],
+   "confidence": 0.5452,
+   "id": 11,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    442.9,
+    1602.5,
+    1736.2,
+    1697.6
+   ],
+   "confidence": 0.538,
+   "id": 12,
+   "label": "text"
+  }
+ ],
+ "pairs": [],
+ "duplicates": [
+  {
+   "source_label": "footer",
+   "bbox": [
+    502.9,
+    3470.3,
+    1661.2,
+    3540.1
+   ],
+   "confidence": 0.5531,
+   "label": "footer"
+  }
+ ]
+}
