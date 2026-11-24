@@ -8,3 +8,6 @@ layout/images/
 # rebuilt by layout_post.py
 results/*/*/overlays/
 results/*/*/index.html
+
+# scratch files (example page images etc.)
+junk/
