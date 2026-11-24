@@ -1,0 +1,153 @@
+{
+ "page_id": 40661900,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 3344,
+  "height": 4664
+ },
+ "stratum": "text_figure",
+ "boxes": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    782.1,
+    2978.8,
+    3103.8,
+    3540.9
+   ],
+   "confidence": 0.9821,
+   "id": 0
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    782.3,
+    1901.7,
+    3106.5,
+    2301.9
+   ],
+   "confidence": 0.9784,
+   "id": 1
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    783.6,
+    2484.9,
+    3105.8,
+    2963.4
+   ],
+   "confidence": 0.9783,
+   "id": 2
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    819.2,
+    3739.2,
+    3099.6,
+    4054.8
+   ],
+   "confidence": 0.9682,
+   "id": 3
+  },
+  {
+   "label": "figure",
+   "source_label": "image",
+   "bbox": [
+    1524.5,
+    400.5,
+    2437.1,
+    1561.3
+   ],
+   "confidence": 0.9583,
+   "ink_pct": 25.3,
+   "id": 4
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    785.0,
+    2319.3,
+    3105.9,
+    2470.9
+   ],
+   "confidence": 0.9405,
+   "id": 5
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    786.2,
+    3556.3,
+    3102.7,
+    3706.4
+   ],
+   "confidence": 0.9318,
+   "id": 6
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    1382.6,
+    279.9,
+    2546.9,
+    328.1
+   ],
+   "confidence": 0.8931,
+   "id": 7
+  },
+  {
+   "label": "caption",
+   "source_label": "figure_title",
+   "bbox": [
+    1483.3,
+    1619.7,
+    2411.6,
+    1740.9
+   ],
+   "confidence": 0.8755,
+   "id": 8
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    798.2,
+    264.2,
+    907.4,
+    323.0
+   ],
+   "confidence": 0.822,
+   "id": 9
+  },
+  {
+   "label": "text",
+   "source_label": "formula",
+   "bbox": [
+    1513.2,
+    2566.9,
+    1860.3,
+    2642.3
+   ],
+   "confidence": 0.5889,
+   "id": 10
+  }
+ ],
+ "pairs": [
+  {
+   "object": 4,
+   "object_label": "figure",
+   "caption": 8,
+   "position": "below",
+   "gap": 58.4
+  }
+ ]
+}

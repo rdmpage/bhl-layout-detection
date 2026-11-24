@@ -1,0 +1,19 @@
+<View>
+  <Header value="$page_id ($stratum)"/>
+  <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="false"/>
+  <RectangleLabels name="label" toName="image" strokeWidth="2">
+    <Label value="figure" background="#dc1e1e"/>
+    <Label value="caption" background="#f08c00"/>
+    <Label value="table" background="#1e961e"/>
+    <Label value="text" background="#1e5adc"/>
+    <Label value="title" background="#00a0aa"/>
+    <Label value="header" background="#787878"/>
+    <Label value="footer" background="#787878"/>
+    <Label value="page_number" background="#5a5a5a"/>
+    <Label value="stamp" background="#c800c8"/>
+  </RectangleLabels>
+  <Relations>
+    <Relation value="caption_of"/>
+  </Relations>
+  <HyperText name="bhl" value="$bhl_link" inline="true"/>
+</View>

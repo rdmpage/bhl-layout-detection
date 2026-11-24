@@ -1,0 +1,144 @@
+{
+ "page_id": 28680628,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2389,
+  "height": 4040
+ },
+ "stratum": "two_column",
+ "boxes": [
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    1115.3,
+    225.9,
+    1518.7,
+    261.6
+   ],
+   "confidence": 0.8915,
+   "id": 0
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    294.5,
+    3140.5,
+    2322.1,
+    3327.1
+   ],
+   "confidence": 0.8743,
+   "id": 1
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    314.1,
+    227.6,
+    368.5,
+    267.7
+   ],
+   "confidence": 0.8211,
+   "id": 2
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    295.5,
+    3005.8,
+    2322.2,
+    3127.9
+   ],
+   "confidence": 0.7668,
+   "id": 3
+  },
+  {
+   "label": "title",
+   "source_label": "doc_title",
+   "bbox": [
+    487.6,
+    467.9,
+    2136.0,
+    530.6
+   ],
+   "confidence": 0.598,
+   "id": 4
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    1380.7,
+    1438.6,
+    2328.5,
+    1783.7
+   ],
+   "confidence": 0.5845,
+   "id": 5
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    307.8,
+    1597.0,
+    1060.6,
+    1931.9
+   ],
+   "confidence": 0.5529,
+   "id": 6
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    1396.3,
+    1161.9,
+    2080.7,
+    1388.4
+   ],
+   "confidence": 0.5249,
+   "id": 7
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    1378.2,
+    936.6,
+    2173.8,
+    1112.0
+   ],
+   "confidence": 0.5234,
+   "id": 8
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    1376.0,
+    2188.4,
+    2021.7,
+    2363.7
+   ],
+   "confidence": 0.5176,
+   "id": 9
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    1379.6,
+    1973.0,
+    2193.7,
+    2151.5
+   ],
+   "confidence": 0.5116,
+   "id": 10
+  }
+ ],
+ "pairs": []
+}

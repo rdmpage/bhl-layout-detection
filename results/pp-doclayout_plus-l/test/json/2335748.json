@@ -1,0 +1,24 @@
+{
+ "page_id": 2335748,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2248,
+  "height": 3808
+ },
+ "stratum": "blank",
+ "boxes": [
+  {
+   "label": "stamp",
+   "source_label": "seal",
+   "bbox": [
+    974.5,
+    1866.5,
+    1597.4,
+    2269.1
+   ],
+   "confidence": 0.627,
+   "id": 0
+  }
+ ],
+ "pairs": []
+}

@@ -1,0 +1,5 @@
+# Python 3.12 (paddlepaddle has no build for 3.14 yet)
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+numpy
+pillow

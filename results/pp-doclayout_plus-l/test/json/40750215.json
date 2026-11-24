@@ -1,0 +1,161 @@
+{
+ "page_id": 40750215,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2362,
+  "height": 3698
+ },
+ "stratum": "rotated",
+ "boxes": [
+  {
+   "label": "table",
+   "source_label": "table",
+   "bbox": [
+    213.7,
+    258.3,
+    1122.9,
+    3448.1
+   ],
+   "confidence": 0.9432,
+   "id": 0
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    577.9,
+    108.7,
+    1724.8,
+    145.8
+   ],
+   "confidence": 0.9115,
+   "id": 1
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    1992.4,
+    114.0,
+    2074.4,
+    157.8
+   ],
+   "confidence": 0.8169,
+   "id": 2
+  },
+  {
+   "label": "caption",
+   "source_label": "figure_title",
+   "bbox": [
+    1493.1,
+    1287.9,
+    1537.9,
+    1774.7
+   ],
+   "confidence": 0.7166,
+   "id": 3
+  },
+  {
+   "label": "caption",
+   "source_label": "figure_title",
+   "bbox": [
+    1976.9,
+    1235.7,
+    2069.4,
+    2479.9
+   ],
+   "confidence": 0.6976,
+   "id": 4
+  },
+  {
+   "label": "caption",
+   "source_label": "figure_title",
+   "bbox": [
+    1492.2,
+    2053.5,
+    1535.4,
+    2257.6
+   ],
+   "confidence": 0.6741,
+   "id": 5
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    195.7,
+    3540.9,
+    217.2,
+    3572.9
+   ],
+   "confidence": 0.6229,
+   "id": 6
+  },
+  {
+   "label": "caption",
+   "source_label": "figure_title",
+   "bbox": [
+    1149.8,
+    224.8,
+    1223.1,
+    3475.3
+   ],
+   "confidence": 0.6178,
+   "id": 7
+  },
+  {
+   "label": "table",
+   "source_label": "table",
+   "bbox": [
+    1578.3,
+    1237.5,
+    1955.3,
+    2473.4
+   ],
+   "confidence": 0.5844,
+   "id": 8
+  },
+  {
+   "label": "caption",
+   "source_label": "figure_title",
+   "bbox": [
+    1261.9,
+    1612.4,
+    1304.0,
+    2087.1
+   ],
+   "confidence": 0.5739,
+   "id": 9
+  }
+ ],
+ "pairs": [
+  {
+   "object": 8,
+   "object_label": "table",
+   "caption": 3,
+   "position": "left",
+   "gap": 40.4
+  },
+  {
+   "object": 8,
+   "object_label": "table",
+   "caption": 4,
+   "position": "right",
+   "gap": 21.6
+  },
+  {
+   "object": 8,
+   "object_label": "table",
+   "caption": 5,
+   "position": "left",
+   "gap": 42.9
+  },
+  {
+   "object": 0,
+   "object_label": "table",
+   "caption": 7,
+   "position": "right",
+   "gap": 26.9
+  }
+ ]
+}

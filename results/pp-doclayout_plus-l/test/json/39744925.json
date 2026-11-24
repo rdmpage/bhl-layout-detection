@@ -1,0 +1,153 @@
+{
+ "page_id": 39744925,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 3047,
+  "height": 4785
+ },
+ "stratum": "text_figure",
+ "boxes": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    1474.4,
+    442.5,
+    2814.7,
+    1867.3
+   ],
+   "confidence": 0.9877,
+   "id": 0
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    71.8,
+    871.4,
+    1415.1,
+    1999.2
+   ],
+   "confidence": 0.9869,
+   "id": 1
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    1479.9,
+    1878.8,
+    2818.5,
+    3012.1
+   ],
+   "confidence": 0.9869,
+   "id": 2
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    73.2,
+    2178.8,
+    1416.4,
+    3006.3
+   ],
+   "confidence": 0.9854,
+   "id": 3
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    74.9,
+    441.3,
+    1408.0,
+    813.3
+   ],
+   "confidence": 0.9776,
+   "id": 4
+  },
+  {
+   "label": "figure",
+   "source_label": "image",
+   "bbox": [
+    484.9,
+    3073.5,
+    2407.4,
+    4430.7
+   ],
+   "confidence": 0.9334,
+   "ink_pct": 7.26,
+   "id": 5
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    75.8,
+    295.3,
+    468.3,
+    349.3
+   ],
+   "confidence": 0.9101,
+   "id": 6
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    805.0,
+    299.9,
+    2083.0,
+    346.9
+   ],
+   "confidence": 0.9043,
+   "id": 7
+  },
+  {
+   "label": "text",
+   "source_label": "paragraph_title",
+   "bbox": [
+    622.5,
+    2087.9,
+    812.9,
+    2137.2
+   ],
+   "confidence": 0.8786,
+   "id": 8
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    2702.6,
+    288.4,
+    2801.7,
+    341.9
+   ],
+   "confidence": 0.8486,
+   "id": 9
+  },
+  {
+   "label": "caption",
+   "source_label": "figure_title",
+   "bbox": [
+    733.1,
+    4279.1,
+    2161.8,
+    4431.4
+   ],
+   "confidence": 0.5122,
+   "id": 10
+  }
+ ],
+ "pairs": [
+  {
+   "object": 5,
+   "object_label": "figure",
+   "caption": 10,
+   "position": "inside",
+   "gap": 0.0
+  }
+ ]
+}

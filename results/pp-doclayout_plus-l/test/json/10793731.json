@@ -1,0 +1,36 @@
+{
+ "page_id": 10793731,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2686,
+  "height": 2300
+ },
+ "stratum": "foldout",
+ "boxes": [
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    2318.9,
+    36.0,
+    2526.2,
+    69.6
+   ],
+   "confidence": 0.5436,
+   "id": 0
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    98.4,
+    30.2,
+    710.6,
+    71.2
+   ],
+   "confidence": 0.531,
+   "id": 1
+  }
+ ],
+ "pairs": []
+}

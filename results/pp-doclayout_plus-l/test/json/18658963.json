@@ -1,0 +1,156 @@
+{
+ "page_id": 18658963,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1843,
+  "height": 3214
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    204.8,
+    278.0,
+    1692.1,
+    908.6
+   ],
+   "confidence": 0.9869,
+   "id": 0
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    204.9,
+    912.5,
+    1692.7,
+    1388.7
+   ],
+   "confidence": 0.985,
+   "id": 1
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    201.6,
+    2411.5,
+    1684.1,
+    2780.6
+   ],
+   "confidence": 0.9829,
+   "id": 2
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    205.3,
+    1839.1,
+    1689.5,
+    2266.3
+   ],
+   "confidence": 0.9814,
+   "id": 3
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    202.8,
+    2785.9,
+    1682.6,
+    2876.7
+   ],
+   "confidence": 0.929,
+   "id": 4
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    233.6,
+    1647.4,
+    1691.7,
+    1801.0
+   ],
+   "confidence": 0.9224,
+   "id": 5
+  },
+  {
+   "label": "text",
+   "source_label": "paragraph_title",
+   "bbox": [
+    781.8,
+    2334.5,
+    1134.4,
+    2382.9
+   ],
+   "confidence": 0.9025,
+   "id": 6
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    256.9,
+    2886.0,
+    1681.1,
+    2942.1
+   ],
+   "confidence": 0.8886,
+   "id": 7
+  },
+  {
+   "label": "text",
+   "source_label": "paragraph_title",
+   "bbox": [
+    701.9,
+    1471.9,
+    1201.9,
+    1509.7
+   ],
+   "confidence": 0.8837,
+   "id": 8
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    313.6,
+    1558.8,
+    1585.0,
+    1611.7
+   ],
+   "confidence": 0.833,
+   "id": 9
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    213.5,
+    173.2,
+    271.8,
+    215.2
+   ],
+   "confidence": 0.8321,
+   "id": 10
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    738.7,
+    172.0,
+    1243.7,
+    228.1
+   ],
+   "confidence": 0.8313,
+   "id": 11
+  }
+ ],
+ "pairs": []
+}

@@ -1,0 +1,144 @@
+{
+ "page_id": 54382886,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1675,
+  "height": 2725
+ },
+ "stratum": "chart",
+ "boxes": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    336.8,
+    1678.0,
+    1525.9,
+    2160.3
+   ],
+   "confidence": 0.9859,
+   "id": 0
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    338.8,
+    748.2,
+    1526.6,
+    1009.6
+   ],
+   "confidence": 0.9774,
+   "id": 1
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    334.7,
+    2166.2,
+    1525.8,
+    2383.3
+   ],
+   "confidence": 0.9727,
+   "id": 2
+  },
+  {
+   "label": "table",
+   "source_label": "table",
+   "bbox": [
+    347.0,
+    1282.6,
+    1522.3,
+    1552.5
+   ],
+   "confidence": 0.9699,
+   "id": 3
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    341.4,
+    1586.1,
+    1523.4,
+    1672.1
+   ],
+   "confidence": 0.9481,
+   "id": 4
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    343.1,
+    1018.1,
+    1525.1,
+    1103.1
+   ],
+   "confidence": 0.9207,
+   "id": 5
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    341.6,
+    1123.6,
+    1525.4,
+    1253.4
+   ],
+   "confidence": 0.8465,
+   "id": 6
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    431.8,
+    2405.3,
+    1162.7,
+    2440.2
+   ],
+   "confidence": 0.8438,
+   "id": 7
+  },
+  {
+   "label": "text",
+   "source_label": "paragraph_title",
+   "bbox": [
+    671.8,
+    617.9,
+    1199.2,
+    659.0
+   ],
+   "confidence": 0.6467,
+   "id": 8
+  },
+  {
+   "label": "text",
+   "source_label": "paragraph_title",
+   "bbox": [
+    475.7,
+    531.9,
+    1395.3,
+    574.9
+   ],
+   "confidence": 0.5934,
+   "id": 9
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    825.6,
+    290.6,
+    1053.2,
+    331.3
+   ],
+   "confidence": 0.5401,
+   "id": 10
+  }
+ ],
+ "pairs": []
+}

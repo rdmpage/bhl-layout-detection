@@ -1,0 +1,180 @@
+{
+ "page_id": 40036132,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2337,
+  "height": 4046
+ },
+ "stratum": "chart",
+ "boxes": [
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    69.7,
+    1727.9,
+    2062.9,
+    2367.0
+   ],
+   "confidence": 0.9859,
+   "id": 0
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    65.7,
+    2380.8,
+    2060.8,
+    2613.6
+   ],
+   "confidence": 0.9603,
+   "id": 1
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    74.6,
+    386.8,
+    2060.2,
+    537.8
+   ],
+   "confidence": 0.9569,
+   "id": 2
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    151.1,
+    1074.8,
+    2057.9,
+    1221.1
+   ],
+   "confidence": 0.9243,
+   "id": 3
+  },
+  {
+   "label": "table",
+   "source_label": "table",
+   "bbox": [
+    64.3,
+    2672.2,
+    2063.6,
+    3079.5
+   ],
+   "confidence": 0.9054,
+   "id": 4
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    747.9,
+    253.0,
+    1360.3,
+    312.4
+   ],
+   "confidence": 0.8821,
+   "id": 5
+  },
+  {
+   "label": "page_number",
+   "source_label": "number",
+   "bbox": [
+    1984.6,
+    254.2,
+    2046.8,
+    300.3
+   ],
+   "confidence": 0.8428,
+   "id": 6
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    66.4,
+    3155.7,
+    2061.4,
+    3308.6
+   ],
+   "confidence": 0.8057,
+   "id": 7
+  },
+  {
+   "label": "text",
+   "source_label": "text",
+   "bbox": [
+    211.9,
+    552.5,
+    1604.5,
+    617.6
+   ],
+   "confidence": 0.7681,
+   "id": 8
+  },
+  {
+   "label": "table",
+   "source_label": "table",
+   "bbox": [
+    55.5,
+    3329.2,
+    1932.1,
+    3771.3
+   ],
+   "confidence": 0.7482,
+   "id": 9
+  },
+  {
+   "label": "header",
+   "source_label": "header",
+   "bbox": [
+    85.8,
+    259.0,
+    269.9,
+    326.5
+   ],
+   "confidence": 0.6462,
+   "id": 10
+  },
+  {
+   "label": "text",
+   "source_label": "formula",
+   "bbox": [
+    512.9,
+    1246.5,
+    1504.0,
+    1676.7
+   ],
+   "confidence": 0.6394,
+   "id": 11
+  },
+  {
+   "label": "table",
+   "source_label": "table",
+   "bbox": [
+    499.2,
+    635.9,
+    1498.6,
+    1007.2
+   ],
+   "confidence": 0.5958,
+   "id": 12
+  },
+  {
+   "label": "table",
+   "source_label": "table",
+   "bbox": [
+    512.9,
+    1246.5,
+    1504.0,
+    1676.7
+   ],
+   "confidence": 0.524,
+   "id": 13
+  }
+ ],
+ "pairs": []
+}
