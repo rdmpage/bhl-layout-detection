@@ -1,0 +1,42 @@
+{
+ "page_id": 40847092,
+ "method": "gold",
+ "image": {
+  "width": 1911,
+  "height": 3137
+ },
+ "stratum": "map",
+ "boxes": [
+  {
+   "label": "figure",
+   "bbox": [
+    184.5,
+    121.6,
+    1771.6,
+    2853.8
+   ],
+   "id": 0
+  },
+  {
+   "label": "caption",
+   "bbox": [
+    656.0,
+    2887.1,
+    1320.8,
+    3043.3
+   ],
+   "id": 1
+  }
+ ],
+ "pairs": [
+  {
+   "caption": 1,
+   "object": 0
+  }
+ ],
+ "source": {
+  "label_studio_task": 149,
+  "annotation": 157,
+  "updated_at": "2026-11-24T16:58:09.274508Z"
+ }
+}

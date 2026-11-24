@@ -11,9 +11,12 @@ See [`bhl-layout-detection-plan.md`](bhl-layout-detection-plan.md) for the plan,
 | `layout/` | A stratified sample of 1,507 BHL pages split into train, validation and test (`pages.tsv`; see [`layout/README.md`](layout/README.md)). The images are not in git. |
 | `run_ppdoclayout.py` | Runs [PP-DocLayout](https://github.com/PaddlePaddle/PaddleOCR) on a split and writes one JSON file per page |
 | `layout_post.py` | Maps detector labels to the shared label set, flags empty "figures" (blank leaves, plain covers), pairs captions with figures and tables, draws overlays and a review page. Re-runs on saved output without the model. |
+| `labelstudio_to_gold.py` | Converts a Label Studio export of hand-corrected pages into gold labels (`results/gold/<split>/json/`, `"method": "gold"`) |
+| `score.py` | Scores a method's output against gold: page-level figure/table detection, per-class box precision/recall at IoU ≥ 0.5, merges, splits, caption pairs, all by stratum. Writes `scores.json` next to the output |
 | `make_labelstudio.py` | Turns output into a [Label Studio](https://labelstud.io) import, with the detector's boxes as pre-annotations to correct (see [`labelstudio/README.md`](labelstudio/README.md)) |
 | `results/<method>/<split>/json/` | Detector output, one JSON per page |
-| `labelstudio/` | Labelling config and import files for the test split |
+| `results/gold/test/json/` | Hand-corrected labels for the 324 test pages |
+| `labelstudio/` | Labelling config, import files, and the export of the corrected test split (`export/test_annotations.json`) |
 
 ## Labels
 
@@ -37,3 +40,10 @@ The page images are BHL's JPEGs from its open data; each page's `image_url` in `
 ```
 
 Open `results/pp-doclayout_plus-l/test/index.html` to review the overlays.
+
+Scoring against the hand-corrected test pages:
+
+```sh
+.venv/bin/python labelstudio_to_gold.py labelstudio/export/test_annotations.json
+.venv/bin/python score.py results/pp-doclayout_plus-l/test
+```

@@ -22,11 +22,11 @@ Strata are BHL page types, which are noisy: use them for sampling and per-stratu
 ## Status (2026-11-24)
 
 - PP-DocLayout_plus-L run on the 324 test pages; train and validation not yet run.
-- Test split imported into Label Studio (Docker, http://localhost:8080, project "BHL layout test", id 2) with the model's boxes as predictions and caption pairs as `caption_of` relations. Hand correction not started.
+- Test split hand-corrected in Label Studio (Docker, http://localhost:8080, project "BHL layout test", id 2), exported to `labelstudio/export/test_annotations.json` and converted to `results/gold/test/` (1,879 boxes, 128 caption pairs). Empty pages are real labels (blank leaves, plain covers). Page 62632828 (Austrobaileya cover) has no boxes, which may be a slip.
+- PP-DocLayout scored against gold (`score.py`): figure pages F1 0.95, figure boxes 0.91, captions 0.85, caption pairs 0.85. False figures are covers that pass the ink filter; missed figures are mostly foldouts with no box, or figures called tables. `text` precision is low (0.63) mainly because of box granularity (paragraph vs block), not real errors.
+- Train and validation don't need hand labels unless we fine-tune or tune thresholds; then a small validation set (50–100 pages), so test isn't used for tuning.
 
 ## Next steps
 
-1. Settle labelling rules before correcting (see `labelstudio/README.md`), especially one box per plate vs per figure.
-2. Write a converter from Label Studio's export to the common JSON format (`"method": "gold"`) and a scoring script.
-3. OCR word-box baseline: mask OCR word boxes and treat large remaining inked regions as figures. Needs the IA OCR data on an external drive (not yet connected).
-4. Compare other detectors (DocLayout-YOLO, Docling) in the same format; fine-tune only if pretrained models fall short.
+1. OCR word-box baseline: mask OCR word boxes and treat large remaining inked regions as figures. Needs the IA OCR data on an external drive (not yet connected).
+2. Compare other detectors (DocLayout-YOLO, Docling) in the same format; fine-tune only if pretrained models fall short.

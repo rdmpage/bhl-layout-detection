@@ -28,6 +28,16 @@ label-studio start
 
 Box coordinates are percentages of the image, so they fit whichever copy of the image is shown, as long as it is the same scan.
 
+## Export
+
+Only **submitted** annotations are exported; drafts (Label Studio's autosave of a page you have opened but not submitted) are not. Check the Data Manager shows every task as completed before exporting. To export from the Docker container (its data dir is mounted at `/label-studio/data`):
+
+```sh
+docker exec <container> label-studio export 2 JSON --export-path /label-studio/data/export.json
+```
+
+then copy it to `export/` (replace `completed_by` with the user id, so no email address goes into git) and run `labelstudio_to_gold.py`. If a page was submitted twice, the converter uses the newer annotation.
+
 ## Labelling rules to settle first
 
 - One box per plate, or one per numbered figure?
