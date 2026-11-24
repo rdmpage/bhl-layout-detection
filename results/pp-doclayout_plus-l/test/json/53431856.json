@@ -115,7 +115,8 @@
    ],
    "confidence": 0.6461,
    "ink_pct": 0.0,
-   "id": 8
+   "id": 8,
+   "empty_reason": "ink"
   },
   {
    "label": "text",
@@ -151,6 +152,9 @@
    "gap": 52.1
   }
  ],
+ "page": {
+  "paper": 0.996
+ },
  "duplicates": [
   {
    "label": "title",

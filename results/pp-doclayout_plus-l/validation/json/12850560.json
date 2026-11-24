@@ -53,6 +53,9 @@
    "gap": 38.7
   }
  ],
+ "page": {
+  "paper": 0.945
+ },
  "duplicates": [
   {
    "source_label": "header",

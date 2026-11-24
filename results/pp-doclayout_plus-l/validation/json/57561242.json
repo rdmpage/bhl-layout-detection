@@ -217,6 +217,9 @@
    "gap": 31.8
   }
  ],
+ "page": {
+  "paper": 1.0
+ },
  "duplicates": [
   {
    "source_label": "doc_title",

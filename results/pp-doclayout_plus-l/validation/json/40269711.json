@@ -20,5 +20,8 @@
    "label": "footer"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.82
+ }
 }

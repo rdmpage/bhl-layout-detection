@@ -18,8 +18,12 @@
    "confidence": 0.9348,
    "ink_pct": 9.8,
    "id": 0,
-   "label": "figure"
+   "label": "empty",
+   "empty_reason": "cover"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.169
+ }
 }

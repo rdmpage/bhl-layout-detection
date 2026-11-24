@@ -93,5 +93,8 @@
    "label": "header"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.216
+ }
 }

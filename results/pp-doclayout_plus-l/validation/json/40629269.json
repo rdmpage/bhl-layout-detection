@@ -309,6 +309,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 1.0
+ },
  "duplicates": [
   {
    "source_label": "text",

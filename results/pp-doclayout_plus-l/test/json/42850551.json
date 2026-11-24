@@ -40,5 +40,8 @@
    "position": "left",
    "gap": 20.1
   }
- ]
+ ],
+ "page": {
+  "paper": 0.737
+ }
 }

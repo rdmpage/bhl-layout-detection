@@ -32,5 +32,8 @@
    "label": "header"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.392
+ }
 }

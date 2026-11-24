@@ -8,7 +8,7 @@
  "stratum": "title",
  "boxes": [
   {
-   "label": "figure",
+   "label": "empty",
    "source_label": "image",
    "bbox": [
     2.2,
@@ -18,8 +18,12 @@
    ],
    "confidence": 0.9622,
    "ink_pct": 2.64,
-   "id": 0
+   "id": 0,
+   "empty_reason": "cover"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.239
+ }
 }

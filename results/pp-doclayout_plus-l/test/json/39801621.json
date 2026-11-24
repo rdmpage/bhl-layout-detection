@@ -220,5 +220,8 @@
    "position": "above",
    "gap": 42.9
   }
- ]
+ ],
+ "page": {
+  "paper": 0.784
+ }
 }

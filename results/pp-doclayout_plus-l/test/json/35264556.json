@@ -83,5 +83,8 @@
    "position": "inside",
    "gap": 0.0
   }
- ]
+ ],
+ "page": {
+  "paper": 0.729
+ }
 }

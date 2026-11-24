@@ -1,0 +1,57 @@
+{
+ "page_id": 37181775,
+ "method": "gold",
+ "image": {
+  "width": 1856,
+  "height": 3227
+ },
+ "stratum": "map",
+ "boxes": [
+  {
+   "label": "figure",
+   "bbox": [
+    591.4,
+    530.3,
+    1796.0,
+    2879.7
+   ],
+   "id": 0
+  },
+  {
+   "label": "text",
+   "bbox": [
+    479.0,
+    2109.4,
+    663.5,
+    2623.7
+   ],
+   "id": 1
+  },
+  {
+   "label": "text",
+   "bbox": [
+    402.4,
+    1009.9,
+    639.1,
+    1838.4
+   ],
+   "id": 2
+  },
+  {
+   "label": "figure",
+   "bbox": [
+    0.0,
+    433.9,
+    485.2,
+    2883.8
+   ],
+   "id": 3
+  }
+ ],
+ "pairs": [],
+ "source": {
+  "label_studio_task": 437,
+  "annotation": 439,
+  "updated_at": "2026-11-24T22:52:19.097462Z"
+ }
+}

@@ -2,6 +2,7 @@
 
 - relabel: map the detector's own labels (`source_label`) onto the shared label set
 - drop_duplicates: where two boxes cover the same region, keep the more confident
+- drop_covers: a lone page-sized "figure" on a dark page is a cover -> empty
 - pair_captions: link each caption box to the figure or table it describes
 - draw_overlay / write_index: images and a review page
 
@@ -24,6 +25,14 @@ LAYOUT = ROOT / "layout"
 # A figure box with less than this % of "ink" (pixels clearly darker than the
 # local background) is relabelled "empty": blank leaves and plain cloth covers.
 MIN_INK_PCT = 1.0
+
+# Cloth, leather and marbled covers come out as one page-sized figure. A figure
+# covering at least COVER_AREA of the page, with no other boxes on the page, on
+# a page whose paper brightness (70th percentile of grey level, 0-1) is below
+# MAX_COVER_PAPER, becomes "empty". Set on the validation split: lone
+# page-sized real figures (plates, foldouts) were all >= 0.61, covers <= 0.42.
+COVER_AREA = 0.5
+MAX_COVER_PAPER = 0.5
 
 # PP-DocLayout labels -> shared label set. Anything not listed is "text"
 # (paragraph_title, reference, footnote, aside_text, formula, ...).
@@ -73,8 +82,10 @@ def relabel(doc):
     for i, b in enumerate(doc["boxes"]):
         b["id"] = i
         b["label"] = LABEL_MAP.get(b["source_label"], "text")
+        b.pop("empty_reason", None)
         if b["label"] == "figure" and b.get("ink_pct", 100) < MIN_INK_PCT:
             b["label"] = "empty"
+            b["empty_reason"] = "ink"
     return doc
 
 
@@ -105,6 +116,31 @@ def drop_duplicates(doc):
     doc["boxes"] = keep
     if dups:
         doc["duplicates"] = dups
+    return doc
+
+
+def paper_brightness(image_path):
+    """70th percentile of the page's grey level (0-1): the paper, not the ink."""
+    import numpy as np
+    im = Image.open(image_path)
+    im.draft("L", (400, 400))
+    return round(float(np.percentile(np.asarray(im.convert("L").resize((150, 200)), float), 70)) / 255, 3)
+
+
+def drop_covers(doc):
+    """Relabel a lone, page-sized figure on a dark page as "empty" (needs
+    doc["page"]["paper"], see paper_brightness)."""
+    paper = doc.get("page", {}).get("paper")
+    if paper is None or paper >= MAX_COVER_PAPER:
+        return doc
+    W, H = doc["image"]["width"], doc["image"]["height"]
+    live = [b for b in doc["boxes"] if b["label"] != "empty"]
+    for b in live:
+        x0, y0, x1, y1 = b["bbox"]
+        if (b["label"] == "figure" and (x1 - x0) * (y1 - y0) >= COVER_AREA * W * H
+                and all(o["label"] == "figure" for o in live)):
+            b["label"] = "empty"
+            b["empty_reason"] = "cover"
     return doc
 
 
@@ -251,7 +287,10 @@ def process_dir(result_dir):
     (result_dir / "overlays").mkdir(exist_ok=True)
     docs = []
     for f in sorted((result_dir / "json").glob("*.json")):
-        doc = pair_captions(drop_duplicates(relabel(json.loads(f.read_text()))))
+        doc = json.loads(f.read_text())
+        if "paper" not in doc.get("page", {}):
+            doc.setdefault("page", {})["paper"] = paper_brightness(images[doc["page_id"]])
+        doc = pair_captions(drop_covers(drop_duplicates(relabel(doc))))
         f.write_text(json.dumps(doc, indent=1))
         draw_overlay(doc, images[doc["page_id"]], result_dir / "overlays" / f"{doc['page_id']}.jpg")
         docs.append(doc)

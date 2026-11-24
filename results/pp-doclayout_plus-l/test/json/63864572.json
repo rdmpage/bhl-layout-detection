@@ -7,5 +7,8 @@
  },
  "stratum": "blank",
  "boxes": [],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.918
+ }
 }

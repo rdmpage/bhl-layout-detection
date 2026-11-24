@@ -56,5 +56,8 @@
    "label": "title"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.996
+ }
 }

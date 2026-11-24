@@ -162,5 +162,8 @@
    "position": "below",
    "gap": 24.6
   }
- ]
+ ],
+ "page": {
+  "paper": 0.953
+ }
 }

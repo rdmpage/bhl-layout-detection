@@ -201,6 +201,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 0.898
+ },
  "duplicates": [
   {
    "source_label": "table",

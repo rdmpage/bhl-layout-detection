@@ -237,5 +237,8 @@
    "label": "title"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 1.0
+ }
 }

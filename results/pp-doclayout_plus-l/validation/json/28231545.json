@@ -76,5 +76,8 @@
    "position": "above",
    "gap": 47.5
   }
- ]
+ ],
+ "page": {
+  "paper": 0.906
+ }
 }

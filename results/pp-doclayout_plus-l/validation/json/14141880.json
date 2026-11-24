@@ -32,5 +32,8 @@
    "label": "table"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.804
+ }
 }

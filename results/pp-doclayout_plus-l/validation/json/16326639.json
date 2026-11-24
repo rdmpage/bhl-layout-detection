@@ -320,5 +320,8 @@
    "label": "text"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.788
+ }
 }

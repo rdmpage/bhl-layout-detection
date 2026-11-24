@@ -33,6 +33,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 0.773
+ },
  "duplicates": [
   {
    "source_label": "figure_title",

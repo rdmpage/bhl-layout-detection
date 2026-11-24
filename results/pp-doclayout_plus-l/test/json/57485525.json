@@ -225,6 +225,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 1.0
+ },
  "duplicates": [
   {
    "label": "text",

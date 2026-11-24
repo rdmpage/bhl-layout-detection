@@ -154,6 +154,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 0.973
+ },
  "duplicates": [
   {
    "source_label": "figure_title",

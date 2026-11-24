@@ -32,5 +32,8 @@
    "label": "caption"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.788
+ }
 }

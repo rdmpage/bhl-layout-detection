@@ -153,5 +153,8 @@
    "label": "page_number"
   }
  ],
- "pairs": []
+ "pairs": [],
+ "page": {
+  "paper": 0.631
+ }
 }

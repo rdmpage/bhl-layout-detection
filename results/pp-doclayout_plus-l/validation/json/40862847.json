@@ -33,6 +33,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 0.8
+ },
  "duplicates": [
   {
    "source_label": "text",

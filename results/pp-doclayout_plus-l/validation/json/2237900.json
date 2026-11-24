@@ -41,6 +41,9 @@
    "gap": 34.6
   }
  ],
+ "page": {
+  "paper": 0.937
+ },
  "duplicates": [
   {
    "source_label": "text",

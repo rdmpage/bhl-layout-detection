@@ -57,6 +57,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 0.706
+ },
  "duplicates": [
   {
    "source_label": "text",

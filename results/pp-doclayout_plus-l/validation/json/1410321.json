@@ -177,6 +177,9 @@
   }
  ],
  "pairs": [],
+ "page": {
+  "paper": 0.882
+ },
  "duplicates": [
   {
    "source_label": "paragraph_title",
