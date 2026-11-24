@@ -38,9 +38,12 @@ docker exec <container> label-studio export 2 JSON --export-path /label-studio/d
 
 then copy it to `export/` (replace `completed_by` with the user id, so no email address goes into git) and run `labelstudio_to_gold.py`. If a page was submitted twice, the converter uses the newer annotation.
 
-## Labelling rules to settle first
+## Labelling rules
 
 - One box per plate, or one per numbered figure?
 - Figure numbers and lettering inside a plate are part of the figure, not captions.
 - A map is a figure; a graph is a figure; a table drawn as a grid is a table.
 - Section headings are `text`.
+- Covers: label as if printed in black and white. Colour, tone or texture is background, not a figure. Journal name → `title`, other words → `text`; a real picture on the cover (photo, drawing) → `figure`. Plain cloth, marbled and leather covers get no boxes.
+- Logos, crests, publisher's devices and printed seals get no box: they are decoration, not figures we want to extract.
+- `stamp` is for library and ownership stamps only.

@@ -22,8 +22,8 @@ Strata are BHL page types, which are noisy: use them for sampling and per-stratu
 ## Status (2026-11-24)
 
 - PP-DocLayout_plus-L run on the 324 test pages; train and validation not yet run.
-- Test split hand-corrected in Label Studio (Docker, http://localhost:8080, project "BHL layout test", id 2), exported to `labelstudio/export/test_annotations.json` and converted to `results/gold/test/` (1,879 boxes, 128 caption pairs). Empty pages are real labels (blank leaves, plain covers). Page 62632828 (Austrobaileya cover) has no boxes, which may be a slip.
-- PP-DocLayout scored against gold (`score.py`): figure pages F1 0.95, figure boxes 0.91, captions 0.85, caption pairs 0.85. False figures are covers that pass the ink filter; missed figures are mostly foldouts with no box, or figures called tables. `text` precision is low (0.63) mainly because of box granularity (paragraph vs block), not real errors.
+- Test split hand-corrected in Label Studio (Docker, http://localhost:8080, project "BHL layout test", id 2), exported to `labelstudio/export/test_annotations.json` and converted to `results/gold/test/` (1,888 boxes, 128 caption pairs). Empty pages are real labels (blank leaves, plain covers). Covers, logos and stamps follow the rules in `labelstudio/README.md` (colour covers labelled as if black and white; no boxes on logos, crests or printed seals).
+- PP-DocLayout scored against gold (`score.py`): figure pages F1 0.94 (9 false, 6 missed), figure boxes 0.90, captions 0.85, caption pairs 0.85. False figure pages are covers that pass the ink filter (6), a stamped blank leaf (1) and small logos/devices (2) (title-stratum figure-page precision 0.27), so a post-filter for whole-page figures on covers and tiny corner figures is the obvious next fix (tune it on validation, not test); missed figures are mostly foldouts with no box, or figures called tables. `text` precision is low (0.63) mainly because of box granularity (paragraph vs block), not real errors.
 - Train and validation don't need hand labels unless we fine-tune or tune thresholds; then a small validation set (50–100 pages), so test isn't used for tuning.
 
 ## Next steps

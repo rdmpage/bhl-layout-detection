@@ -6,22 +6,11 @@
   "height": 2931
  },
  "stratum": "title",
- "boxes": [
-  {
-   "label": "figure",
-   "bbox": [
-    613.1,
-    1210.4,
-    963.9,
-    1717.7
-   ],
-   "id": 0
-  }
- ],
+ "boxes": [],
  "pairs": [],
  "source": {
   "label_studio_task": 295,
   "annotation": 297,
-  "updated_at": "2026-11-24T17:01:54.574692Z"
+  "updated_at": "2026-11-24T20:16:35.580235Z"
  }
 }
