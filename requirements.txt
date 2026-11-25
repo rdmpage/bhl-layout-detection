@@ -3,3 +3,6 @@ paddlepaddle==3.3.1
 paddleocr==3.7.0
 numpy
 pillow
+
+# Hugging Face export (export_hf.py)
+datasets

@@ -13,6 +13,7 @@ See [`bhl-layout-detection-plan.md`](bhl-layout-detection-plan.md) for the plan,
 | `layout_post.py` | Maps detector labels to the shared label set, flags empty "figures" (blank leaves, plain covers, printer's devices and logos on title pages), pairs captions with figures and tables, draws overlays and a review page. Re-runs on saved output without the model. |
 | `labelstudio_to_gold.py` | Converts a Label Studio export of hand-corrected pages into gold labels (`results/gold/<split>/json/`, `"method": "gold"`) |
 | `score.py` | Scores a method's output against gold: page-level figure/table detection, per-class box precision/recall at IoU ≥ 0.5, merges, splits, caption pairs, all by stratum. Writes `scores.json` next to the output |
+| `export_hf.py` | Builds a Hugging Face dataset from the gold labels in `hf/`: Parquet with embedded page images (`hf/data/`, not in git), the dataset card (`hf/README.md`, from `hf_card_template.md`) and `hf/items.tsv`, the BHL items for checking rights. Nothing is uploaded. |
 | `make_labelstudio.py` | Turns output into a [Label Studio](https://labelstud.io) import, with the detector's boxes as pre-annotations to correct (see [`labelstudio/README.md`](labelstudio/README.md)) |
 | `results/<method>/<split>/json/` | Detector output, one JSON per page |
 | `results/gold/test/json/` | Hand-corrected labels for the 324 test pages |
