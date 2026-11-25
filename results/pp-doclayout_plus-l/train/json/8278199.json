@@ -1,0 +1,687 @@
+{
+ "page_id": 8278199,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2335,
+  "height": 3149
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "reference",
+   "bbox": [
+    1196.0,
+    218.0,
+    2180.8,
+    2953.5
+   ],
+   "confidence": 0.9867,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "reference",
+   "bbox": [
+    122.9,
+    219.4,
+    1107.0,
+    2956.3
+   ],
+   "confidence": 0.9856,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.1,
+    1398.3,
+    1103.6,
+    1574.1
+   ],
+   "confidence": 0.9436,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    128.7,
+    454.2,
+    1104.5,
+    586.7
+   ],
+   "confidence": 0.9314,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    127.4,
+    1163.0,
+    1104.1,
+    1295.0
+   ],
+   "confidence": 0.9279,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    128.6,
+    595.2,
+    1103.0,
+    729.4
+   ],
+   "confidence": 0.9278,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    124.7,
+    1681.4,
+    1105.5,
+    1811.7
+   ],
+   "confidence": 0.9261,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.9,
+    832.8,
+    1104.0,
+    963.1
+   ],
+   "confidence": 0.9258,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.7,
+    218.8,
+    2177.5,
+    348.1
+   ],
+   "confidence": 0.9211,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.9,
+    627.4,
+    2178.1,
+    756.5
+   ],
+   "confidence": 0.9209,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.1,
+    946.1,
+    2178.2,
+    1076.1
+   ],
+   "confidence": 0.9192,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.4,
+    1627.1,
+    2179.9,
+    1756.3
+   ],
+   "confidence": 0.9148,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.0,
+    2581.0,
+    1100.1,
+    2669.8
+   ],
+   "confidence": 0.9119,
+   "id": 12,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.1,
+    2200.6,
+    1101.6,
+    2290.8
+   ],
+   "confidence": 0.9116,
+   "id": 13,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1197.9,
+    2585.7,
+    2176.8,
+    2674.5
+   ],
+   "confidence": 0.9108,
+   "id": 14,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.9,
+    2486.9,
+    1101.1,
+    2575.8
+   ],
+   "confidence": 0.9107,
+   "id": 15,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.8,
+    2392.5,
+    1104.4,
+    2479.1
+   ],
+   "confidence": 0.9107,
+   "id": 16,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1198.9,
+    1764.0,
+    2177.2,
+    1851.4
+   ],
+   "confidence": 0.9096,
+   "id": 17,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.4,
+    2769.7,
+    2176.6,
+    2853.9
+   ],
+   "confidence": 0.9089,
+   "id": 18,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1198.9,
+    1855.3,
+    2176.5,
+    1941.9
+   ],
+   "confidence": 0.9083,
+   "id": 19,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.8,
+    442.1,
+    2176.1,
+    529.6
+   ],
+   "confidence": 0.9079,
+   "id": 20,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    124.8,
+    1302.6,
+    1103.7,
+    1390.9
+   ],
+   "confidence": 0.9074,
+   "id": 21,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.2,
+    1819.9,
+    1103.6,
+    1907.6
+   ],
+   "confidence": 0.9069,
+   "id": 22,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.7,
+    2675.6,
+    1101.5,
+    2762.3
+   ],
+   "confidence": 0.9067,
+   "id": 23,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.7,
+    534.3,
+    2177.1,
+    622.3
+   ],
+   "confidence": 0.9065,
+   "id": 24,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.2,
+    2220.4,
+    2176.8,
+    2308.3
+   ],
+   "confidence": 0.9061,
+   "id": 25,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.8,
+    2768.4,
+    1102.2,
+    2854.1
+   ],
+   "confidence": 0.906,
+   "id": 26,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.3,
+    1946.2,
+    2178.4,
+    2032.2
+   ],
+   "confidence": 0.9058,
+   "id": 27,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.6,
+    1445.0,
+    2177.5,
+    1529.9
+   ],
+   "confidence": 0.9053,
+   "id": 28,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.4,
+    2105.8,
+    1102.0,
+    2193.2
+   ],
+   "confidence": 0.9051,
+   "id": 29,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.8,
+    854.1,
+    2176.4,
+    940.0
+   ],
+   "confidence": 0.9047,
+   "id": 30,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.6,
+    1915.0,
+    1101.4,
+    2002.4
+   ],
+   "confidence": 0.9047,
+   "id": 31,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.9,
+    2860.3,
+    2174.6,
+    2949.2
+   ],
+   "confidence": 0.9047,
+   "id": 32,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.0,
+    2295.4,
+    1100.5,
+    2383.1
+   ],
+   "confidence": 0.9046,
+   "id": 33,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.7,
+    1081.0,
+    2177.0,
+    1165.7
+   ],
+   "confidence": 0.9046,
+   "id": 34,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.5,
+    1263.4,
+    2178.6,
+    1350.3
+   ],
+   "confidence": 0.9045,
+   "id": 35,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.5,
+    970.6,
+    1103.3,
+    1058.5
+   ],
+   "confidence": 0.9045,
+   "id": 36,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.7,
+    762.6,
+    2176.2,
+    848.2
+   ],
+   "confidence": 0.9044,
+   "id": 37,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    125.6,
+    75.4,
+    847.5,
+    114.0
+   ],
+   "confidence": 0.9043,
+   "id": 38,
+   "label": "header"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    124.6,
+    1583.1,
+    1102.4,
+    1671.6
+   ],
+   "confidence": 0.9042,
+   "id": 39,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.6,
+    2128.6,
+    2177.2,
+    2215.9
+   ],
+   "confidence": 0.9036,
+   "id": 40,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.7,
+    1171.7,
+    2177.2,
+    1258.6
+   ],
+   "confidence": 0.9036,
+   "id": 41,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.9,
+    352.1,
+    2175.5,
+    438.4
+   ],
+   "confidence": 0.9035,
+   "id": 42,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.4,
+    1354.3,
+    2178.4,
+    1441.5
+   ],
+   "confidence": 0.9035,
+   "id": 43,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1199.8,
+    2037.2,
+    2176.6,
+    2123.5
+   ],
+   "confidence": 0.9034,
+   "id": 44,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1198.7,
+    2678.5,
+    2176.6,
+    2765.2
+   ],
+   "confidence": 0.9033,
+   "id": 45,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.4,
+    1066.4,
+    1102.6,
+    1154.5
+   ],
+   "confidence": 0.903,
+   "id": 46,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1198.7,
+    2312.6,
+    2177.5,
+    2399.4
+   ],
+   "confidence": 0.903,
+   "id": 47,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.5,
+    1535.6,
+    2178.8,
+    1622.5
+   ],
+   "confidence": 0.9029,
+   "id": 48,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.1,
+    736.1,
+    1103.4,
+    825.9
+   ],
+   "confidence": 0.9029,
+   "id": 49,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.8,
+    2860.9,
+    1101.3,
+    2950.6
+   ],
+   "confidence": 0.9026,
+   "id": 50,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    125.1,
+    2010.4,
+    1101.5,
+    2097.7
+   ],
+   "confidence": 0.8993,
+   "id": 51,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    129.4,
+    321.4,
+    1103.5,
+    444.7
+   ],
+   "confidence": 0.8978,
+   "id": 52,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    126.4,
+    221.0,
+    1103.7,
+    310.2
+   ],
+   "confidence": 0.8319,
+   "id": 53,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    1200.0,
+    2405.4,
+    2178.9,
+    2581.8
+   ],
+   "confidence": 0.8251,
+   "id": 54,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    2029.1,
+    72.7,
+    2169.3,
+    113.5
+   ],
+   "confidence": 0.7635,
+   "id": 55,
+   "label": "page_number"
+  }
+ ],
+ "page": {
+  "paper": 0.953
+ },
+ "pairs": []
+}

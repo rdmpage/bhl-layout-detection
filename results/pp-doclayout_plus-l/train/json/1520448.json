@@ -1,0 +1,163 @@
+{
+ "page_id": 1520448,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2148,
+  "height": 3561
+ },
+ "stratum": "text_figure",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    276.5,
+    444.6,
+    1879.3,
+    1086.9
+   ],
+   "confidence": 0.986,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    292.2,
+    2590.9,
+    1887.5,
+    2904.7
+   ],
+   "confidence": 0.9662,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    351.8,
+    1202.0,
+    1806.1,
+    2062.4
+   ],
+   "confidence": 0.9568,
+   "ink_pct": 5.02,
+   "id": 2,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    290.2,
+    2912.8,
+    1889.4,
+    3092.6
+   ],
+   "confidence": 0.9549,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    285.7,
+    2462.0,
+    1887.9,
+    2580.1
+   ],
+   "confidence": 0.9478,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    285.8,
+    2091.8,
+    1886.7,
+    2238.8
+   ],
+   "confidence": 0.9057,
+   "id": 5,
+   "label": "caption"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    348.9,
+    3103.2,
+    1513.4,
+    3162.8
+   ],
+   "confidence": 0.8831,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    627.4,
+    328.4,
+    1537.4,
+    380.7
+   ],
+   "confidence": 0.8682,
+   "id": 7,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    336.8,
+    1095.8,
+    1881.8,
+    1149.1
+   ],
+   "confidence": 0.8646,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    287.9,
+    330.1,
+    371.0,
+    371.0
+   ],
+   "confidence": 0.7978,
+   "id": 9,
+   "label": "page_number"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    285.9,
+    2246.8,
+    1887.3,
+    2398.5
+   ],
+   "confidence": 0.6736,
+   "id": 10,
+   "label": "caption"
+  }
+ ],
+ "page": {
+  "paper": 0.945
+ },
+ "pairs": [
+  {
+   "object": 2,
+   "object_label": "figure",
+   "caption": 5,
+   "position": "below",
+   "gap": 29.4
+  },
+  {
+   "object": 2,
+   "object_label": "figure",
+   "caption": 10,
+   "position": "below",
+   "gap": 184.4
+  }
+ ]
+}

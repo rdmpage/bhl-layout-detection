@@ -1,0 +1,168 @@
+{
+ "page_id": 56058122,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 4200,
+  "height": 6000
+ },
+ "stratum": "plate",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    2350.8,
+    3114.0,
+    4019.6,
+    5467.5
+   ],
+   "confidence": 0.9059,
+   "ink_pct": 8.25,
+   "id": 0,
+   "label": "figure"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    1790.3,
+    304.9,
+    2641.2,
+    368.0
+   ],
+   "confidence": 0.899,
+   "id": 1,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    2707.4,
+    5518.0,
+    3638.7,
+    5597.3
+   ],
+   "confidence": 0.8987,
+   "id": 2,
+   "label": "caption"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    471.9,
+    3079.1,
+    2187.1,
+    5472.3
+   ],
+   "confidence": 0.8974,
+   "ink_pct": 9.32,
+   "id": 3,
+   "label": "figure"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    894.0,
+    5518.5,
+    1697.5,
+    5596.7
+   ],
+   "confidence": 0.8971,
+   "id": 4,
+   "label": "caption"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    2789.2,
+    2930.2,
+    3564.5,
+    3010.2
+   ],
+   "confidence": 0.891,
+   "id": 5,
+   "label": "caption"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    845.3,
+    2930.5,
+    1757.2,
+    3012.9
+   ],
+   "confidence": 0.8684,
+   "id": 6,
+   "label": "caption"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    3905.8,
+    294.1,
+    4009.1,
+    351.3
+   ],
+   "confidence": 0.8327,
+   "id": 7,
+   "label": "page_number"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    471.5,
+    502.6,
+    2135.2,
+    2889.7
+   ],
+   "confidence": 0.8225,
+   "ink_pct": 8.18,
+   "id": 8,
+   "label": "figure"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    2298.4,
+    511.3,
+    4013.4,
+    2891.0
+   ],
+   "confidence": 0.7931,
+   "ink_pct": 8.07,
+   "id": 9,
+   "label": "figure"
+  }
+ ],
+ "page": {
+  "paper": 1.0
+ },
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 2,
+   "position": "below",
+   "gap": 50.5
+  },
+  {
+   "object": 3,
+   "object_label": "figure",
+   "caption": 4,
+   "position": "below",
+   "gap": 46.2
+  },
+  {
+   "object": 9,
+   "object_label": "figure",
+   "caption": 5,
+   "position": "below",
+   "gap": 39.2
+  },
+  {
+   "object": 8,
+   "object_label": "figure",
+   "caption": 6,
+   "position": "below",
+   "gap": 40.8
+  }
+ ]
+}

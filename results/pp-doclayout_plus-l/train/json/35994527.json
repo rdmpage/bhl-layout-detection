@@ -1,0 +1,144 @@
+{
+ "page_id": 35994527,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2169,
+  "height": 3244
+ },
+ "stratum": "map",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    370.9,
+    2357.9,
+    1859.5,
+    2732.0
+   ],
+   "confidence": 0.9812,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    365.1,
+    360.5,
+    1856.9,
+    627.0
+   ],
+   "confidence": 0.9741,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    380.7,
+    681.5,
+    1858.1,
+    2068.3
+   ],
+   "confidence": 0.9652,
+   "ink_pct": 6.06,
+   "id": 2,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    365.3,
+    249.8,
+    1855.9,
+    355.9
+   ],
+   "confidence": 0.951,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    371.3,
+    2737.2,
+    1856.9,
+    2837.9
+   ],
+   "confidence": 0.9358,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    370.2,
+    2127.9,
+    1861.3,
+    2307.3
+   ],
+   "confidence": 0.9332,
+   "id": 5,
+   "label": "caption"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    740.8,
+    154.9,
+    1480.8,
+    189.4
+   ],
+   "confidence": 0.8931,
+   "id": 6,
+   "label": "header"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    370.7,
+    145.9,
+    512.8,
+    198.1
+   ],
+   "confidence": 0.888,
+   "id": 7,
+   "label": "header"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1771.2,
+    147.1,
+    1855.8,
+    185.9
+   ],
+   "confidence": 0.8307,
+   "id": 8,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    457.8,
+    2888.0,
+    1793.2,
+    2940.1
+   ],
+   "confidence": 0.7788,
+   "id": 9,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.816
+ },
+ "pairs": [
+  {
+   "object": 2,
+   "object_label": "figure",
+   "caption": 5,
+   "position": "below",
+   "gap": 59.6
+  }
+ ]
+}

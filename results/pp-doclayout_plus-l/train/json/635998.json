@@ -1,0 +1,147 @@
+{
+ "page_id": 635998,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1759,
+  "height": 2816
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    206.8,
+    708.6,
+    1563.7,
+    1733.6
+   ],
+   "confidence": 0.9844,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    202.7,
+    2347.9,
+    1568.4,
+    2565.0
+   ],
+   "confidence": 0.9665,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    209.9,
+    554.3,
+    1565.4,
+    702.5
+   ],
+   "confidence": 0.9589,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    209.2,
+    400.9,
+    1566.0,
+    550.1
+   ],
+   "confidence": 0.9568,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    207.0,
+    1735.0,
+    1563.3,
+    1893.6
+   ],
+   "confidence": 0.9541,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    204.4,
+    2586.4,
+    1570.4,
+    2731.5
+   ],
+   "confidence": 0.9423,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    209.4,
+    294.9,
+    1566.8,
+    396.7
+   ],
+   "confidence": 0.9284,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    678.3,
+    220.4,
+    1120.3,
+    257.0
+   ],
+   "confidence": 0.8892,
+   "id": 7,
+   "label": "header"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    316.5,
+    2176.4,
+    1449.1,
+    2245.2
+   ],
+   "confidence": 0.8573,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    1130.9,
+    1907.7,
+    1378.2,
+    1953.6
+   ],
+   "confidence": 0.85,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1517.9,
+    214.2,
+    1566.3,
+    258.3
+   ],
+   "confidence": 0.8498,
+   "id": 10,
+   "label": "page_number"
+  }
+ ],
+ "page": {
+  "paper": 0.808
+ },
+ "pairs": []
+}

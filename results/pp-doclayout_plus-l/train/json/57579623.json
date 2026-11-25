@@ -1,0 +1,168 @@
+{
+ "page_id": 57579623,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 3720,
+  "height": 5262
+ },
+ "stratum": "map",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    435.0,
+    2493.0,
+    3274.0,
+    4281.9
+   ],
+   "confidence": 0.9838,
+   "ink_pct": 9.34,
+   "id": 0,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    421.1,
+    606.1,
+    3272.5,
+    1090.5
+   ],
+   "confidence": 0.9812,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    422.1,
+    4335.0,
+    3271.0,
+    4738.8
+   ],
+   "confidence": 0.9659,
+   "id": 2,
+   "label": "caption"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    425.5,
+    1625.3,
+    3274.5,
+    1773.8
+   ],
+   "confidence": 0.9485,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    425.2,
+    1281.4,
+    3272.6,
+    1432.7
+   ],
+   "confidence": 0.9406,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    1654.1,
+    433.9,
+    3268.0,
+    501.7
+   ],
+   "confidence": 0.9111,
+   "id": 5,
+   "label": "header"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    429.8,
+    1174.0,
+    1031.9,
+    1242.2
+   ],
+   "confidence": 0.862,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    432.5,
+    1519.2,
+    671.6,
+    1575.4
+   ],
+   "confidence": 0.8601,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1826.9,
+    4847.5,
+    1889.4,
+    4898.0
+   ],
+   "confidence": 0.836,
+   "id": 8,
+   "label": "page_number"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    1253.8,
+    1862.9,
+    2455.8,
+    1930.2
+   ],
+   "confidence": 0.8135,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    426.9,
+    2181.9,
+    3271.2,
+    2413.6
+   ],
+   "confidence": 0.6269,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    425.4,
+    2017.1,
+    3272.0,
+    2167.6
+   ],
+   "confidence": 0.6116,
+   "id": 11,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 1.0
+ },
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 2,
+   "position": "below",
+   "gap": 53.1
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "page_id": 63303589,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 3722,
+  "height": 5580
+ },
+ "stratum": "blank",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    0.0,
+    13.2,
+    3721.3,
+    5580.0
+   ],
+   "confidence": 0.5673,
+   "ink_pct": 0.0,
+   "id": 0,
+   "label": "empty",
+   "empty_reason": "ink"
+  }
+ ],
+ "page": {
+  "paper": 0.922
+ },
+ "pairs": []
+}

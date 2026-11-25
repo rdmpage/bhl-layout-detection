@@ -1,0 +1,243 @@
+{
+ "page_id": 43939414,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2246,
+  "height": 3937
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    54.7,
+    730.6,
+    1898.2,
+    1300.3
+   ],
+   "confidence": 0.983,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    49.0,
+    372.5,
+    1889.2,
+    727.4
+   ],
+   "confidence": 0.9799,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    65.5,
+    1914.5,
+    1905.3,
+    2242.0
+   ],
+   "confidence": 0.9689,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    63.2,
+    1577.0,
+    1902.6,
+    1907.3
+   ],
+   "confidence": 0.9638,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    81.1,
+    3273.5,
+    1914.2,
+    3535.6
+   ],
+   "confidence": 0.9589,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    222.7,
+    238.3,
+    1650.5,
+    286.3
+   ],
+   "confidence": 0.9172,
+   "id": 5,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    62.5,
+    1304.7,
+    1901.3,
+    1471.3
+   ],
+   "confidence": 0.8925,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    344.5,
+    2532.8,
+    1906.0,
+    2663.8
+   ],
+   "confidence": 0.8488,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    972.7,
+    3545.4,
+    1007.3,
+    3595.4
+   ],
+   "confidence": 0.8151,
+   "id": 8,
+   "label": "page_number"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1803.5,
+    235.4,
+    1873.1,
+    282.1
+   ],
+   "confidence": 0.7645,
+   "id": 9,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    132.4,
+    1509.3,
+    1418.0,
+    1571.4
+   ],
+   "confidence": 0.7343,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    144.9,
+    2680.0,
+    1823.1,
+    2964.4
+   ],
+   "confidence": 0.7319,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    149.2,
+    2973.6,
+    1815.1,
+    3261.4
+   ],
+   "confidence": 0.7222,
+   "id": 12,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    347.1,
+    2467.2,
+    886.1,
+    2528.6
+   ],
+   "confidence": 0.647,
+   "id": 13,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    350.1,
+    2398.3,
+    876.2,
+    2457.0
+   ],
+   "confidence": 0.6292,
+   "id": 14,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    137.5,
+    2248.7,
+    1903.3,
+    2324.6
+   ],
+   "confidence": 0.628,
+   "id": 15,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    344.4,
+    2334.6,
+    994.7,
+    2393.0
+   ],
+   "confidence": 0.5841,
+   "id": 16,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    149.9,
+    2976.8,
+    1569.6,
+    3050.3
+   ],
+   "confidence": 0.5642,
+   "id": 17,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    146.4,
+    2679.0,
+    1643.6,
+    2749.8
+   ],
+   "confidence": 0.5504,
+   "id": 18,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.839
+ },
+ "pairs": []
+}

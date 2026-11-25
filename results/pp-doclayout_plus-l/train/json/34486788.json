@@ -1,0 +1,180 @@
+{
+ "page_id": 34486788,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2682,
+  "height": 4355
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    131.2,
+    3076.1,
+    2561.3,
+    3766.5
+   ],
+   "confidence": 0.985,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    127.1,
+    703.0,
+    2562.2,
+    1143.7
+   ],
+   "confidence": 0.981,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "table",
+   "bbox": [
+    133.5,
+    2427.9,
+    2563.4,
+    3030.0
+   ],
+   "confidence": 0.9791,
+   "id": 2,
+   "label": "table"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    128.7,
+    1622.3,
+    2562.9,
+    1916.7
+   ],
+   "confidence": 0.9753,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    128.3,
+    451.9,
+    2563.3,
+    692.5
+   ],
+   "confidence": 0.9738,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    129.3,
+    1426.3,
+    2560.8,
+    1567.1
+   ],
+   "confidence": 0.9558,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    135.2,
+    3796.3,
+    2561.8,
+    3935.0
+   ],
+   "confidence": 0.9421,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    2035.3,
+    337.7,
+    2566.9,
+    384.0
+   ],
+   "confidence": 0.8915,
+   "id": 7,
+   "label": "header"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    865.9,
+    1267.4,
+    1828.7,
+    1330.8
+   ],
+   "confidence": 0.8757,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "footer",
+   "bbox": [
+    141.8,
+    4134.3,
+    1557.8,
+    4192.1
+   ],
+   "confidence": 0.8608,
+   "id": 9,
+   "label": "footer"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    140.9,
+    346.1,
+    196.5,
+    388.9
+   ],
+   "confidence": 0.8091,
+   "id": 10,
+   "label": "page_number"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    130.3,
+    1958.2,
+    2563.1,
+    2386.0
+   ],
+   "confidence": 0.7084,
+   "id": 11,
+   "label": "caption"
+  }
+ ],
+ "page": {
+  "paper": 0.843
+ },
+ "duplicates": [
+  {
+   "source_label": "text",
+   "bbox": [
+    130.3,
+    1958.2,
+    2563.1,
+    2386.0
+   ],
+   "confidence": 0.5324,
+   "label": "text"
+  }
+ ],
+ "pairs": [
+  {
+   "object": 2,
+   "object_label": "table",
+   "caption": 11,
+   "position": "above",
+   "gap": 41.9
+  }
+ ]
+}

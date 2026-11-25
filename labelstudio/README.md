@@ -8,6 +8,7 @@ Made by `make_labelstudio.py` from detector output in the common JSON format.
 | `pp-doclayout_plus-l_test_tasks.json` | 324 test pages; images load from BHL's S3 bucket |
 | `pp-doclayout_plus-l_test_local_tasks.json` | The same, with images served from `layout/images` |
 | `pp-doclayout_plus-l_validation_tasks.json`, `..._local_tasks.json` | The 273 validation pages, the same way (separate project, "BHL layout validation") |
+| `pp-doclayout_plus-l_train_tasks.json`, `..._local_tasks.json` | The 910 train pages, the same way (project "BHL layout train"), to be fully corrected like test |
 
 Each task carries the PP-DocLayout boxes as pre-annotations (Label Studio "predictions"), and caption pairs as relations. Boxes the ink filter marked `empty` are left out. Task data includes `page_id`, `stratum`, `era` and `bhl_url`, so you can filter and sort by them in the data manager.
 

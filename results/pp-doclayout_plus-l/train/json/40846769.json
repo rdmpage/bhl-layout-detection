@@ -1,0 +1,291 @@
+{
+ "page_id": 40846769,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1903,
+  "height": 3244
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    203.2,
+    803.9,
+    1709.8,
+    1176.9
+   ],
+   "confidence": 0.9798,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    195.6,
+    537.7,
+    1702.5,
+    805.6
+   ],
+   "confidence": 0.976,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    191.1,
+    424.9,
+    1698.8,
+    539.0
+   ],
+   "confidence": 0.9419,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    233.0,
+    2261.1,
+    1740.5,
+    2898.4
+   ],
+   "confidence": 0.8865,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    459.3,
+    321.2,
+    1430.5,
+    371.4
+   ],
+   "confidence": 0.8778,
+   "id": 4,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    231.6,
+    1936.6,
+    1304.8,
+    2034.5
+   ],
+   "confidence": 0.8426,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    213.6,
+    1290.9,
+    1291.9,
+    1394.5
+   ],
+   "confidence": 0.8327,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    233.5,
+    2044.4,
+    1305.6,
+    2143.6
+   ],
+   "confidence": 0.7984,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    256.7,
+    1183.5,
+    1333.9,
+    1231.9
+   ],
+   "confidence": 0.7956,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    261.1,
+    1671.1,
+    1297.2,
+    1767.7
+   ],
+   "confidence": 0.7929,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    260.3,
+    1563.6,
+    1296.0,
+    1660.7
+   ],
+   "confidence": 0.7924,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    260.2,
+    1453.7,
+    1295.3,
+    1554.6
+   ],
+   "confidence": 0.7657,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    267.6,
+    1884.0,
+    1137.7,
+    1927.3
+   ],
+   "confidence": 0.7616,
+   "id": 12,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    307.0,
+    1779.2,
+    916.6,
+    1821.2
+   ],
+   "confidence": 0.7613,
+   "id": 13,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    198.9,
+    334.2,
+    286.6,
+    376.9
+   ],
+   "confidence": 0.7491,
+   "id": 14,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    234.4,
+    2151.5,
+    1306.2,
+    2246.9
+   ],
+   "confidence": 0.73,
+   "id": 15,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    218.1,
+    1403.1,
+    959.3,
+    1445.4
+   ],
+   "confidence": 0.72,
+   "id": 16,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    267.2,
+    1830.5,
+    1304.6,
+    1878.6
+   ],
+   "confidence": 0.703,
+   "id": 17,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    303.7,
+    1244.2,
+    819.8,
+    1286.5
+   ],
+   "confidence": 0.6845,
+   "id": 18,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    269.0,
+    1829.7,
+    1106.7,
+    1875.9
+   ],
+   "confidence": 0.6728,
+   "id": 19,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1565.7,
+    2185.9,
+    1729.7,
+    2230.5
+   ],
+   "confidence": 0.6086,
+   "id": 20,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1404.5,
+    1333.8,
+    1714.0,
+    1379.7
+   ],
+   "confidence": 0.5447,
+   "id": 21,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1413.0,
+    2081.4,
+    1729.1,
+    2128.9
+   ],
+   "confidence": 0.5207,
+   "id": 22,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.898
+ },
+ "pairs": []
+}

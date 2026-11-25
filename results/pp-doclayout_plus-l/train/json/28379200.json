@@ -1,0 +1,291 @@
+{
+ "page_id": 28379200,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2356,
+  "height": 3256
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    320.4,
+    271.6,
+    2223.2,
+    507.6
+   ],
+   "confidence": 0.9781,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    311.5,
+    2551.1,
+    2221.1,
+    2791.5
+   ],
+   "confidence": 0.9701,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    317.2,
+    1391.6,
+    2225.5,
+    1624.2
+   ],
+   "confidence": 0.9701,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    313.9,
+    1640.2,
+    2225.2,
+    1880.0
+   ],
+   "confidence": 0.963,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    319.0,
+    522.1,
+    2219.4,
+    693.1
+   ],
+   "confidence": 0.9606,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    315.5,
+    2801.7,
+    2217.7,
+    2917.1
+   ],
+   "confidence": 0.9343,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    865.8,
+    179.1,
+    1671.8,
+    215.7
+   ],
+   "confidence": 0.912,
+   "id": 6,
+   "label": "header"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    945.6,
+    853.8,
+    1572.3,
+    902.2
+   ],
+   "confidence": 0.8786,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    910.8,
+    2017.4,
+    1626.9,
+    2067.4
+   ],
+   "confidence": 0.8762,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    332.2,
+    1053.1,
+    2225.8,
+    1162.5
+   ],
+   "confidence": 0.8683,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    321.7,
+    2464.4,
+    2175.4,
+    2518.5
+   ],
+   "confidence": 0.8416,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    322.0,
+    720.4,
+    1232.5,
+    766.8
+   ],
+   "confidence": 0.8383,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    319.0,
+    1904.5,
+    1286.6,
+    1951.6
+   ],
+   "confidence": 0.8355,
+   "id": 12,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    327.1,
+    177.7,
+    380.2,
+    214.4
+   ],
+   "confidence": 0.8321,
+   "id": 13,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    331.5,
+    1179.2,
+    1503.1,
+    1229.3
+   ],
+   "confidence": 0.832,
+   "id": 14,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    364.1,
+    2091.8,
+    1063.8,
+    2144.9
+   ],
+   "confidence": 0.7994,
+   "id": 15,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    373.1,
+    926.9,
+    1085.8,
+    979.6
+   ],
+   "confidence": 0.7886,
+   "id": 16,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    325.5,
+    1242.2,
+    1266.5,
+    1292.6
+   ],
+   "confidence": 0.7839,
+   "id": 17,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    324.5,
+    1307.1,
+    927.3,
+    1352.9
+   ],
+   "confidence": 0.7828,
+   "id": 18,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    318.9,
+    2153.7,
+    1760.7,
+    2208.5
+   ],
+   "confidence": 0.7473,
+   "id": 19,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    328.4,
+    989.7,
+    891.3,
+    1039.0
+   ],
+   "confidence": 0.714,
+   "id": 20,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    346.2,
+    2217.6,
+    2224.4,
+    2452.3
+   ],
+   "confidence": 0.6906,
+   "id": 21,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    321.3,
+    2216.3,
+    2227.1,
+    2269.7
+   ],
+   "confidence": 0.5411,
+   "id": 22,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.824
+ },
+ "pairs": []
+}

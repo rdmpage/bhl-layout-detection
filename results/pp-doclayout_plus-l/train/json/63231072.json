@@ -1,0 +1,147 @@
+{
+ "page_id": 63231072,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2583,
+  "height": 4083
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    510.3,
+    1455.4,
+    2484.7,
+    2129.2
+   ],
+   "confidence": 0.9704,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    536.2,
+    2605.0,
+    2512.5,
+    3290.7
+   ],
+   "confidence": 0.9616,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    492.1,
+    448.3,
+    2460.4,
+    838.1
+   ],
+   "confidence": 0.9554,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    526.9,
+    2218.8,
+    2500.8,
+    2465.2
+   ],
+   "confidence": 0.9399,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    498.6,
+    846.9,
+    2464.0,
+    994.1
+   ],
+   "confidence": 0.8936,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    504.9,
+    1216.6,
+    2467.6,
+    1314.2
+   ],
+   "confidence": 0.8581,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    500.6,
+    368.6,
+    543.4,
+    402.4
+   ],
+   "confidence": 0.786,
+   "id": 6,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    506.4,
+    1078.6,
+    2465.1,
+    1195.5
+   ],
+   "confidence": 0.7401,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    612.8,
+    2149.3,
+    1369.7,
+    2195.2
+   ],
+   "confidence": 0.7229,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    506.0,
+    1389.8,
+    2364.8,
+    1447.8
+   ],
+   "confidence": 0.55,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    534.4,
+    2542.5,
+    2359.2,
+    2599.7
+   ],
+   "confidence": 0.5496,
+   "id": 10,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 1.0
+ },
+ "pairs": []
+}

@@ -1,0 +1,155 @@
+{
+ "page_id": 34673760,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 3652,
+  "height": 2705
+ },
+ "stratum": "foldout",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    2036.2,
+    1775.0,
+    3353.5,
+    2226.2
+   ],
+   "confidence": 0.9808,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    304.6,
+    1952.6,
+    1637.5,
+    2223.7
+   ],
+   "confidence": 0.9736,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "table",
+   "bbox": [
+    292.7,
+    329.1,
+    3292.2,
+    1618.6
+   ],
+   "confidence": 0.973,
+   "id": 2,
+   "label": "table"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    300.6,
+    1771.3,
+    1633.3,
+    1926.9
+   ],
+   "confidence": 0.9653,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    304.3,
+    2236.7,
+    1636.2,
+    2406.5
+   ],
+   "confidence": 0.9625,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    2036.4,
+    2241.8,
+    3357.0,
+    2409.7
+   ],
+   "confidence": 0.9427,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    285.9,
+    264.7,
+    1199.7,
+    319.6
+   ],
+   "confidence": 0.8403,
+   "id": 6,
+   "label": "caption"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    862.0,
+    165.1,
+    1045.5,
+    194.7
+   ],
+   "confidence": 0.8187,
+   "id": 7,
+   "label": "header"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    3309.6,
+    188.4,
+    3359.8,
+    218.2
+   ],
+   "confidence": 0.7961,
+   "id": 8,
+   "label": "page_number"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    284.7,
+    181.4,
+    341.9,
+    207.5
+   ],
+   "confidence": 0.7921,
+   "id": 9,
+   "label": "page_number"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    2564.7,
+    158.2,
+    2889.0,
+    196.4
+   ],
+   "confidence": 0.7829,
+   "id": 10,
+   "label": "header"
+  }
+ ],
+ "page": {
+  "paper": 0.706
+ },
+ "pairs": [
+  {
+   "object": 2,
+   "object_label": "table",
+   "caption": 6,
+   "position": "above",
+   "gap": 9.5
+  }
+ ]
+}

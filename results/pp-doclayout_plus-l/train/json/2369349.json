@@ -1,0 +1,149 @@
+{
+ "page_id": 2369349,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2192,
+  "height": 3562
+ },
+ "stratum": "title",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    727.2,
+    2189.6,
+    1141.9,
+    2741.0
+   ],
+   "confidence": 0.969,
+   "ink_pct": 41.09,
+   "id": 0,
+   "label": "empty",
+   "empty_reason": "device"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    664.9,
+    2899.9,
+    1197.9,
+    3047.9
+   ],
+   "confidence": 0.9479,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    540.0,
+    1950.7,
+    1336.8,
+    2051.8
+   ],
+   "confidence": 0.9056,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    140.3,
+    790.8,
+    1727.8,
+    1226.8
+   ],
+   "confidence": 0.8032,
+   "id": 3,
+   "label": "title"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    674.3,
+    1592.9,
+    1192.5,
+    1710.9
+   ],
+   "confidence": 0.7888,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    570.7,
+    3421.4,
+    1522.6,
+    3479.8
+   ],
+   "confidence": 0.769,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    203.3,
+    1367.4,
+    1667.6,
+    1521.1
+   ],
+   "confidence": 0.7661,
+   "id": 6,
+   "label": "title"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1357.6,
+    515.2,
+    1798.1,
+    574.3
+   ],
+   "confidence": 0.7264,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    688.3,
+    393.4,
+    1192.0,
+    454.9
+   ],
+   "confidence": 0.5608,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    372.6,
+    272.0,
+    1497.6,
+    328.1
+   ],
+   "confidence": 0.54,
+   "id": 9,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    71.0,
+    514.3,
+    615.2,
+    570.4
+   ],
+   "confidence": 0.5133,
+   "id": 10,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.945
+ },
+ "pairs": []
+}

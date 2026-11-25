@@ -1,0 +1,185 @@
+{
+ "page_id": 60344323,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1973,
+  "height": 3099
+ },
+ "stratum": "chart",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    188.9,
+    1108.2,
+    1584.9,
+    1248.0
+   ],
+   "confidence": 0.9682,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    185.1,
+    359.2,
+    1579.7,
+    448.6
+   ],
+   "confidence": 0.9557,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    185.3,
+    457.0,
+    1579.7,
+    550.2
+   ],
+   "confidence": 0.9489,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "chart",
+   "bbox": [
+    194.9,
+    1341.8,
+    1558.0,
+    2158.0
+   ],
+   "confidence": 0.9401,
+   "ink_pct": 6.61,
+   "id": 3,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    173.2,
+    2411.6,
+    1584.5,
+    2519.9
+   ],
+   "confidence": 0.8973,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    547.5,
+    277.1,
+    1217.7,
+    310.4
+   ],
+   "confidence": 0.8898,
+   "id": 5,
+   "label": "header"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1512.6,
+    272.9,
+    1578.2,
+    307.1
+   ],
+   "confidence": 0.8505,
+   "id": 6,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    183.1,
+    2225.9,
+    1582.1,
+    2368.6
+   ],
+   "confidence": 0.7584,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    269.4,
+    573.8,
+    1478.7,
+    1071.5
+   ],
+   "confidence": 0.7429,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    1240.4,
+    361.1,
+    1310.8,
+    407.2
+   ],
+   "confidence": 0.6333,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    275.6,
+    854.0,
+    785.9,
+    1059.6
+   ],
+   "confidence": 0.5709,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    1498.1,
+    2276.7,
+    1580.7,
+    2319.3
+   ],
+   "confidence": 0.5428,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    271.5,
+    619.1,
+    829.0,
+    824.3
+   ],
+   "confidence": 0.5206,
+   "id": 12,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 1.0
+ },
+ "duplicates": [
+  {
+   "source_label": "table",
+   "bbox": [
+    269.4,
+    573.8,
+    1478.7,
+    1071.5
+   ],
+   "confidence": 0.5636,
+   "label": "table"
+  }
+ ],
+ "pairs": []
+}

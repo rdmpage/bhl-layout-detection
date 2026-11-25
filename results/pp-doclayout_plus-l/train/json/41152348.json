@@ -1,0 +1,27 @@
+{
+ "page_id": 41152348,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2417,
+  "height": 1837
+ },
+ "stratum": "foldout",
+ "boxes": [
+  {
+   "source_label": "header",
+   "bbox": [
+    1995.9,
+    7.5,
+    2377.0,
+    38.2
+   ],
+   "confidence": 0.5822,
+   "id": 0,
+   "label": "header"
+  }
+ ],
+ "page": {
+  "paper": 0.686
+ },
+ "pairs": []
+}

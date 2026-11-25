@@ -1,0 +1,141 @@
+{
+ "page_id": 34073832,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 6156,
+  "height": 4012
+ },
+ "stratum": "map",
+ "boxes": [
+  {
+   "source_label": "header",
+   "bbox": [
+    241.7,
+    137.5,
+    820.2,
+    221.9
+   ],
+   "confidence": 0.728,
+   "id": 0,
+   "label": "header"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    291.0,
+    419.8,
+    5482.9,
+    3664.7
+   ],
+   "confidence": 0.7004,
+   "ink_pct": 9.47,
+   "id": 1,
+   "label": "figure"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    4959.4,
+    168.6,
+    5869.3,
+    282.9
+   ],
+   "confidence": 0.6885,
+   "id": 2,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    2219.7,
+    3685.0,
+    4097.0,
+    3755.3
+   ],
+   "confidence": 0.6631,
+   "id": 3,
+   "label": "caption"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    2323.7,
+    2995.7,
+    4023.8,
+    3398.8
+   ],
+   "confidence": 0.5735,
+   "ink_pct": 24.31,
+   "id": 4,
+   "label": "figure"
+  },
+  {
+   "source_label": "footer",
+   "bbox": [
+    270.8,
+    3843.4,
+    678.2,
+    3884.8
+   ],
+   "confidence": 0.549,
+   "id": 5,
+   "label": "footer"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    449.6,
+    2175.5,
+    1984.8,
+    3607.6
+   ],
+   "confidence": 0.5448,
+   "ink_pct": 13.5,
+   "id": 6,
+   "label": "figure"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    5619.1,
+    3784.2,
+    5886.6,
+    3829.1
+   ],
+   "confidence": 0.5244,
+   "id": 7,
+   "label": "page_number"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    2974.1,
+    2701.9,
+    4652.3,
+    2763.6
+   ],
+   "confidence": 0.5191,
+   "id": 8,
+   "label": "caption"
+  }
+ ],
+ "page": {
+  "paper": 0.824
+ },
+ "pairs": [
+  {
+   "object": 1,
+   "object_label": "figure",
+   "caption": 3,
+   "position": "below",
+   "gap": 20.3
+  },
+  {
+   "object": 1,
+   "object_label": "figure",
+   "caption": 8,
+   "position": "inside",
+   "gap": 0.0
+  }
+ ]
+}

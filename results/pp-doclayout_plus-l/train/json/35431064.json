@@ -1,0 +1,72 @@
+{
+ "page_id": 35431064,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2450,
+  "height": 3028
+ },
+ "stratum": "foldout",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    296.2,
+    298.1,
+    2333.8,
+    2786.5
+   ],
+   "confidence": 0.9794,
+   "ink_pct": 14.38,
+   "id": 0,
+   "label": "figure"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    366.0,
+    180.3,
+    689.7,
+    219.4
+   ],
+   "confidence": 0.8837,
+   "id": 1,
+   "label": "header"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    2069.4,
+    183.9,
+    2260.6,
+    222.3
+   ],
+   "confidence": 0.7873,
+   "id": 2,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    760.9,
+    2820.0,
+    1859.3,
+    2874.3
+   ],
+   "confidence": 0.7779,
+   "id": 3,
+   "label": "caption"
+  }
+ ],
+ "page": {
+  "paper": 0.588
+ },
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 3,
+   "position": "below",
+   "gap": 33.5
+  }
+ ]
+}

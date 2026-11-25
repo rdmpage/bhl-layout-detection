@@ -1,0 +1,279 @@
+{
+ "page_id": 33768171,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2482,
+  "height": 3489
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "header",
+   "bbox": [
+    956.3,
+    219.6,
+    1548.3,
+    256.2
+   ],
+   "confidence": 0.8646,
+   "id": 0,
+   "label": "header"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    315.0,
+    236.0,
+    374.2,
+    265.1
+   ],
+   "confidence": 0.7965,
+   "id": 1,
+   "label": "page_number"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    1020.6,
+    747.8,
+    1472.7,
+    785.9
+   ],
+   "confidence": 0.7845,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    305.4,
+    834.8,
+    2185.8,
+    1065.1
+   ],
+   "confidence": 0.7573,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "reference",
+   "bbox": [
+    304.3,
+    325.4,
+    2186.3,
+    729.7
+   ],
+   "confidence": 0.7096,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    329.3,
+    2023.5,
+    1648.2,
+    2115.1
+   ],
+   "confidence": 0.6735,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    529.2,
+    1153.3,
+    1654.0,
+    1522.7
+   ],
+   "confidence": 0.657,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    496.3,
+    2242.8,
+    1653.1,
+    2320.7
+   ],
+   "confidence": 0.6353,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    496.4,
+    1737.1,
+    1648.7,
+    1815.0
+   ],
+   "confidence": 0.633,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    322.7,
+    2574.5,
+    1966.6,
+    2622.7
+   ],
+   "confidence": 0.6171,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    496.5,
+    2324.0,
+    1651.4,
+    2401.5
+   ],
+   "confidence": 0.6115,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    532.5,
+    2119.8,
+    1656.1,
+    2237.9
+   ],
+   "confidence": 0.6045,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    422.1,
+    331.1,
+    2185.8,
+    614.4
+   ],
+   "confidence": 0.6026,
+   "id": 12,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    304.6,
+    627.0,
+    2182.9,
+    723.3
+   ],
+   "confidence": 0.6007,
+   "id": 13,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    492.4,
+    1820.1,
+    1650.3,
+    1939.7
+   ],
+   "confidence": 0.5611,
+   "id": 14,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    496.6,
+    1570.6,
+    1653.5,
+    1695.5
+   ],
+   "confidence": 0.5545,
+   "id": 15,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    324.2,
+    2823.2,
+    2180.4,
+    2963.9
+   ],
+   "confidence": 0.5383,
+   "id": 16,
+   "label": "text"
+  },
+  {
+   "source_label": "reference",
+   "bbox": [
+    292.6,
+    339.7,
+    2197.8,
+    2960.9
+   ],
+   "confidence": 0.5077,
+   "id": 17,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    326.4,
+    2404.5,
+    1649.0,
+    2576.2
+   ],
+   "confidence": 0.5038,
+   "id": 18,
+   "label": "text"
+  },
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    514.7,
+    2488.4,
+    1646.7,
+    2575.0
+   ],
+   "confidence": 0.5019,
+   "id": 19,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.988
+ },
+ "duplicates": [
+  {
+   "source_label": "reference_content",
+   "bbox": [
+    422.1,
+    331.1,
+    2185.8,
+    614.4
+   ],
+   "confidence": 0.5063,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    324.2,
+    2823.2,
+    2180.4,
+    2963.9
+   ],
+   "confidence": 0.502,
+   "label": "text"
+  }
+ ],
+ "pairs": []
+}

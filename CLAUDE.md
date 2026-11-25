@@ -24,7 +24,7 @@ Strata are BHL page types, which are noisy: use them for sampling and per-stratu
 
 ## Status (2026-11-25)
 
-- PP-DocLayout_plus-L run on test (324 pages) and validation (273); train not run.
+- PP-DocLayout_plus-L run on all splits: test (324 pages), validation (273), train (910). Train is being hand-corrected in full (all classes, like test) so the sample can be published as a labelled dataset; validation's text/header/footer/page_number still need checking for that.
 - Test split fully hand-corrected (Label Studio project "BHL layout test", id 2, Docker at http://localhost:8080) → `labelstudio/export/test_annotations.json` → `results/gold/test/` (1,770 boxes, 128 caption pairs). Page 8283512 is labelled one text box per column.
 - Validation split partly corrected (project "BHL layout validation", id 3): only figure, caption, table, title, stamp boxes and caption links were checked; text/header/footer/page_number are the model's, so ignore validation scores for those. → `results/gold/validation/` (104 caption pairs). Use validation for tuning post-processing, test only to check.
 - With ink, duplicate, cover and device filters: figure pages F1 0.97 on test (2 false, 6 missed) and 0.94 on validation (4 false, 7 missed); figure boxes 0.93 / 0.90; caption pairs 0.85 / 0.78.

@@ -1,0 +1,159 @@
+{
+ "page_id": 52128898,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1840,
+  "height": 3077
+ },
+ "stratum": "plate",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    137.0,
+    239.4,
+    1502.9,
+    1250.8
+   ],
+   "confidence": 0.9761,
+   "ink_pct": 23.16,
+   "id": 0,
+   "label": "figure"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    163.4,
+    1533.2,
+    1492.5,
+    2561.8
+   ],
+   "confidence": 0.9754,
+   "ink_pct": 30.33,
+   "id": 1,
+   "label": "figure"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    96.7,
+    148.2,
+    1022.6,
+    184.7
+   ],
+   "confidence": 0.8033,
+   "id": 2,
+   "label": "header"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    1203.0,
+    125.8,
+    1507.3,
+    152.0
+   ],
+   "confidence": 0.7328,
+   "id": 3,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    73.7,
+    1329.8,
+    1572.2,
+    1483.3
+   ],
+   "confidence": 0.6956,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    1228.7,
+    168.2,
+    1483.4,
+    194.7
+   ],
+   "confidence": 0.6517,
+   "id": 5,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    151.5,
+    2637.1,
+    1572.8,
+    2713.9
+   ],
+   "confidence": 0.6285,
+   "id": 6,
+   "label": "caption"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1524.7,
+    2715.3,
+    1563.6,
+    2746.0
+   ],
+   "confidence": 0.6091,
+   "id": 7,
+   "label": "page_number"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    722.8,
+    1302.6,
+    896.2,
+    1329.7
+   ],
+   "confidence": 0.5914,
+   "id": 8,
+   "label": "caption"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    737.1,
+    2604.3,
+    905.3,
+    2633.6
+   ],
+   "confidence": 0.5681,
+   "id": 9,
+   "label": "caption"
+  }
+ ],
+ "page": {
+  "paper": 0.894
+ },
+ "pairs": [
+  {
+   "object": 1,
+   "object_label": "figure",
+   "caption": 6,
+   "position": "below",
+   "gap": 75.3
+  },
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 8,
+   "position": "below",
+   "gap": 51.8
+  },
+  {
+   "object": 1,
+   "object_label": "figure",
+   "caption": 9,
+   "position": "below",
+   "gap": 42.5
+  }
+ ]
+}

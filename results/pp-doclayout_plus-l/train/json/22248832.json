@@ -1,0 +1,159 @@
+{
+ "page_id": 22248832,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2346,
+  "height": 3944
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    402.7,
+    506.3,
+    2240.4,
+    790.3
+   ],
+   "confidence": 0.9065,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    402.1,
+    229.8,
+    2239.4,
+    439.3
+   ],
+   "confidence": 0.9059,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    404.2,
+    794.5,
+    2241.9,
+    935.6
+   ],
+   "confidence": 0.8443,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    389.8,
+    1656.4,
+    2241.3,
+    3510.5
+   ],
+   "confidence": 0.8052,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    460.6,
+    947.0,
+    1381.2,
+    1013.1
+   ],
+   "confidence": 0.7909,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    406.1,
+    105.7,
+    517.3,
+    158.1
+   ],
+   "confidence": 0.7677,
+   "id": 5,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1092.2,
+    1470.2,
+    2241.9,
+    1590.7
+   ],
+   "confidence": 0.7309,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    405.8,
+    1585.5,
+    846.8,
+    1652.5
+   ],
+   "confidence": 0.7052,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    472.7,
+    1388.0,
+    1460.8,
+    1460.3
+   ],
+   "confidence": 0.6017,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    725.9,
+    99.1,
+    1933.8,
+    174.8
+   ],
+   "confidence": 0.5966,
+   "id": 9,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    1182.2,
+    1306.6,
+    1532.7,
+    1375.1
+   ],
+   "confidence": 0.5923,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    715.0,
+    1144.0,
+    1937.2,
+    1297.6
+   ],
+   "confidence": 0.5025,
+   "id": 11,
+   "label": "title"
+  }
+ ],
+ "page": {
+  "paper": 0.827
+ },
+ "pairs": []
+}

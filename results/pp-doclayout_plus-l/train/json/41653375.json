@@ -1,0 +1,312 @@
+{
+ "page_id": 41653375,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1852,
+  "height": 3366
+ },
+ "stratum": "plate",
+ "boxes": [
+  {
+   "source_label": "image",
+   "bbox": [
+    256.0,
+    468.2,
+    1749.7,
+    1461.0
+   ],
+   "confidence": 0.9689,
+   "ink_pct": 14.37,
+   "id": 0,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    204.2,
+    1541.7,
+    1784.3,
+    1730.9
+   ],
+   "confidence": 0.9621,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    228.8,
+    1737.1,
+    1783.4,
+    1880.3
+   ],
+   "confidence": 0.937,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    215.5,
+    339.2,
+    1791.0,
+    447.1
+   ],
+   "confidence": 0.929,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    205.9,
+    2632.1,
+    1783.8,
+    2829.8
+   ],
+   "confidence": 0.8938,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    203.1,
+    2984.2,
+    1780.1,
+    3221.4
+   ],
+   "confidence": 0.8883,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    886.1,
+    223.1,
+    1244.3,
+    272.2
+   ],
+   "confidence": 0.8857,
+   "id": 6,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    792.0,
+    1473.9,
+    1312.4,
+    1511.2
+   ],
+   "confidence": 0.883,
+   "id": 7,
+   "label": "caption"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    204.6,
+    2807.3,
+    1782.9,
+    3009.7
+   ],
+   "confidence": 0.853,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    1569.0,
+    232.1,
+    1789.4,
+    288.9
+   ],
+   "confidence": 0.8403,
+   "id": 9,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    209.4,
+    2321.0,
+    1185.1,
+    2363.9
+   ],
+   "confidence": 0.8264,
+   "id": 10,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    225.8,
+    2127.9,
+    1539.2,
+    2178.1
+   ],
+   "confidence": 0.822,
+   "id": 11,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    223.7,
+    2228.1,
+    1316.9,
+    2272.0
+   ],
+   "confidence": 0.8173,
+   "id": 12,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    226.6,
+    2186.4,
+    1011.5,
+    2227.6
+   ],
+   "confidence": 0.8123,
+   "id": 13,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    210.7,
+    2367.8,
+    1125.0,
+    2411.2
+   ],
+   "confidence": 0.8063,
+   "id": 14,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    224.1,
+    1967.1,
+    1777.5,
+    2120.1
+   ],
+   "confidence": 0.8004,
+   "id": 15,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    224.6,
+    2276.2,
+    1133.4,
+    2318.2
+   ],
+   "confidence": 0.7937,
+   "id": 16,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    211.4,
+    2414.1,
+    1029.4,
+    2454.7
+   ],
+   "confidence": 0.7901,
+   "id": 17,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    210.7,
+    2444.5,
+    1509.5,
+    2499.3
+   ],
+   "confidence": 0.7635,
+   "id": 18,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    209.7,
+    2499.5,
+    1380.4,
+    2546.4
+   ],
+   "confidence": 0.7043,
+   "id": 19,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    596.7,
+    2515.6,
+    1783.0,
+    2616.0
+   ],
+   "confidence": 0.7036,
+   "id": 20,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    225.3,
+    220.0,
+    345.7,
+    271.5
+   ],
+   "confidence": 0.6539,
+   "id": 21,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    230.3,
+    1881.4,
+    1743.8,
+    1937.3
+   ],
+   "confidence": 0.6299,
+   "id": 22,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    230.6,
+    1946.1,
+    1082.7,
+    1985.6
+   ],
+   "confidence": 0.5617,
+   "id": 23,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.824
+ },
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 7,
+   "position": "below",
+   "gap": 12.9
+  }
+ ]
+}

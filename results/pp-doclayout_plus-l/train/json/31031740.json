@@ -1,0 +1,144 @@
+{
+ "page_id": 31031740,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1793,
+  "height": 2828
+ },
+ "stratum": "text_figure",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    136.3,
+    369.1,
+    1477.3,
+    898.1
+   ],
+   "confidence": 0.9836,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    137.2,
+    223.1,
+    1476.6,
+    366.0
+   ],
+   "confidence": 0.967,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    133.2,
+    1660.2,
+    1472.0,
+    2626.4
+   ],
+   "confidence": 0.9666,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    388.8,
+    943.4,
+    1234.9,
+    1550.8
+   ],
+   "confidence": 0.9305,
+   "ink_pct": 14.53,
+   "id": 3,
+   "label": "figure"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    597.1,
+    140.6,
+    1031.3,
+    171.1
+   ],
+   "confidence": 0.8971,
+   "id": 4,
+   "label": "header"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    144.8,
+    131.5,
+    271.4,
+    178.2
+   ],
+   "confidence": 0.8637,
+   "id": 5,
+   "label": "header"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    184.0,
+    2628.6,
+    870.1,
+    2672.7
+   ],
+   "confidence": 0.8353,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1225.9,
+    2634.6,
+    1273.2,
+    2672.3
+   ],
+   "confidence": 0.7938,
+   "id": 7,
+   "label": "page_number"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    1403.9,
+    137.5,
+    1473.0,
+    173.5
+   ],
+   "confidence": 0.7619,
+   "id": 8,
+   "label": "page_number"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    431.6,
+    1567.2,
+    1182.9,
+    1607.6
+   ],
+   "confidence": 0.5901,
+   "id": 9,
+   "label": "caption"
+  }
+ ],
+ "page": {
+  "paper": 0.69
+ },
+ "pairs": [
+  {
+   "object": 3,
+   "object_label": "figure",
+   "caption": 9,
+   "position": "below",
+   "gap": 16.4
+  }
+ ]
+}

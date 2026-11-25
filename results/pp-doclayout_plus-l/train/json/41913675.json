@@ -1,0 +1,156 @@
+{
+ "page_id": 41913675,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1882,
+  "height": 3336
+ },
+ "stratum": "plate",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    893.0,
+    643.0,
+    1737.3,
+    2355.7
+   ],
+   "confidence": 0.9843,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "image",
+   "bbox": [
+    178.2,
+    443.7,
+    853.7,
+    1878.1
+   ],
+   "confidence": 0.9593,
+   "ink_pct": 19.95,
+   "id": 1,
+   "label": "figure"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    176.0,
+    2690.6,
+    1751.2,
+    3108.3
+   ],
+   "confidence": 0.946,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    171.5,
+    2361.6,
+    1744.0,
+    2506.6
+   ],
+   "confidence": 0.8907,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    173.3,
+    2524.1,
+    1744.7,
+    2668.3
+   ],
+   "confidence": 0.8856,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    560.3,
+    243.0,
+    1332.5,
+    298.2
+   ],
+   "confidence": 0.8778,
+   "id": 5,
+   "label": "header"
+  },
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    164.9,
+    1905.6,
+    881.6,
+    2346.4
+   ],
+   "confidence": 0.8548,
+   "id": 6,
+   "label": "caption"
+  },
+  {
+   "source_label": "header",
+   "bbox": [
+    1602.4,
+    237.1,
+    1726.2,
+    296.5
+   ],
+   "confidence": 0.7635,
+   "id": 7,
+   "label": "header"
+  },
+  {
+   "source_label": "number",
+   "bbox": [
+    152.9,
+    249.3,
+    242.7,
+    294.2
+   ],
+   "confidence": 0.7468,
+   "id": 8,
+   "label": "page_number"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    880.1,
+    356.6,
+    1733.1,
+    620.4
+   ],
+   "confidence": 0.6713,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    151.8,
+    356.1,
+    1731.5,
+    420.8
+   ],
+   "confidence": 0.6333,
+   "id": 10,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 0.792
+ },
+ "pairs": [
+  {
+   "object": 1,
+   "object_label": "figure",
+   "caption": 6,
+   "position": "below",
+   "gap": 27.5
+  }
+ ]
+}

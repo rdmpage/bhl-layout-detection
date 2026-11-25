@@ -1,0 +1,147 @@
+{
+ "page_id": 476941,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 1873,
+  "height": 3227
+ },
+ "stratum": "text",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    125.0,
+    2649.1,
+    1709.4,
+    2840.4
+   ],
+   "confidence": 0.8643,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    128.6,
+    1949.1,
+    1709.0,
+    2449.7
+   ],
+   "confidence": 0.8633,
+   "id": 1,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    129.0,
+    2459.4,
+    1708.6,
+    2639.8
+   ],
+   "confidence": 0.8556,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    500.4,
+    983.4,
+    1360.1,
+    1042.7
+   ],
+   "confidence": 0.8427,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    525.8,
+    1137.5,
+    1331.6,
+    1197.7
+   ],
+   "confidence": 0.7847,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    578.7,
+    829.1,
+    1297.8,
+    882.6
+   ],
+   "confidence": 0.7724,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    437.6,
+    555.7,
+    1427.9,
+    610.4
+   ],
+   "confidence": 0.7314,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    734.5,
+    715.7,
+    1143.3,
+    770.0
+   ],
+   "confidence": 0.7148,
+   "id": 7,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    140.6,
+    1244.8,
+    1713.2,
+    1563.8
+   ],
+   "confidence": 0.6946,
+   "id": 8,
+   "label": "text"
+  },
+  {
+   "source_label": "text",
+   "bbox": [
+    140.6,
+    1563.0,
+    1711.9,
+    1757.1
+   ],
+   "confidence": 0.678,
+   "id": 9,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    149.0,
+    144.8,
+    1719.7,
+    448.0
+   ],
+   "confidence": 0.5462,
+   "id": 10,
+   "label": "title"
+  }
+ ],
+ "page": {
+  "paper": 0.918
+ },
+ "pairs": []
+}

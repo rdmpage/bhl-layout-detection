@@ -1,0 +1,111 @@
+{
+ "page_id": 41564932,
+ "method": "pp-doclayout_plus-l",
+ "image": {
+  "width": 2479,
+  "height": 3508
+ },
+ "stratum": "plate",
+ "boxes": [
+  {
+   "source_label": "text",
+   "bbox": [
+    518.6,
+    490.5,
+    1957.9,
+    615.6
+   ],
+   "confidence": 0.9157,
+   "id": 0,
+   "label": "text"
+  },
+  {
+   "source_label": "doc_title",
+   "bbox": [
+    382.9,
+    296.1,
+    2085.9,
+    353.4
+   ],
+   "confidence": 0.8471,
+   "id": 1,
+   "label": "title"
+  },
+  {
+   "source_label": "abstract",
+   "bbox": [
+    223.0,
+    909.5,
+    2243.3,
+    1248.5
+   ],
+   "confidence": 0.7986,
+   "id": 2,
+   "label": "text"
+  },
+  {
+   "source_label": "paragraph_title",
+   "bbox": [
+    1125.9,
+    738.1,
+    1349.7,
+    795.8
+   ],
+   "confidence": 0.7503,
+   "id": 3,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    230.6,
+    1081.8,
+    349.6,
+    1134.5
+   ],
+   "confidence": 0.5562,
+   "id": 4,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    2127.1,
+    1023.5,
+    2240.7,
+    1073.1
+   ],
+   "confidence": 0.5534,
+   "id": 5,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    2099.4,
+    965.9,
+    2227.6,
+    1020.5
+   ],
+   "confidence": 0.5406,
+   "id": 6,
+   "label": "text"
+  },
+  {
+   "source_label": "formula",
+   "bbox": [
+    1755.6,
+    966.8,
+    1826.5,
+    1015.0
+   ],
+   "confidence": 0.5296,
+   "id": 7,
+   "label": "text"
+  }
+ ],
+ "page": {
+  "paper": 1.0
+ },
+ "pairs": []
+}
