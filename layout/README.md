@@ -21,6 +21,8 @@ Page images for training, validating and testing page layout detection (see `bhl
 | `image` | the local copy, `images/<split>/<page_id>.jpg` |
 | `bhl_url` | the page at BHL |
 
+`itemrights.tsv` has BHL's rights for each item (`ItemID`, `CopyrightStatus`, `RightsStatement`, `LicenseType`), exported from a copy of the BHL database. The wording varies a lot; `export_hf.py` tidies it. Some items are listed twice, with the same values.
+
 Images are BHL's JPEGs from its open data (`https://bhl-open-data.s3.amazonaws.com/jpg/...`), about 1,000 pixels wide, half the scan's resolution; scale boxes by `ocr_width` / image width to compare them with the OCR. They are not in git (1.3 GB); `php layout-sample.php --images` downloads them again.
 
 | Stratum | Pages | What it is |

@@ -6,7 +6,12 @@ Usage:
 Writes, all local (nothing is uploaded):
   hf/data/pages-0000N-of-0000M.parquet   one row per page, image bytes embedded
   hf/README.md                           dataset card, with counts filled in
-  hf/items.tsv                           the BHL items the pages come from, for checking rights
+  hf/items.tsv                           the BHL items the pages come from, with their rights
+
+Rights come from layout/itemrights.tsv (BHL's CopyrightStatus, RightsStatement
+and LicenseType for each item), tidied into copyright_status and license
+columns; BHL's own wording is kept too. By default pages that are in copyright
+with no licence, or whose status BHL does not know, are left out (--exclude).
 
 One row per page: the page image (BHL's JPEG), its BHL metadata, the labelled
 boxes ("objects") and the caption links ("caption_pairs", indexes into
@@ -18,6 +23,7 @@ import argparse
 import collections
 import csv
 import json
+import re
 from pathlib import Path
 
 from datasets import ClassLabel, Dataset, Features, Image, List, Value
@@ -50,7 +56,49 @@ FEATURES = Features({
     "suggested_split": Value("string"),
     "bhl_url": Value("string"),
     "image_url": Value("string"),
+    "copyright_status": Value("string"),
+    "license": Value("string"),
+    "bhl_copyright_status": Value("string"),
+    "bhl_rights_statement": Value("string"),
+    "bhl_license_url": Value("string"),
 })
+
+
+def copyright_status(s):
+    """BHL's free-text CopyrightStatus -> in_copyright, not_in_copyright or unknown."""
+    s = s.strip().lower()
+    if "not provided" in s:
+        return "unknown"
+    if "permission" in s or (s.startswith("in copyright")):
+        return "in_copyright"
+    return "not_in_copyright"   # "Public domain...", "NOT_IN_COPYRIGHT", "No known copyright restrictions..."
+
+
+def license_id(url):
+    """Creative Commons URL -> e.g. CC-BY-NC-SA-4.0; None if there is none."""
+    m = re.search(r"licenses/([a-z-]+)/(\d\.\d)", url or "")
+    return f"CC-{m.group(1).upper()}-{m.group(2)}" if m else None
+
+
+def load_rights():
+    rights = {}
+    with open(LAYOUT / "itemrights.tsv", newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f, delimiter="\t"):
+            r = {k: (v or "").strip() for k, v in r.items()}
+            item = int(r["ItemID"])
+            new = {"copyright_status": copyright_status(r["CopyrightStatus"]),
+                   "license": license_id(r["LicenseType"]),
+                   "bhl_copyright_status": r["CopyrightStatus"] or None,
+                   "bhl_rights_statement": r["RightsStatement"] or None,
+                   "bhl_license_url": r["LicenseType"] or None}
+            # some items are listed twice; the rows agree
+            assert rights.get(item, new)["license"] == new["license"], item
+            rights[item] = new
+    return rights
+
+
+def rights_key(r):
+    return f"{r['copyright_status']}:{r['license'] or 'none'}"
 
 
 def load_pages():
@@ -58,7 +106,7 @@ def load_pages():
         return list(csv.DictReader(f, delimiter="\t"))
 
 
-def row(page):
+def row(page, rights):
     pid = int(page["page_id"])
     gold = json.loads((ROOT / "results" / "gold" / page["split"] / "json" / f"{pid}.json").read_text())
     W, H = gold["image"]["width"], gold["image"]["height"]
@@ -93,6 +141,7 @@ def row(page):
         "suggested_split": page["split"],
         "bhl_url": page["bhl_url"],
         "image_url": page["image_url"],
+        **rights[int(page["item_id"])],
     }
 
 
@@ -115,41 +164,59 @@ def table(counter, order=None, head=("", "pages")):
     return "\n".join([f"| {head[0]} | {head[1]} |", "|---|---:|"] + [f"| `{k}` | {counter[k]:,} |" for k in keys])
 
 
-def write_items(pages, out):
+def write_items(pages, rights, out):
     items = collections.defaultdict(list)
     for p in pages:
         items[int(p["item_id"])].append(p)
     with open(out / "items.tsv", "w", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
-        w.writerow(["item_id", "ia_identifier", "year", "pages", "page_ids", "suggested_split", "bhl_url"])
+        w.writerow(["item_id", "ia_identifier", "year", "pages", "page_ids", "suggested_split", "bhl_url",
+                    "copyright_status", "license"])
         for iid, ps in sorted(items.items()):
             w.writerow([iid, ps[0]["barcode"], ps[0]["year"], len(ps), ",".join(p["page_id"] for p in ps),
-                        ps[0]["split"], f"https://www.biodiversitylibrary.org/item/{iid}"])
+                        ps[0]["split"], f"https://www.biodiversitylibrary.org/item/{iid}",
+                        rights[iid]["copyright_status"], rights[iid]["license"] or ""])
     return len(items)
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="hf")
+    ap.add_argument("--exclude", nargs="*", default=["in_copyright:none", "unknown"], metavar="STATUS[:LICENSE]",
+                    help="leave out pages whose copyright_status (or status:license, license 'none' "
+                         "for no licence) matches; default in_copyright:none unknown; --exclude with "
+                         "no values keeps every page")
     args = ap.parse_args()
     out = ROOT / args.out
     (out / "data").mkdir(parents=True, exist_ok=True)
 
+    rights = load_rights()
     pages = sorted(load_pages(), key=lambda p: int(p["page_id"]))
-    n_items = write_items(pages, out)
+    missing = {p["item_id"] for p in pages if int(p["item_id"]) not in rights}
+    assert not missing, f"no rights for items {sorted(missing)}"
+    n_items = write_items(pages, rights, out)
     print(f"{len(pages)} pages from {n_items} items -> {out / 'items.tsv'}")
+
+    def excluded(p):
+        r = rights[int(p["item_id"])]
+        return any(x in (r["copyright_status"], rights_key(r)) for x in args.exclude)
+    dropped = [p for p in pages if excluded(p)]
+    pages = [p for p in pages if not excluded(p)]
+    if dropped:
+        print(f"excluded {len(dropped)} pages from {len({p['item_id'] for p in dropped})} items: {' '.join(args.exclude)}")
 
     n_shards = -(-len(pages) // PAGES_PER_SHARD)
     for old in (out / "data").glob("*.parquet"):
         old.unlink()
     for k in range(n_shards):
         chunk = pages[k * PAGES_PER_SHARD:(k + 1) * PAGES_PER_SHARD]
-        ds = Dataset.from_list([row(p) for p in chunk], features=FEATURES)
+        ds = Dataset.from_list([row(p, rights) for p in chunk], features=FEATURES)
         path = out / "data" / f"pages-{k:05d}-of-{n_shards:05d}.parquet"
         ds.to_parquet(str(path))
         print(f"  {path.name}: {len(chunk)} pages, {path.stat().st_size / 1e6:.0f} MB")
 
     s = stats(pages)
+    s["rights"] = collections.Counter(rights_key(rights[int(p["item_id"])]) for p in pages)
     card = (ROOT / "hf_card_template.md").read_text()
     for k, v in {
         "PAGES": f"{s['pages']:,}", "ITEMS": f"{s['items']:,}", "PAIRS": f"{s['pairs']:,}",
@@ -159,6 +226,9 @@ def main():
         "ERA_TABLE": table(s["era"], ["pre1850", "1850-1899", "1900-1949", "1950on"], ("era", "pages")),
         "SPLIT_TABLE": table(s["split"], ["train", "validation", "test"], ("suggested_split", "pages")),
         "CATEGORY_NAMES": ", ".join(f"`{c}`" for c in CATEGORIES),
+        "RIGHTS_TABLE": table(s["rights"], head=("copyright_status:license", "pages")),
+        "EXCLUDED": (f"{len(dropped)} pages were left out of this release ({', '.join(f'`{x}`' for x in args.exclude)})."
+                     if dropped else "No pages were left out on grounds of rights."),
     }.items():
         card = card.replace("{{" + k + "}}", v)
     assert "{{" not in card

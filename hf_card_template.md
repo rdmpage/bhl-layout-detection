@@ -1,7 +1,7 @@
 ---
 license: other
 license_name: per-item
-license_details: "Rights vary by item; see the Rights section. TO DO before publishing."
+license_details: "Page images keep the rights of their BHL item (public domain or Creative Commons, mostly non-commercial); see the license column and the Rights section."
 task_categories:
 - object-detection
 tags:
@@ -117,7 +117,21 @@ Splits are by item, so all pages of a book are on the same side. **If you make y
 
 ## Rights
 
-The page images come from BHL's open data. Most items are public domain, but BHL also hosts in-copyright material by permission of the rights holders, under licences that vary by item. **TO DO before publishing: check each item in `items.tsv` and record its rights here, or leave out pages whose terms don't allow redistribution.** The labels themselves can be released under an open licence (TO DO: choose one, e.g. CC0 or CC BY).
+The page images come from BHL's open data, and their rights are BHL's, item by item. Each row says what BHL records for its item:
+
+| Column | |
+|---|---|
+| `copyright_status` | `not_in_copyright`, `in_copyright` (digitised with the rights holder's permission) or `unknown` (BHL: "not provided") |
+| `license` | the item's Creative Commons licence, e.g. `CC-BY-NC-SA-4.0`, or empty if none |
+| `bhl_copyright_status`, `bhl_rights_statement`, `bhl_license_url` | BHL's own wording, unchanged |
+
+{{RIGHTS_TABLE}}
+
+{{EXCLUDED}}
+
+Most in-copyright pages are licensed for **non-commercial use only** (CC BY-NC or BY-NC-SA). If you need images you can use commercially, keep rows whose `copyright_status` is `not_in_copyright` or whose `license` is `CC-BY-4.0`. Check BHL's [permissions page](https://www.biodiversitylibrary.org/permissions) for details.
+
+The labels (boxes, categories and caption links) are released separately from the images, under TO DO (e.g. CC0 or CC BY).
 
 ## Citation
 
