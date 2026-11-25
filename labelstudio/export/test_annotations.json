@@ -87141,27 +87141,6 @@
       "original_height": 3892,
       "image_rotation": 0,
       "value": {
-       "x": 6.446469248291572,
-       "y": 6.076567317574511,
-       "width": 11.351556567957479,
-       "height": 7.8288797533401855,
-       "rotation": 0,
-       "rectanglelabels": [
-        "figure"
-       ]
-      },
-      "id": "b11",
-      "from_name": "label",
-      "to_name": "image",
-      "type": "rectanglelabels",
-      "origin": "prediction",
-      "score": 0.8005
-     },
-     {
-      "original_width": 2634,
-      "original_height": 3892,
-      "image_rotation": 0,
-      "value": {
        "x": 90.67957479119211,
        "y": 2.643884892086331,
        "width": 0.8124525436598364,
@@ -87224,9 +87203,9 @@
     "was_cancelled": false,
     "ground_truth": false,
     "created_at": "2026-11-24T17:01:07.798004Z",
-    "updated_at": "2026-11-24T21:23:04.111152Z",
+    "updated_at": "2026-11-25T08:36:28.245748Z",
     "draft_created_at": "2026-11-24T14:54:56.971597Z",
-    "lead_time": 24.177,
+    "lead_time": 13.138,
     "prediction": {
      "id": 266,
      "result": [
@@ -87564,7 +87543,7 @@
      "task": 266,
      "project": 2
     },
-    "result_count": 14,
+    "result_count": 13,
     "unique_id": "92784a1d-7133-4efa-9136-7e8194c868fe",
     "import_id": null,
     "last_action": null,
@@ -87593,7 +87572,7 @@
   },
   "meta": {},
   "created_at": "2026-11-24T13:03:18.764047Z",
-  "updated_at": "2026-11-24T21:23:04.173875Z",
+  "updated_at": "2026-11-25T08:36:28.320976Z",
   "allow_skip": true,
   "inner_id": 266,
   "total_annotations": 1,

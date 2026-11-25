@@ -13,6 +13,7 @@ Free, local detection of layout blocks on BHL page images, mainly to extract **f
 - **Caption pairing is post-processing** (`layout_post.py`), not a model class: nearest figure or table the caption is above, below, beside or inside. Captions pair with tables too, because PP-DocLayout uses one label (`figure_title`) for figure and table titles. Plate explanations on a facing page can't be paired from one page.
 - **Ink filter**: PP-DocLayout boxes blank leaves and plain cloth covers as full-page images. A figure box with <1% "ink" (pixels clearly darker than the local background) becomes `empty`. On the test split real figures were ≥2.4% ink (one real faint foldout in validation is 1.25%, so don't raise it).
 - **Cover filter** (`drop_covers` in `layout_post.py`): a figure covering ≥50% of the page, with no other boxes on the page, on a page whose paper brightness (70th percentile grey level) is <0.5, becomes `empty` (`empty_reason: cover`). Set on validation: lone page-sized real figures were all ≥0.61, cloth/leather/marbled covers ≤0.42. BHL's "Cover" page type would also work but our strata were drawn from page types, so it can't be tested here. Paper brightness is computed once from the image and stored in each page's JSON (`page.paper`).
+- **Device filter** (`drop_devices`): an uncaptioned figure under 7% of the page, on a page with a title box, becomes `empty` (`empty_reason: device`): printer's devices, crests, journal logos. Tried and dropped: making figures nested inside a bigger figure `empty` (meant for map legend swatches): when the model draws one box over two figures, the inner box is often the real figure, so recall fell.
 - PP-DocLayout labels library stamps `seal`; mapped to `stamp`, not figure.
 - PP-DocLayout_plus-L draws **one box per plate**, not per numbered figure.
 - Python 3.12 venv, because paddlepaddle has no build for 3.14. CPU speed was about 1 s a page.
@@ -21,18 +22,21 @@ Free, local detection of layout blocks on BHL page images, mainly to extract **f
 
 Strata are BHL page types, which are noisy: use them for sampling and per-stratum reporting, not as ground truth. The mix is deliberately not BHL's natural mix (plain text is ~10%), so a random sample is needed to estimate false figures at scale. `text_figure` (figures inside text) is the most useful and hardest stratum, and is thin (32 test pages). Splits are by item, but journals cross splits (e.g. Journal of the Asiatic Society, 145 pages, mostly train). Images are 1,100–3,000 px wide despite `layout/README.md` saying ~1,000; compute scale per page from `ocr_width`.
 
-## Status (2026-11-24)
+## Status (2026-11-25)
 
 - PP-DocLayout_plus-L run on test (324 pages) and validation (273); train not run.
 - Test split fully hand-corrected (Label Studio project "BHL layout test", id 2, Docker at http://localhost:8080) → `labelstudio/export/test_annotations.json` → `results/gold/test/` (1,770 boxes, 128 caption pairs). Page 8283512 is labelled one text box per column.
-- Validation split partly corrected (project "BHL layout validation", id 3): only figure, caption, table, title, stamp boxes and caption links were checked; text/header/footer/page_number are the model's, so ignore validation scores for those. → `results/gold/validation/` (103 caption pairs). Use validation for tuning post-processing, test only to check.
-- With ink, duplicate and cover filters: figure pages F1 0.96 on test (4 false, 6 missed) and 0.94 on validation (6 false, 7 missed); figure boxes 0.92 / 0.90; caption pairs 0.85 / 0.79.
-- Remaining false figures: blank leaves with show-through or stamps (pale, so the cover filter misses them) and small printer's devices/crests on title pages. Missed figures are mostly foldouts with no box, or figures called tables. Caption recall is weakest on plates and foldouts (~0.6).
+- Validation split partly corrected (project "BHL layout validation", id 3): only figure, caption, table, title, stamp boxes and caption links were checked; text/header/footer/page_number are the model's, so ignore validation scores for those. → `results/gold/validation/` (104 caption pairs). Use validation for tuning post-processing, test only to check.
+- With ink, duplicate, cover and device filters: figure pages F1 0.97 on test (2 false, 6 missed) and 0.94 on validation (4 false, 7 missed); figure boxes 0.93 / 0.90; caption pairs 0.85 / 0.78.
+- Remaining false figures: blank leaves with show-through or stamps (pale, so the cover filter misses them), and the Geodiversitas cover 55998235 (a coloured background image).
+- Missed figures are mostly foldouts with no box, or figures called tables.
 - Test `text` precision is low (0.58) because of box granularity (paragraph vs block), not real errors.
 
 ## Next steps
 
-1. Small-device filter for title pages (printer's devices, crests), tuned on validation.
-2. Caption recall on plates and foldouts; merge figure panels that share one caption.
+Priority is figures embedded in text and their captions. Plate captions matter less: often absent, easy to confuse with footers, and plates can be found from BHL's "Plate" page type.
+
+1. Embedded figures and captions: look at the `text_figure` errors (missed captions, wrong pairs, panels split into several figures).
+2. Blank leaves with show-through (pale pages the cover filter misses).
 3. OCR word-box baseline: mask OCR word boxes and treat large remaining inked regions as figures. Needs the IA OCR data on an external drive (not yet connected).
 4. Compare other detectors (DocLayout-YOLO, Docling) in the same format; fine-tune only if pretrained models fall short.

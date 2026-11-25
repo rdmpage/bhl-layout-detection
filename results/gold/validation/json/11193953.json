@@ -11,17 +11,42 @@
    "label": "figure",
    "bbox": [
     90.2,
-    5.2,
+    110.6,
     2865.7,
-    2417.2
+    2206.4
    ],
    "id": 0
+  },
+  {
+   "label": "caption",
+   "bbox": [
+    932.3,
+    2233.6,
+    2065.6,
+    2408.2
+   ],
+   "id": 1
+  },
+  {
+   "label": "header",
+   "bbox": [
+    2533.4,
+    32.9,
+    2714.5,
+    95.5
+   ],
+   "id": 2
   }
  ],
- "pairs": [],
+ "pairs": [
+  {
+   "caption": 1,
+   "object": 0
+  }
+ ],
  "source": {
   "label_studio_task": 376,
   "annotation": 379,
-  "updated_at": "2026-11-24T22:27:16.784535Z"
+  "updated_at": "2026-11-25T07:44:51.700528Z"
  }
 }

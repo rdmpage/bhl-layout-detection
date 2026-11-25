@@ -150,7 +150,8 @@
    "confidence": 0.5418,
    "ink_pct": 28.22,
    "id": 11,
-   "label": "figure"
+   "label": "empty",
+   "empty_reason": "device"
   }
  ],
  "pairs": [],

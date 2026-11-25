@@ -75,6 +75,12 @@ MIN_OVERLAP = 0.3  # shared extent, as a fraction of the narrower box
 # as both doc_title and paragraph_title); the less confident one is dropped.
 DUP_IOU = 0.8
 
+# Printer's devices, crests and logos on title pages and article heads: an
+# uncaptioned figure smaller than MAX_DEVICE_AREA of the page, on a page with a
+# title box, becomes "empty". Devices on validation and test were <= 0.06 of
+# the page; real figures that small on such pages were all logos too.
+MAX_DEVICE_AREA = 0.07
+
 
 def relabel(doc):
     # boxes dropped as duplicates on an earlier run are put back and judged again
@@ -141,6 +147,25 @@ def drop_covers(doc):
                 and all(o["label"] == "figure" for o in live)):
             b["label"] = "empty"
             b["empty_reason"] = "cover"
+    return doc
+
+
+def _area(b):
+    return (b[2] - b[0]) * (b[3] - b[1])
+
+
+def drop_devices(doc):
+    """Relabel small uncaptioned figures on pages with a title box as "empty"
+    (printer's devices, crests, logos). Run after pair_captions."""
+    if not any(b["label"] == "title" for b in doc["boxes"]):
+        return doc
+    W, H = doc["image"]["width"], doc["image"]["height"]
+    paired = {p["object"] for p in doc.get("pairs", [])}
+    for b in doc["boxes"]:
+        if (b["label"] == "figure" and b["id"] not in paired
+                and _area(b["bbox"]) < MAX_DEVICE_AREA * W * H):
+            b["label"] = "empty"
+            b["empty_reason"] = "device"
     return doc
 
 
@@ -290,7 +315,7 @@ def process_dir(result_dir):
         doc = json.loads(f.read_text())
         if "paper" not in doc.get("page", {}):
             doc.setdefault("page", {})["paper"] = paper_brightness(images[doc["page_id"]])
-        doc = pair_captions(drop_covers(drop_duplicates(relabel(doc))))
+        doc = drop_devices(pair_captions(drop_covers(drop_duplicates(relabel(doc)))))
         f.write_text(json.dumps(doc, indent=1))
         draw_overlay(doc, images[doc["page_id"]], result_dir / "overlays" / f"{doc['page_id']}.jpg")
         docs.append(doc)

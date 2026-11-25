@@ -177,7 +177,7 @@
    "id": 13
   },
   {
-   "label": "figure",
+   "label": "empty",
    "source_label": "image",
    "bbox": [
     275.6,
@@ -187,7 +187,8 @@
    ],
    "confidence": 0.612,
    "ink_pct": 25.5,
-   "id": 14
+   "id": 14,
+   "empty_reason": "device"
   },
   {
    "label": "title",

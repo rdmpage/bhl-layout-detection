@@ -42,7 +42,8 @@
    "confidence": 0.8298,
    "ink_pct": 38.11,
    "id": 2,
-   "label": "figure"
+   "label": "empty",
+   "empty_reason": "device"
   },
   {
    "source_label": "doc_title",

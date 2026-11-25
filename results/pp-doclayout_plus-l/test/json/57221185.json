@@ -20,7 +20,7 @@
    "id": 0
   },
   {
-   "label": "figure",
+   "label": "empty",
    "source_label": "image",
    "bbox": [
     359.7,
@@ -30,7 +30,8 @@
    ],
    "confidence": 0.8687,
    "ink_pct": 7.24,
-   "id": 1
+   "id": 1,
+   "empty_reason": "device"
   },
   {
    "label": "text",

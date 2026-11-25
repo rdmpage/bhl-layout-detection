@@ -28,7 +28,7 @@
    "id": 1
   },
   {
-   "label": "caption",
+   "label": "header",
    "bbox": [
     2355.4,
     82.1,
@@ -57,6 +57,6 @@
  "source": {
   "label_studio_task": 375,
   "annotation": 378,
-  "updated_at": "2026-11-24T22:27:04.867337Z"
+  "updated_at": "2026-11-25T07:43:56.394690Z"
  }
 }

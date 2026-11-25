@@ -44,7 +44,7 @@
    "id": 2
   },
   {
-   "label": "figure",
+   "label": "empty",
    "source_label": "image",
    "bbox": [
     770.8,
@@ -54,7 +54,8 @@
    ],
    "confidence": 0.5455,
    "ink_pct": 18.67,
-   "id": 3
+   "id": 3,
+   "empty_reason": "device"
   }
  ],
  "pairs": [],
