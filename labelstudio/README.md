@@ -40,9 +40,9 @@ docker exec <container> label-studio export 2 JSON --export-path /label-studio/d
 
 then copy it to `export/` (replace `completed_by` with the user id, so no email address goes into git) and run `labelstudio_to_gold.py`. If a page was submitted twice, the converter uses the newer annotation.
 
-## Validation: partial correction
+## Validation
 
-Validation is for tuning post-processing (cover/logo filter, merging figure panels, ink threshold, caption pairing), which only depends on figures and captions. So on validation pages correct only `figure`, `caption`, `table`, `title` and `stamp` boxes and the `caption_of` relations, and leave `text`, `header`, `footer` and `page_number` as the model drew them unless badly wrong. Validation scores for those classes are not meaningful.
+Validation was first meant to be corrected only for `figure`, `caption`, `table`, `title`, `stamp` and the `caption_of` relations, since post-processing is tuned on those. In practice all classes were checked; text boxes were edited somewhat less than on test and train (paragraph vs block granularity).
 
 ## Labelling rules
 

@@ -71,19 +71,6 @@
  "page": {
   "paper": 0.937
  },
- "duplicates": [
-  {
-   "source_label": "text",
-   "bbox": [
-    184.3,
-    304.2,
-    1684.0,
-    387.3
-   ],
-   "confidence": 0.5234,
-   "label": "text"
-  }
- ],
  "pairs": [
   {
    "object": 0,
@@ -98,6 +85,19 @@
    "caption": 4,
    "position": "left",
    "gap": 50.8
+  }
+ ],
+ "duplicates": [
+  {
+   "source_label": "text",
+   "bbox": [
+    184.3,
+    304.2,
+    1684.0,
+    387.3
+   ],
+   "confidence": 0.5234,
+   "label": "text"
   }
  ]
 }

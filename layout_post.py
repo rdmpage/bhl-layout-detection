@@ -70,6 +70,9 @@ COLOURS = {
 MAX_VGAP = 0.08    # caption above/below its object
 MAX_HGAP = 0.05    # caption beside its object
 MIN_OVERLAP = 0.3  # shared extent, as a fraction of the narrower box
+# A caption and a figure or table that are both still unpaired after that may
+# be further apart (plates often leave a blank band above the caption)
+MAX_VGAP_LEFTOVER = 0.2
 
 # Two boxes with at least this IoU are one region labelled twice (e.g. a heading
 # as both doc_title and paragraph_title); the less confident one is dropped.
@@ -156,13 +159,20 @@ def _area(b):
 
 def drop_devices(doc):
     """Relabel small uncaptioned figures on pages with a title box as "empty"
-    (printer's devices, crests, logos). Run after pair_captions."""
+    (printer's devices, crests, logos). "Uncaptioned": no caption has this
+    figure as its nearest object. Run before pair_captions, so a device never
+    takes a caption meant for something else."""
     if not any(b["label"] == "title" for b in doc["boxes"]):
         return doc
     W, H = doc["image"]["width"], doc["image"]["height"]
-    paired = {p["object"] for p in doc.get("pairs", [])}
-    for b in doc["boxes"]:
-        if (b["label"] == "figure" and b["id"] not in paired
+    objects = [b for b in doc["boxes"] if b["label"] in ("figure", "table")]
+    nearest = set()
+    for c in (b for b in doc["boxes"] if b["label"] == "caption"):
+        rels = [(rel[1], o["id"]) for o in objects if (rel := _relation(c["bbox"], o["bbox"], W, H))]
+        if rels:
+            nearest.add(min(rels)[1])
+    for b in objects:
+        if (b["label"] == "figure" and b["id"] not in nearest
                 and _area(b["bbox"]) < MAX_DEVICE_AREA * W * H):
             b["label"] = "empty"
             b["empty_reason"] = "device"
@@ -175,7 +185,7 @@ def _overlap(a0, a1, b0, b1):
     return shared / max(1.0, min(a1 - a0, b1 - b0))
 
 
-def _relation(c, o, W, H):
+def _relation(c, o, W, H, max_vgap=MAX_VGAP):
     """Where caption box c sits relative to object box o: (position, gap) or None."""
     cx0, cy0, cx1, cy1 = c
     ox0, oy0, ox1, oy1 = o
@@ -183,9 +193,9 @@ def _relation(c, o, W, H):
     if _overlap(cx0, cx1, ox0, ox1) >= MIN_OVERLAP:
         if cx0 >= ox0 - tol and cx1 <= ox1 + tol and cy0 >= oy0 - tol and cy1 <= oy1 + tol:
             return "inside", 0.0
-        if cy0 >= oy1 - tol and cy0 - oy1 <= MAX_VGAP * H:
+        if cy0 >= oy1 - tol and cy0 - oy1 <= max_vgap * H:
             return "below", max(0.0, cy0 - oy1)
-        if cy1 <= oy0 + tol and oy0 - cy1 <= MAX_VGAP * H:
+        if cy1 <= oy0 + tol and oy0 - cy1 <= max_vgap * H:
             return "above", max(0.0, oy0 - cy1)
     if _overlap(cy0, cy1, oy0, oy1) >= 0.5:
         if cx0 >= ox1 - tol and cx0 - ox1 <= MAX_HGAP * W:
@@ -195,25 +205,76 @@ def _relation(c, o, W, H):
     return None
 
 
+OPPOSITE = {"above": "below", "below": "above", "left": "right", "right": "left"}
+
+
+def _assign(cands):
+    """One-to-one caption -> object assignment that pairs as many captions as
+    possible, then has the smallest total gap. cands: {caption id: [(object
+    id, gap, position), ...]}. Exact search; pages have only a few captions."""
+    caps = list(cands)
+    memo = {}
+
+    def best(i, used):
+        if i == len(caps):
+            return (0, 0.0, ())
+        key = (i, used)
+        if key not in memo:
+            n, g, a = best(i + 1, used)
+            res = (n, g, a)
+            for o, gap, pos in cands[caps[i]]:
+                if o in used:
+                    continue
+                n, g, a = best(i + 1, used | {o})
+                if (n + 1, -(g + gap)) > (res[0], -res[1]):
+                    res = (n + 1, g + gap, ((caps[i], o, gap, pos),) + a)
+            memo[key] = res
+        return memo[key]
+
+    return best(0, frozenset())[2]
+
+
 def pair_captions(doc):
-    """Link each caption to the nearest figure or table it sits above, below,
-    beside or inside. A figure can get several caption boxes (e.g. title plus
-    legend); a caption goes to one object only. Captions with no object nearby
-    stay unpaired, e.g. plate explanations printed on another page."""
+    """Link captions to figures and tables they sit above, below, beside or
+    inside. Captions are first matched one-to-one so that as many objects as
+    possible get a caption (a caption between two figures goes to the one that
+    would otherwise have none), with ties broken by distance. Captions left
+    over then join their nearest object (e.g. a legend under a titled figure).
+    Finally, captions and objects that are both still alone are matched with a
+    looser vertical limit. Captions with no object nearby stay unpaired, e.g.
+    plate explanations printed on another page."""
     W, H = doc["image"]["width"], doc["image"]["height"]
     objects = [b for b in doc["boxes"] if b["label"] in ("figure", "table")]
-    pairs = []
-    for c in (b for b in doc["boxes"] if b["label"] == "caption"):
-        best = None
-        for o in objects:
-            rel = _relation(c["bbox"], o["bbox"], W, H)
-            if rel and (best is None or rel[1] < best[1]):
-                best = (o, rel[1], rel[0])
-        if best:
-            o, gap, pos = best
-            pairs.append({"object": o["id"], "object_label": o["label"],
-                          "caption": c["id"], "position": pos, "gap": round(gap, 1)})
-    doc["pairs"] = pairs
+    captions = [b for b in doc["boxes"] if b["label"] == "caption"]
+    label = {o["id"]: o["label"] for o in objects}
+
+    def candidates(caps, objs, max_vgap):
+        out = {}
+        for c in caps:
+            rels = [(o["id"], rel[1], rel[0]) for o in objs
+                    if (rel := _relation(c["bbox"], o["bbox"], W, H, max_vgap))]
+            if rels:
+                # the nearest object, and the nearest one on the opposite side
+                # (a caption between two figures); never another object on the
+                # same side, which is usually an overlapping box of the same one
+                rels.sort(key=lambda r: r[1])
+                other = [r for r in rels if r[2] == OPPOSITE.get(rels[0][2])]
+                out[c["id"]] = rels[:1] + other[:1]
+        return out
+
+    cands = candidates(captions, objects, MAX_VGAP)
+    found = list(_assign(cands))
+    done = {c for c, *_ in found}
+    for c, rels in cands.items():
+        if c not in done:
+            found.append((c,) + rels[0])
+            done.add(c)
+    paired_objs = {o for _, o, _, _ in found}
+    found += _assign(candidates([c for c in captions if c["id"] not in done],
+                                [o for o in objects if o["id"] not in paired_objs], MAX_VGAP_LEFTOVER))
+
+    doc["pairs"] = [{"object": o, "object_label": label[o], "caption": c, "position": pos,
+                     "gap": round(gap, 1)} for c, o, gap, pos in sorted(found)]
     return doc
 
 
@@ -315,7 +376,7 @@ def process_dir(result_dir):
         doc = json.loads(f.read_text())
         if "paper" not in doc.get("page", {}):
             doc.setdefault("page", {})["paper"] = paper_brightness(images[doc["page_id"]])
-        doc = drop_devices(pair_captions(drop_covers(drop_duplicates(relabel(doc)))))
+        doc = pair_captions(drop_devices(drop_covers(drop_duplicates(relabel(doc)))))
         f.write_text(json.dumps(doc, indent=1))
         draw_overlay(doc, images[doc["page_id"]], result_dir / "overlays" / f"{doc['page_id']}.jpg")
         docs.append(doc)

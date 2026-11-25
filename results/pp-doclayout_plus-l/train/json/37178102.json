@@ -260,11 +260,11 @@
    "gap": 0.0
   },
   {
-   "object": 2,
+   "object": 10,
    "object_label": "table",
    "caption": 16,
-   "position": "below",
-   "gap": 6.9
+   "position": "above",
+   "gap": 42.6
   }
  ]
 }

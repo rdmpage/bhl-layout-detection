@@ -24,6 +24,7 @@
  "page": {
   "paper": 0.867
  },
+ "pairs": [],
  "duplicates": [
   {
    "source_label": "seal",
@@ -36,6 +37,5 @@
    "confidence": 0.5749,
    "label": "stamp"
   }
- ],
- "pairs": []
+ ]
 }

@@ -83,19 +83,6 @@
  "page": {
   "paper": 0.851
  },
- "duplicates": [
-  {
-   "source_label": "figure_title",
-   "bbox": [
-    1271.9,
-    665.9,
-    1333.2,
-    3919.0
-   ],
-   "confidence": 0.5783,
-   "label": "caption"
-  }
- ],
  "pairs": [
   {
    "object": 0,
@@ -117,6 +104,19 @@
    "caption": 5,
    "position": "right",
    "gap": 32.3
+  }
+ ],
+ "duplicates": [
+  {
+   "source_label": "figure_title",
+   "bbox": [
+    1271.9,
+    665.9,
+    1333.2,
+    3919.0
+   ],
+   "confidence": 0.5783,
+   "label": "caption"
   }
  ]
 }

@@ -109,6 +109,7 @@
  "page": {
   "paper": 0.651
  },
+ "pairs": [],
  "duplicates": [
   {
    "source_label": "seal",
@@ -132,6 +133,5 @@
    "confidence": 0.5362,
    "label": "text"
   }
- ],
- "pairs": []
+ ]
 }

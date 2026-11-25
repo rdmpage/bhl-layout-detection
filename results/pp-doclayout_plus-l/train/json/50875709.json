@@ -216,6 +216,15 @@
  "page": {
   "paper": 0.984
  },
+ "pairs": [
+  {
+   "object": 4,
+   "object_label": "figure",
+   "caption": 15,
+   "position": "below",
+   "gap": 39.0
+  }
+ ],
  "duplicates": [
   {
    "source_label": "text",
@@ -227,15 +236,6 @@
    ],
    "confidence": 0.5214,
    "label": "text"
-  }
- ],
- "pairs": [
-  {
-   "object": 4,
-   "object_label": "figure",
-   "caption": 15,
-   "position": "below",
-   "gap": 39.0
   }
  ]
 }

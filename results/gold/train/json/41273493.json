@@ -1,0 +1,62 @@
+{
+ "page_id": 41273493,
+ "method": "gold",
+ "image": {
+  "width": 2313,
+  "height": 4148
+ },
+ "stratum": "chart",
+ "boxes": [
+  {
+   "label": "table",
+   "bbox": [
+    382.8,
+    445.6,
+    2288.4,
+    3796.3
+   ],
+   "id": 0
+  },
+  {
+   "label": "caption",
+   "bbox": [
+    301.1,
+    1430.1,
+    375.9,
+    2833.9
+   ],
+   "id": 1
+  },
+  {
+   "label": "page_number",
+   "bbox": [
+    286.9,
+    312.2,
+    388.5,
+    364.3
+   ],
+   "id": 2
+  },
+  {
+   "label": "header",
+   "bbox": [
+    1064.4,
+    296.9,
+    1466.4,
+    383.7
+   ],
+   "id": 3
+  }
+ ],
+ "pairs": [
+  {
+   "caption": 1,
+   "object": 0
+  }
+ ],
+ "source": {
+  "label_studio_task": 736,
+  "annotation": 739,
+  "updated_at": "2026-11-25T11:23:39.663646Z"
+ }
+}

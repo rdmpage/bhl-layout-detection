@@ -1,0 +1,16 @@
+{
+ "page_id": 58020863,
+ "method": "gold",
+ "image": {
+  "width": 3474,
+  "height": 4726
+ },
+ "stratum": "blank",
+ "boxes": [],
+ "pairs": [],
+ "source": {
+  "label_studio_task": 674,
+  "annotation": 677,
+  "updated_at": "2026-11-25T11:02:57.728918Z"
+ }
+}

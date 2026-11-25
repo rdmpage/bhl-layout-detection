@@ -1,0 +1,110 @@
+{
+ "page_id": 55558351,
+ "method": "gold",
+ "image": {
+  "width": 3768,
+  "height": 2801
+ },
+ "stratum": "foldout",
+ "boxes": [
+  {
+   "label": "figure",
+   "bbox": [
+    181.9,
+    951.0,
+    3527.5,
+    1789.4
+   ],
+   "id": 0
+  },
+  {
+   "label": "figure",
+   "bbox": [
+    189.9,
+    336.8,
+    3535.6,
+    791.2
+   ],
+   "id": 1
+  },
+  {
+   "label": "figure",
+   "bbox": [
+    181.8,
+    1973.1,
+    3508.8,
+    2518.4
+   ],
+   "id": 2
+  },
+  {
+   "label": "caption",
+   "bbox": [
+    1520.5,
+    1816.8,
+    2246.8,
+    1859.9
+   ],
+   "id": 3
+  },
+  {
+   "label": "caption",
+   "bbox": [
+    1384.2,
+    824.1,
+    2379.2,
+    875.7
+   ],
+   "id": 4
+  },
+  {
+   "label": "caption",
+   "bbox": [
+    1721.1,
+    2578.8,
+    2041.2,
+    2618.0
+   ],
+   "id": 5
+  },
+  {
+   "label": "header",
+   "bbox": [
+    229.7,
+    180.1,
+    905.1,
+    243.2
+   ],
+   "id": 6
+  },
+  {
+   "label": "header",
+   "bbox": [
+    2846.0,
+    207.1,
+    3517.0,
+    274.7
+   ],
+   "id": 7
+  }
+ ],
+ "pairs": [
+  {
+   "caption": 3,
+   "object": 0
+  },
+  {
+   "caption": 4,
+   "object": 1
+  },
+  {
+   "caption": 5,
+   "object": 2
+  }
+ ],
+ "source": {
+  "label_studio_task": 862,
+  "annotation": 864,
+  "updated_at": "2026-11-25T12:06:30.763034Z"
+ }
+}

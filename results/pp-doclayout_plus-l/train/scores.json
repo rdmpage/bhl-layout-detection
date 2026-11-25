@@ -1,0 +1,2177 @@
+{
+ "method": "pp-doclayout_plus-l",
+ "split": "train",
+ "gold": "results/gold/train",
+ "iou": 0.5,
+ "pages": 910,
+ "missing": [],
+ "page_level": {
+  "figure": {
+   "tp": 338,
+   "fp": 16,
+   "fn": 20,
+   "precision": 0.9548022598870056,
+   "recall": 0.9441340782122905,
+   "f1": 0.949438202247191
+  },
+  "table": {
+   "tp": 160,
+   "fp": 5,
+   "fn": 1,
+   "precision": 0.9696969696969697,
+   "recall": 0.9937888198757764,
+   "f1": 0.9815950920245399
+  }
+ },
+ "boxes": {
+  "figure": {
+   "tp": 373,
+   "fp": 40,
+   "fn": 31,
+   "precision": 0.9031476997578692,
+   "recall": 0.9232673267326733,
+   "f1": 0.9130966952264381
+  },
+  "caption": {
+   "tp": 288,
+   "fp": 53,
+   "fn": 88,
+   "precision": 0.844574780058651,
+   "recall": 0.7659574468085106,
+   "f1": 0.803347280334728
+  },
+  "table": {
+   "tp": 179,
+   "fp": 37,
+   "fn": 7,
+   "precision": 0.8287037037037037,
+   "recall": 0.9623655913978495,
+   "f1": 0.890547263681592
+  },
+  "text": {
+   "tp": 2766,
+   "fp": 1864,
+   "fn": 162,
+   "precision": 0.5974082073434125,
+   "recall": 0.944672131147541,
+   "f1": 0.73193966657846
+  },
+  "title": {
+   "tp": 103,
+   "fp": 7,
+   "fn": 61,
+   "precision": 0.9363636363636364,
+   "recall": 0.6280487804878049,
+   "f1": 0.7518248175182483
+  },
+  "header": {
+   "tp": 607,
+   "fp": 22,
+   "fn": 94,
+   "precision": 0.9650238473767886,
+   "recall": 0.8659058487874465,
+   "f1": 0.9127819548872181
+  },
+  "footer": {
+   "tp": 118,
+   "fp": 5,
+   "fn": 66,
+   "precision": 0.959349593495935,
+   "recall": 0.6413043478260869,
+   "f1": 0.7687296416938111
+  },
+  "page_number": {
+   "tp": 449,
+   "fp": 20,
+   "fn": 36,
+   "precision": 0.9573560767590619,
+   "recall": 0.9257731958762887,
+   "f1": 0.9412997903563941
+  },
+  "stamp": {
+   "tp": 6,
+   "fp": 1,
+   "fn": 21,
+   "precision": 0.8571428571428571,
+   "recall": 0.2222222222222222,
+   "f1": 0.35294117647058826
+  }
+ },
+ "caption_pairs": {
+  "tp": 275,
+  "fp": 61,
+  "fn": 100,
+  "precision": 0.8184523809523809,
+  "recall": 0.7333333333333333,
+  "f1": 0.7735583684950773
+ },
+ "merges": [
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text"
+   ],
+   "n": 29
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "header"
+   ],
+   "n": 5
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "header",
+    "header"
+   ],
+   "n": 5
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 4
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "caption",
+    "figure"
+   ],
+   "n": 4
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "figure"
+   ],
+   "n": 4
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "page_number",
+    "table"
+   ],
+   "n": 4
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "table",
+    "text"
+   ],
+   "n": 3
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 3
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 3
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 3
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "caption",
+    "figure",
+    "header",
+    "header"
+   ],
+   "n": 2
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 2
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 2
+  },
+  {
+   "pred": "caption",
+   "gold": [
+    "caption",
+    "caption"
+   ],
+   "n": 2
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 2
+  },
+  {
+   "pred": "header",
+   "gold": [
+    "header",
+    "header"
+   ],
+   "n": 2
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "header",
+    "header",
+    "table",
+    "table"
+   ],
+   "n": 2
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "page_number"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "header",
+   "gold": [
+    "header",
+    "page_number"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "figure",
+    "header"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "table",
+    "table"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "footer",
+    "header"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "page_number",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "header",
+    "header"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "caption",
+    "figure",
+    "figure"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "figure",
+    "figure"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "header",
+    "header",
+    "header"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "figure",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "caption",
+    "figure",
+    "footer"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "caption",
+   "gold": [
+    "caption",
+    "footer",
+    "page_number"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "header",
+    "page_number"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "caption",
+    "figure"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "header",
+    "table"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "caption",
+    "header",
+    "header",
+    "page_number",
+    "table"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "caption",
+    "table"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "table",
+   "gold": [
+    "header",
+    "header",
+    "page_number",
+    "table"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "header",
+    "page_number"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "text",
+   "gold": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "caption",
+    "caption",
+    "figure"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "figure",
+   "gold": [
+    "figure",
+    "figure",
+    "figure",
+    "figure"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "caption",
+   "gold": [
+    "caption",
+    "text",
+    "text"
+   ],
+   "n": 1
+  },
+  {
+   "pred": "title",
+   "gold": [
+    "text",
+    "title"
+   ],
+   "n": 1
+  }
+ ],
+ "splits": {
+  "text": 142,
+  "table": 11,
+  "figure": 17,
+  "caption": 11,
+  "title": 3,
+  "header": 4,
+  "footer": 1
+ },
+ "by_stratum": {
+  "blank": {
+   "pages": 87,
+   "page_level": {
+    "figure": {
+     "tp": 1,
+     "fp": 6,
+     "fn": 0,
+     "precision": 0.14285714285714285,
+     "recall": 1.0,
+     "f1": 0.25
+    },
+    "table": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 1,
+     "fp": 6,
+     "fn": 0,
+     "precision": 0.14285714285714285,
+     "recall": 1.0,
+     "f1": 0.25
+    },
+    "caption": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "table": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "text": {
+     "tp": 0,
+     "fp": 8,
+     "fn": 0,
+     "precision": 0.0,
+     "recall": null,
+     "f1": null
+    },
+    "title": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "header": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "footer": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "page_number": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 6,
+     "precision": null,
+     "recall": 0.0,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "precision": null,
+    "recall": null,
+    "f1": null
+   }
+  },
+  "chart": {
+   "pages": 94,
+   "page_level": {
+    "figure": {
+     "tp": 12,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9230769230769231,
+     "recall": 1.0,
+     "f1": 0.9600000000000001
+    },
+    "table": {
+     "tp": 80,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 17,
+     "fp": 3,
+     "fn": 0,
+     "precision": 0.85,
+     "recall": 1.0,
+     "f1": 0.9189189189189189
+    },
+    "caption": {
+     "tp": 58,
+     "fp": 23,
+     "fn": 12,
+     "precision": 0.7160493827160493,
+     "recall": 0.8285714285714286,
+     "f1": 0.7682119205298013
+    },
+    "table": {
+     "tp": 91,
+     "fp": 2,
+     "fn": 3,
+     "precision": 0.978494623655914,
+     "recall": 0.9680851063829787,
+     "f1": 0.9732620320855615
+    },
+    "text": {
+     "tp": 265,
+     "fp": 41,
+     "fn": 8,
+     "precision": 0.8660130718954249,
+     "recall": 0.9706959706959707,
+     "f1": 0.9153713298791019
+    },
+    "title": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "header": {
+     "tp": 95,
+     "fp": 0,
+     "fn": 2,
+     "precision": 1.0,
+     "recall": 0.979381443298969,
+     "f1": 0.9895833333333333
+    },
+    "footer": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.8888888888888888,
+     "f1": 0.9411764705882353
+    },
+    "page_number": {
+     "tp": 83,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.9880952380952381,
+     "f1": 0.9940119760479043
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 57,
+    "fp": 23,
+    "fn": 13,
+    "precision": 0.7125,
+    "recall": 0.8142857142857143,
+    "f1": 0.7599999999999999
+   }
+  },
+  "foldout": {
+   "pages": 91,
+   "page_level": {
+    "figure": {
+     "tp": 53,
+     "fp": 2,
+     "fn": 12,
+     "precision": 0.9636363636363636,
+     "recall": 0.8153846153846154,
+     "f1": 0.8833333333333333
+    },
+    "table": {
+     "tp": 19,
+     "fp": 3,
+     "fn": 1,
+     "precision": 0.8636363636363636,
+     "recall": 0.95,
+     "f1": 0.9047619047619048
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 74,
+     "fp": 7,
+     "fn": 15,
+     "precision": 0.9135802469135802,
+     "recall": 0.8314606741573034,
+     "f1": 0.8705882352941177
+    },
+    "caption": {
+     "tp": 32,
+     "fp": 4,
+     "fn": 14,
+     "precision": 0.8888888888888888,
+     "recall": 0.6956521739130435,
+     "f1": 0.7804878048780488
+    },
+    "table": {
+     "tp": 23,
+     "fp": 23,
+     "fn": 3,
+     "precision": 0.5,
+     "recall": 0.8846153846153846,
+     "f1": 0.6388888888888888
+    },
+    "text": {
+     "tp": 90,
+     "fp": 35,
+     "fn": 18,
+     "precision": 0.72,
+     "recall": 0.8333333333333334,
+     "f1": 0.7725321888412018
+    },
+    "title": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 5,
+     "precision": 1.0,
+     "recall": 0.4444444444444444,
+     "f1": 0.6153846153846153
+    },
+    "header": {
+     "tp": 51,
+     "fp": 0,
+     "fn": 27,
+     "precision": 1.0,
+     "recall": 0.6538461538461539,
+     "f1": 0.7906976744186047
+    },
+    "footer": {
+     "tp": 17,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "page_number": {
+     "tp": 17,
+     "fp": 0,
+     "fn": 3,
+     "precision": 1.0,
+     "recall": 0.85,
+     "f1": 0.9189189189189189
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 26,
+    "fp": 8,
+    "fn": 19,
+    "precision": 0.7647058823529411,
+    "recall": 0.5777777777777777,
+    "f1": 0.6582278481012658
+   }
+  },
+  "list": {
+   "pages": 93,
+   "page_level": {
+    "figure": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "table": {
+     "tp": 5,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 3,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.6,
+     "recall": 1.0,
+     "f1": 0.7499999999999999
+    },
+    "caption": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "table": {
+     "tp": 5,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091
+    },
+    "text": {
+     "tp": 341,
+     "fp": 840,
+     "fn": 43,
+     "precision": 0.2887383573243014,
+     "recall": 0.8880208333333334,
+     "f1": 0.4357827476038339
+    },
+    "title": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 12,
+     "precision": 1.0,
+     "recall": 0.52,
+     "f1": 0.6842105263157895
+    },
+    "header": {
+     "tp": 50,
+     "fp": 8,
+     "fn": 6,
+     "precision": 0.8620689655172413,
+     "recall": 0.8928571428571429,
+     "f1": 0.8771929824561403
+    },
+    "footer": {
+     "tp": 11,
+     "fp": 0,
+     "fn": 3,
+     "precision": 1.0,
+     "recall": 0.7857142857142857,
+     "f1": 0.88
+    },
+    "page_number": {
+     "tp": 45,
+     "fp": 8,
+     "fn": 13,
+     "precision": 0.8490566037735849,
+     "recall": 0.7758620689655172,
+     "f1": 0.8108108108108107
+    },
+    "stamp": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   },
+   "caption_pairs": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "precision": null,
+    "recall": null,
+    "f1": null
+   }
+  },
+  "map": {
+   "pages": 92,
+   "page_level": {
+    "figure": {
+     "tp": 90,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.989010989010989,
+     "f1": 0.994475138121547
+    },
+    "table": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 91,
+     "fp": 6,
+     "fn": 1,
+     "precision": 0.9381443298969072,
+     "recall": 0.9891304347826086,
+     "f1": 0.9629629629629629
+    },
+    "caption": {
+     "tp": 63,
+     "fp": 6,
+     "fn": 9,
+     "precision": 0.9130434782608695,
+     "recall": 0.875,
+     "f1": 0.8936170212765957
+    },
+    "table": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "text": {
+     "tp": 202,
+     "fp": 23,
+     "fn": 8,
+     "precision": 0.8977777777777778,
+     "recall": 0.9619047619047619,
+     "f1": 0.928735632183908
+    },
+    "title": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "header": {
+     "tp": 75,
+     "fp": 0,
+     "fn": 10,
+     "precision": 1.0,
+     "recall": 0.8823529411764706,
+     "f1": 0.9375
+    },
+    "footer": {
+     "tp": 18,
+     "fp": 1,
+     "fn": 2,
+     "precision": 0.9473684210526315,
+     "recall": 0.9,
+     "f1": 0.9230769230769231
+    },
+    "page_number": {
+     "tp": 60,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 61,
+    "fp": 6,
+    "fn": 11,
+    "precision": 0.9104477611940298,
+    "recall": 0.8472222222222222,
+    "f1": 0.8776978417266188
+   }
+  },
+  "plate": {
+   "pages": 91,
+   "page_level": {
+    "figure": {
+     "tp": 84,
+     "fp": 0,
+     "fn": 4,
+     "precision": 1.0,
+     "recall": 0.9545454545454546,
+     "f1": 0.9767441860465117
+    },
+    "table": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 87,
+     "fp": 6,
+     "fn": 5,
+     "precision": 0.9354838709677419,
+     "recall": 0.9456521739130435,
+     "f1": 0.9405405405405404
+    },
+    "caption": {
+     "tp": 46,
+     "fp": 5,
+     "fn": 21,
+     "precision": 0.9019607843137255,
+     "recall": 0.6865671641791045,
+     "f1": 0.7796610169491525
+    },
+    "table": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "text": {
+     "tp": 84,
+     "fp": 21,
+     "fn": 1,
+     "precision": 0.8,
+     "recall": 0.9882352941176471,
+     "f1": 0.8842105263157894
+    },
+    "title": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "header": {
+     "tp": 66,
+     "fp": 0,
+     "fn": 15,
+     "precision": 1.0,
+     "recall": 0.8148148148148148,
+     "f1": 0.8979591836734693
+    },
+    "footer": {
+     "tp": 18,
+     "fp": 4,
+     "fn": 30,
+     "precision": 0.8181818181818182,
+     "recall": 0.375,
+     "f1": 0.5142857142857142
+    },
+    "page_number": {
+     "tp": 37,
+     "fp": 0,
+     "fn": 2,
+     "precision": 1.0,
+     "recall": 0.9487179487179487,
+     "f1": 0.9736842105263158
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1,
+     "precision": null,
+     "recall": 0.0,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 44,
+    "fp": 7,
+    "fn": 23,
+    "precision": 0.8627450980392157,
+    "recall": 0.6567164179104478,
+    "f1": 0.7457627118644067
+   }
+  },
+  "rotated": {
+   "pages": 41,
+   "page_level": {
+    "figure": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.6666666666666666,
+     "f1": 0.8
+    },
+    "table": {
+     "tp": 37,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9736842105263158,
+     "recall": 1.0,
+     "f1": 0.9866666666666666
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.6666666666666666,
+     "f1": 0.8
+    },
+    "caption": {
+     "tp": 23,
+     "fp": 7,
+     "fn": 8,
+     "precision": 0.7666666666666667,
+     "recall": 0.7419354838709677,
+     "f1": 0.7540983606557377
+    },
+    "table": {
+     "tp": 37,
+     "fp": 3,
+     "fn": 0,
+     "precision": 0.925,
+     "recall": 1.0,
+     "f1": 0.961038961038961
+    },
+    "text": {
+     "tp": 6,
+     "fp": 7,
+     "fn": 4,
+     "precision": 0.46153846153846156,
+     "recall": 0.6,
+     "f1": 0.5217391304347826
+    },
+    "title": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "header": {
+     "tp": 37,
+     "fp": 0,
+     "fn": 9,
+     "precision": 1.0,
+     "recall": 0.8043478260869565,
+     "f1": 0.891566265060241
+    },
+    "footer": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 8,
+     "precision": null,
+     "recall": 0.0,
+     "f1": null
+    },
+    "page_number": {
+     "tp": 33,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.9705882352941176,
+     "f1": 0.9850746268656716
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 22,
+    "fp": 8,
+    "fn": 9,
+    "precision": 0.7333333333333333,
+    "recall": 0.7096774193548387,
+    "f1": 0.7213114754098361
+   }
+  },
+  "text": {
+   "pages": 97,
+   "page_level": {
+    "figure": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "table": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "caption": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "table": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "text": {
+     "tp": 936,
+     "fp": 158,
+     "fn": 26,
+     "precision": 0.8555758683729433,
+     "recall": 0.972972972972973,
+     "f1": 0.9105058365758755
+    },
+    "title": {
+     "tp": 10,
+     "fp": 1,
+     "fn": 1,
+     "precision": 0.9090909090909091,
+     "recall": 0.9090909090909091,
+     "f1": 0.9090909090909091
+    },
+    "header": {
+     "tp": 90,
+     "fp": 1,
+     "fn": 3,
+     "precision": 0.989010989010989,
+     "recall": 0.967741935483871,
+     "f1": 0.9782608695652174
+    },
+    "footer": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.9230769230769231,
+     "f1": 0.9600000000000001
+    },
+    "page_number": {
+     "tp": 88,
+     "fp": 2,
+     "fn": 4,
+     "precision": 0.9777777777777777,
+     "recall": 0.9565217391304348,
+     "f1": 0.967032967032967
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "text_figure": {
+   "pages": 91,
+   "page_level": {
+    "figure": {
+     "tp": 86,
+     "fp": 4,
+     "fn": 0,
+     "precision": 0.9555555555555556,
+     "recall": 1.0,
+     "f1": 0.9772727272727273
+    },
+    "table": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 91,
+     "fp": 7,
+     "fn": 7,
+     "precision": 0.9285714285714286,
+     "recall": 0.9285714285714286,
+     "f1": 0.9285714285714286
+    },
+    "caption": {
+     "tp": 55,
+     "fp": 5,
+     "fn": 18,
+     "precision": 0.9166666666666666,
+     "recall": 0.7534246575342466,
+     "f1": 0.8270676691729323
+    },
+    "table": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "text": {
+     "tp": 366,
+     "fp": 31,
+     "fn": 12,
+     "precision": 0.9219143576826196,
+     "recall": 0.9682539682539683,
+     "f1": 0.9445161290322579
+    },
+    "title": {
+     "tp": 2,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.6666666666666666,
+     "recall": 1.0,
+     "f1": 0.8
+    },
+    "header": {
+     "tp": 85,
+     "fp": 0,
+     "fn": 8,
+     "precision": 1.0,
+     "recall": 0.9139784946236559,
+     "f1": 0.9550561797752808
+    },
+    "footer": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 20,
+     "precision": 1.0,
+     "recall": 0.3333333333333333,
+     "f1": 0.5
+    },
+    "page_number": {
+     "tp": 53,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "stamp": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.6666666666666666
+    }
+   },
+   "caption_pairs": {
+    "tp": 54,
+    "fp": 6,
+    "fn": 19,
+    "precision": 0.9,
+    "recall": 0.7397260273972602,
+    "f1": 0.8120300751879699
+   }
+  },
+  "title": {
+   "pages": 86,
+   "page_level": {
+    "figure": {
+     "tp": 5,
+     "fp": 3,
+     "fn": 1,
+     "precision": 0.625,
+     "recall": 0.8333333333333334,
+     "f1": 0.7142857142857143
+    },
+    "table": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 5,
+     "fp": 3,
+     "fn": 1,
+     "precision": 0.625,
+     "recall": 0.8333333333333334,
+     "f1": 0.7142857142857143
+    },
+    "caption": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "table": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "text": {
+     "tp": 300,
+     "fp": 69,
+     "fn": 29,
+     "precision": 0.8130081300813008,
+     "recall": 0.9118541033434651,
+     "f1": 0.8595988538681949
+    },
+    "title": {
+     "tp": 66,
+     "fp": 4,
+     "fn": 43,
+     "precision": 0.9428571428571428,
+     "recall": 0.6055045871559633,
+     "f1": 0.7374301675977654
+    },
+    "header": {
+     "tp": 18,
+     "fp": 10,
+     "fn": 5,
+     "precision": 0.6428571428571429,
+     "recall": 0.782608695652174,
+     "f1": 0.7058823529411765
+    },
+    "footer": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "page_number": {
+     "tp": 7,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.875,
+     "recall": 1.0,
+     "f1": 0.9333333333333333
+    },
+    "stamp": {
+     "tp": 4,
+     "fp": 1,
+     "fn": 13,
+     "precision": 0.8,
+     "recall": 0.23529411764705882,
+     "f1": 0.3636363636363636
+    }
+   },
+   "caption_pairs": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "precision": null,
+    "recall": null,
+    "f1": null
+   }
+  },
+  "two_column": {
+   "pages": 47,
+   "page_level": {
+    "figure": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.6666666666666666
+    },
+    "table": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   },
+   "boxes": {
+    "figure": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.6666666666666666
+    },
+    "caption": {
+     "tp": 7,
+     "fp": 3,
+     "fn": 6,
+     "precision": 0.7,
+     "recall": 0.5384615384615384,
+     "f1": 0.608695652173913
+    },
+    "table": {
+     "tp": 16,
+     "fp": 8,
+     "fn": 1,
+     "precision": 0.6666666666666666,
+     "recall": 0.9411764705882353,
+     "f1": 0.7804878048780487
+    },
+    "text": {
+     "tp": 176,
+     "fp": 631,
+     "fn": 13,
+     "precision": 0.218091697645601,
+     "recall": 0.9312169312169312,
+     "f1": 0.35341365461847385
+    },
+    "title": {
+     "tp": 3,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.75,
+     "recall": 1.0,
+     "f1": 0.8571428571428571
+    },
+    "header": {
+     "tp": 40,
+     "fp": 3,
+     "fn": 9,
+     "precision": 0.9302325581395349,
+     "recall": 0.8163265306122449,
+     "f1": 0.8695652173913043
+    },
+    "footer": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.8,
+     "f1": 0.888888888888889
+    },
+    "page_number": {
+     "tp": 26,
+     "fp": 9,
+     "fn": 12,
+     "precision": 0.7428571428571429,
+     "recall": 0.6842105263157895,
+     "f1": 0.7123287671232877
+    },
+    "stamp": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    }
+   },
+   "caption_pairs": {
+    "tp": 7,
+    "fp": 3,
+    "fn": 6,
+    "precision": 0.7,
+    "recall": 0.5384615384615384,
+    "f1": 0.608695652173913
+   }
+  }
+ },
+ "error_pages": {
+  "merges_figure_table_caption": [
+   455502,
+   476676,
+   599604,
+   1520339,
+   6454950,
+   6589601,
+   9707252,
+   12257397,
+   12342360,
+   13320360,
+   13703004,
+   13705599,
+   13723150,
+   14104208,
+   14142966,
+   14694906,
+   15622742,
+   15690253,
+   28283803,
+   28500508,
+   31572089,
+   32277648,
+   33962834,
+   37180707,
+   40000088,
+   40078122,
+   40132153,
+   40133002,
+   40231363,
+   40265367,
+   40265403,
+   40846751,
+   40867651,
+   40921542,
+   40996886,
+   41273493,
+   44003227,
+   44708489,
+   45634320,
+   45747854,
+   47820027,
+   47873780,
+   52125434,
+   54774009,
+   57281087,
+   58745874,
+   59832222,
+   63253075
+  ],
+  "pair_errors": [
+   466525,
+   1520339,
+   2331747,
+   10806751,
+   11192591,
+   12028277,
+   12257397,
+   12382341,
+   12954730,
+   13320360,
+   13478515,
+   14104208,
+   14116524,
+   14683039,
+   14688674,
+   14765424,
+   15690253,
+   15925285,
+   15989168,
+   16159734,
+   22162663,
+   25158022,
+   26195462,
+   26482683,
+   28030281,
+   28197433,
+   28383737,
+   30166206,
+   30303979,
+   30984056,
+   31572089,
+   31577862,
+   31887369,
+   31940057,
+   32161025,
+   33423539,
+   33743883,
+   33976364,
+   34053415,
+   34073832,
+   34483409,
+   35957140,
+   35990990,
+   36145773,
+   37178102,
+   37189021,
+   37486985,
+   38676058,
+   39703162,
+   39938762,
+   40009056,
+   40009111,
+   40057464,
+   40060779,
+   40125679,
+   40125850,
+   40126592,
+   40126729,
+   40129478,
+   40129566,
+   40132153,
+   40133002,
+   40265403,
+   40268013,
+   40846751,
+   40935729,
+   40996886,
+   41039226,
+   41152348,
+   41272886,
+   41279577,
+   41301364,
+   41302051,
+   41347962,
+   41564394,
+   42893280,
+   43098869,
+   43434379,
+   43666886,
+   44707401,
+   45747854,
+   46307614,
+   46344255,
+   47654984,
+   47864651,
+   47873780,
+   48180738,
+   48228725,
+   48285992,
+   51236529,
+   51555950,
+   52056036,
+   52128898,
+   52129187,
+   52183375,
+   52514768,
+   52656879,
+   53440919,
+   53884195,
+   54658988,
+   55343411,
+   56215048,
+   56819887,
+   57086906,
+   57682874,
+   58156398,
+   58745874,
+   59850084,
+   60620005,
+   62000650,
+   62967136,
+   63285326,
+   65110215
+  ],
+  "page_figure_missed": [
+   476931,
+   482987,
+   487612,
+   7089166,
+   14150328,
+   16319355,
+   26382370,
+   37179496,
+   37188717,
+   39938858,
+   40127706,
+   40129566,
+   40996886,
+   41039226,
+   41152348,
+   41262541,
+   44286206,
+   52183375,
+   58745567,
+   62576543
+  ],
+  "figure_box_errors": [
+   476931,
+   482987,
+   487612,
+   2455722,
+   3381298,
+   6589601,
+   7089166,
+   13320360,
+   13703004,
+   14104208,
+   14150328,
+   15690253,
+   16319355,
+   26382370,
+   26482683,
+   30981617,
+   31597244,
+   32950574,
+   32951808,
+   34053415,
+   34073832,
+   37178102,
+   37179496,
+   37180707,
+   37188717,
+   37189976,
+   39938858,
+   40009056,
+   40057464,
+   40127706,
+   40128184,
+   40129566,
+   40996886,
+   41039226,
+   41152348,
+   41262541,
+   41272886,
+   41301364,
+   41568249,
+   43434379,
+   44286206,
+   46307614,
+   46344248,
+   52154897,
+   52162764,
+   52183375,
+   54786871,
+   54906931,
+   55592202,
+   57739950,
+   58020863,
+   58745567,
+   59832222,
+   59850084,
+   59881886,
+   62576543,
+   62967136,
+   64033101
+  ],
+  "page_figure_false": [
+   2455722,
+   3381298,
+   13703004,
+   30981617,
+   31597244,
+   32950574,
+   37178102,
+   46344248,
+   52154897,
+   52162764,
+   54786871,
+   54906931,
+   55592202,
+   57739950,
+   58020863,
+   62967136
+  ],
+  "splits_figure_table": [
+   12257397,
+   13320360,
+   14142966,
+   26482683,
+   32951808,
+   34053415,
+   34073832,
+   37189976,
+   40057464,
+   41279577,
+   41302051,
+   41568249,
+   43434379,
+   46307614,
+   47490145,
+   47864651,
+   51236529,
+   56215048,
+   58156398,
+   59143086,
+   59832222,
+   59850084,
+   59881886,
+   65110215
+  ],
+  "page_table_false": [
+   26382370,
+   37178054,
+   40996886,
+   42901621,
+   48291541
+  ],
+  "page_table_missed": [
+   62967136
+  ]
+ }
+}

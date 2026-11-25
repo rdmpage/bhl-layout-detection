@@ -83,6 +83,15 @@
  "page": {
   "paper": 0.945
  },
+ "pairs": [
+  {
+   "object": 2,
+   "object_label": "table",
+   "caption": 5,
+   "position": "above",
+   "gap": 28.4
+  }
+ ],
  "duplicates": [
   {
    "source_label": "text",
@@ -94,15 +103,6 @@
    ],
    "confidence": 0.5435,
    "label": "text"
-  }
- ],
- "pairs": [
-  {
-   "object": 2,
-   "object_label": "table",
-   "caption": 5,
-   "position": "above",
-   "gap": 28.4
   }
  ]
 }

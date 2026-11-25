@@ -215,6 +215,7 @@
  "page": {
   "paper": 0.941
  },
+ "pairs": [],
  "duplicates": [
   {
    "source_label": "footnote",
@@ -227,6 +228,5 @@
    "confidence": 0.5359,
    "label": "text"
   }
- ],
- "pairs": []
+ ]
 }

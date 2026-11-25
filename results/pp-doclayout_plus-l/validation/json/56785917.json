@@ -57,7 +57,15 @@
    "label": "page_number"
   }
  ],
- "pairs": [],
+ "pairs": [
+  {
+   "object": 0,
+   "object_label": "figure",
+   "caption": 2,
+   "position": "below",
+   "gap": 484.1
+  }
+ ],
  "page": {
   "paper": 0.945
  }

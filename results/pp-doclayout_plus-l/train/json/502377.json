@@ -167,6 +167,7 @@
  "page": {
   "paper": 0.839
  },
+ "pairs": [],
  "duplicates": [
   {
    "source_label": "text",
@@ -179,6 +180,5 @@
    "confidence": 0.5622,
    "label": "text"
   }
- ],
- "pairs": []
+ ]
 }

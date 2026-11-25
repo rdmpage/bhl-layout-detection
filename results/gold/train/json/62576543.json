@@ -1,0 +1,27 @@
+{
+ "page_id": 62576543,
+ "method": "gold",
+ "image": {
+  "width": 4480,
+  "height": 6593
+ },
+ "stratum": "plate",
+ "boxes": [
+  {
+   "label": "figure",
+   "bbox": [
+    1053.9,
+    856.3,
+    3598.9,
+    6102.0
+   ],
+   "id": 0
+  }
+ ],
+ "pairs": [],
+ "source": {
+  "label_studio_task": 1143,
+  "annotation": 1391,
+  "updated_at": "2026-11-25T15:47:54.336548Z"
+ }
+}
