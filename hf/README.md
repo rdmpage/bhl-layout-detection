@@ -168,8 +168,4 @@ The page images come from BHL's open data, and their rights are BHL's, item by i
 
 Most in-copyright pages are licensed for **non-commercial use only** (CC BY-NC or BY-NC-SA). If you need images you can use commercially, keep rows whose `copyright_status` is `not_in_copyright` or whose `license` is `CC-BY-4.0`. Check BHL's [permissions page](https://www.biodiversitylibrary.org/permissions) for details.
 
-The labels (boxes, categories and caption links) are released separately from the images, under TO DO (e.g. CC0 or CC BY).
-
-## Citation
-
-TO DO
+The labels (boxes, categories and caption links) are released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/): use them for anything, no permission or credit needed. This covers the labels only; the images keep their own rights, as above.
